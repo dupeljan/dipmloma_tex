@@ -1,0 +1,628 @@
+\documentclass[oneside,final,14pt]{extreport}
+
+%% my command
+%%%%%%%%%%%%%%
+% Путь к файлу с изображениями
+\newcommand{\picPath}{pictures}
+% Величина отступа
+\newcommand{\indentSpace}{1.25cm}
+% Сокращения
+\newcommand{\urlTitle}{ $-$ URL: }
+%%%%%%%%%%%%%%%
+
+
+% Изменяем шрифт
+\usepackage{fontspec}
+\setmainfont{Times New Roman}
+\listfiles
+
+% Полуторный интервал
+\linespread{1.6}
+
+% Отступ
+\setlength\parindent{\indentSpace}
+
+% Математика
+\usepackage{mathtools}
+
+
+% Картинки
+\usepackage{graphicx}
+\usepackage{subcaption}
+
+% Языковой пакет
+\usepackage[russianb]{babel}
+
+% Таблицы
+\usepackage{tabularx}
+
+% Настройка подписей к фигурам
+% Меняем заголовки картинок
+\usepackage[ labelsep= endash]{caption}
+\captionsetup{%
+   figurename= Рисунок,
+   tablename= Таблица,
+   justification= centering% Формат - по центру
+}         
+
+% Кирилица в подфигурах
+\renewcommand{\thesubfigure}{\asbuk{subfigure}}
+% разделитель в подфигурах - правая скобка
+\DeclareCaptionLabelSeparator{r_paranthesis}{)\quad }
+\captionsetup[subfigure]{labelformat=simple, labelsep=r_paranthesis}
+
+% Добавляем итератор \asbuk,
+% чтобы использовать кирилицу
+% как маркеры
+\usepackage{enumitem}
+\makeatletter
+\AddEnumerateCounter{\asbuk}{\russian@alph}{щ}
+\makeatother
+
+% Меняем маркеры в перечислениях
+% Списки уровня 1
+\setlist[enumerate,1]{label=\arabic*),ref=\arabic*}
+% Списки уровня 2
+\setlist[enumerate,2]{label=\asbuk*),ref=\asbuk*}
+% Перечисления
+\setlist[itemize,1]{label=$-$}
+% Удаляем отступы перед и после
+% списка
+\setlist[itemize]{noitemsep, topsep=0pt}
+\setlist[enumerate]{noitemsep, topsep=0pt}
+
+% Красная строка в начале главы
+\usepackage{indentfirst}
+
+% Убиваем перенос
+\usepackage[none]{hyphenat}
+
+% Перенос длинных ссылок
+\usepackage[hyphens]{url}
+\urlstyle{same}
+
+% Выравнивание по ширине
+\usepackage{microtype}
+
+%\usepackage[fontfamily=courier]{fancyvrb}
+%\usepackage{verbatim}%     configurable verbatim
+% \makeatletter
+%  \def\verbatim@font{\normalfont\sffamily% select the font
+%                     \let\do\do@noligs
+%                     \verbatim@nolig@list}
+%\makeatother
+
+% Границы
+\usepackage{vmargin}
+\setpapersize{A4}
+% отступы
+%\setmarginsrb 
+%{3cm} % левый
+%{2cm} % верхний
+%{1cm} % Правый
+%{2cm} % Нижний
+%{0pt}{0mm} % Высота - отступ верхнего колонтитула
+%{0pt}{0mm} % Высота - отступ нижнего  колонтитула
+
+\setlength\hoffset{0cm}
+\setlength\voffset{0cm}
+\usepackage[top=2cm, bottom=2cm, left=3cm, right=2cm,
+]{geometry}
+ 		
+% Настройка заглавиий
+\addto\captionsrussian{% Replace "english" with the language you use
+  \renewcommand{\contentsname}% содержания
+    {\hfill\bfseries
+    СОДЕРЖАНИЕ
+	\hfill    
+    }%
+   \renewcommand{\bibname}% списка источников
+    {\hfill\bfseries
+    	СПИСОК ИСПОЛЬЗОВАННЫХ ИСТОЧНИКОВ
+	\hfill
+	}% 
+}%\
+
+%\renewcommand{\contentsname}{\hfill\bfseries СОДЕРЖАНИЕ \hfill} 
+
+% Настройка  заглавий в главах
+\usepackage{titlesec}
+
+
+%\titleformat
+%{\chapter} % command
+%[display]
+%{
+%\bfseries
+%} % format
+%{
+%\thechapter.
+%} 	% label
+%{ 
+%	0 pt
+%} % sep
+%{    
+%\centering
+%} % before-code
+
+\titleformat{\chapter}
+            {\bfseries}
+            {\hspace{\indentSpace}\thechapter\hspace{1em}}
+            {0pt}
+            {
+            \vspace{0mm} }
+            [\vspace{14pt}]% Отступ после
+% Начальный сдвиг заголовка 50 pt = 1.763888888cm.
+% Второй параметр- сдвиг до = 2cm - 50pt
+\titlespacing{\chapter}{0pt}{-0.2361cm}{0pt}
+
+\titleformat{\section}
+{\bfseries}{\hspace{\indentSpace}\thesection}{1em}{}
+
+\titleformat{\subsection}
+{\bfseries}{\hspace{\indentSpace}\thesubsection}{1em}{}
+
+%\titleformat{\section}
+%            {\bfseries}
+%            {\thechapter.\hspace{1em}}
+%            {0pt}
+%            {\centering
+%            \vspace{0mm} }
+%            [\vspace{14pt}]% Отступ после
+%\titlespacing{\section}{0pt}{-50pt}{0pt}
+
+% Конец настройка заглавий
+
+% Форматирование списка источников
+\makeatletter
+\renewcommand*{\@biblabel}[1]{\hfill#1}
+\makeatother
+
+% Убрать отсупы в списке источников
+\usepackage{lipsum}
+
+% ADD THE FOLLOWING COUPLE LINES INTO YOUR PREAMBLE
+\let\OLDthebibliography\thebibliography
+\renewcommand\thebibliography[1]{
+  \OLDthebibliography{#1}
+  \setlength{\parskip}{0pt}
+  \setlength{\itemsep}{0pt plus 0.3ex}
+}
+
+
+
+% Добавить точки в оглавление
+\usepackage{tocstyle}
+\newcommand{\autodot}{.}
+
+
+% Чтобы картинки вставляись
+% куда надо
+\usepackage{float}
+
+% Для вычисления кол-ва страниц
+\usepackage{lastpage}
+
+% Для вычисления кол-ва рисунков и таблиц
+%%%
+\usepackage{etoolbox}
+
+\newcounter{totfigures}
+\newcounter{tottables}
+
+\providecommand\totfig{} 
+\providecommand\tottab{}
+
+\makeatletter
+\AtEndDocument{%
+  \addtocounter{totfigures}{\value{figure}}%
+  \addtocounter{tottables}{\value{table}}%
+  \immediate\write\@mainaux{%
+    \string\gdef\string\totfig{\number\value{totfigures}}%
+    \string\gdef\string\tottab{\number\value{tottables}}%
+  }%
+}
+\makeatother
+
+\pretocmd{\chapter}{\addtocounter{totfigures}{\value{figure}}\setcounter{figure}{0}}{}{}
+\pretocmd{\chapter}{\addtocounter{tottables}{\value{table}}\setcounter{table}{0}}{}{}
+%%%
+
+% Режим релиза
+\sloppy
+\usepackage{layout}
+
+%\renewcommand{\arraystretch}{1.6}
+
+\begin{document}
+\chapter{Кинематическая модель робота с N всенаправленными колесами}   
+Для того, чтобы описать движения робота необходимо некоторым образом смоделировать его поведение. Простейший модель движения робота в пространстве - кинематическая. Эта модель описывает движения исключительно через зависимость координат от времени. То есть в кинематической модели рассматривается движение тела, но не рассматриваются причины, его создающие.
+Рассмотрим движение тележки с $N$ всенаправленными колесами ($N > 3$) по гладкой двумерной поверхности без учета действующих сил, причем плоскости колес тележки вертикальны и неподвижны относительно платформы тележки. В рамках модели всенаправленные колеса способны скользить в любом направлении с пренебрежимо малой силой трения. Пусть задана глобальная система координат, связанная с поверхностью $[X,Y]$ и локальная,  инерциальная относительно глобальной, жестко связанная с тележкой $[X_{l},Y_{l}]$. Не теряя общности начало локальных координат в точке центра масс тележки. Положение тележки определено вектором координат $(x,y,\varphi)$
+где $x,y$ - координаты, и $\varphi$ -  угол поворота системы координат $[X_{l},Y_{l}]$ относительно оси $OY$ в глобальной системе координат. Скорость тележки определяется вектором $(\dot{x},\dot{y},\omega)$ где $\omega = \dot{\varphi}$ - угловая скорость тележки.
+
+Для примера на рисунке \ref{fig:kinematic_model} схематически изображена кинематическая модель робота с тремя всенаправленными колесами.
+\begin{figure}[H]
+\centering{
+\resizebox{140mm}{!}{\input{kinematic_model_pic.pdf_tex}}
+\caption{ кинематическая модель тележки с тремя всенаправленными колесами.}
+\label{fig:kinematic_model}
+}
+\end{figure}
+
+Рассмотрим величину скорости $i$- го колеса, $v_{i}$, $i = \overline{1,N}$. Разложим её на поступательную и  вращательную составляющие:
+\begin{equation}
+v_{i}
+=
+v_{i,tr} + v_{i,rot}
+\end{equation}
+
+Обозначим за $\alpha_{i}$ -угол между касательной к диску $i$-го колеса и осью $OY_{l}$, что изображено на рисунке 
+\ref{fig:projection}. 
+\begin{figure}[H]
+\centering{
+\resizebox{60mm}{!}{\input{projection.pdf_tex}}
+\caption{ расположение векторов модели в плоскости}
+\label{fig:projection}
+}
+\end{figure} 
+
+Вектор поступательной скорости составляет с осью $Y$  угол $\varphi + \alpha_{i}$. Тогда величину скорости поступательного движения можно представить в виде
+
+\begin{equation}
+v_{i,tr} 
+=
+-sin(\varphi +\alpha_{i})\dot{x}
++cos(\varphi +\alpha_{i})\dot{y}
+\end{equation} 
+
+
+
+Величина скорости вращательного движения задается следующим уравнением
+\begin{equation}
+v_{i,rot}
+=
+R_{i}\omega
+\end{equation}
+
+Где $R_{i}$ - расстояние от оси вращения  (точки центра масс) до оси $i$-го колеса.
+\iffalse
+ Кроме того, справедливо 
+\begin{gather}
+\dot{x}
+=
+v_{x}\boldsymbol{x}
+\\
+\dot{y}
+=
+v_{y}\boldsymbol{y}
+\\
+\dot{\varphi}
+=
+\omega\boldsymbol{z}
+\end{gather}
+Где  $v_{x}$, $v_{x}$, $\omega$ - величина скорости по направлению $\boldsymbol{x}$ и $\boldsymbol{y}$ соответственно, $\omega$ - величина угловой скорости.
+\fi 
+Таким образом величину скорости можно записать в следующем виде:
+\begin{equation}
+v_{i}
+=
+-sin(\varphi +\alpha_{i})\dot{x}
++cos(\varphi +\alpha_{i})\dot{y}
++
+R_{i}\omega
+\end{equation}
+
+Соотнесем величину скорости $i$ - го колеса с его угловой скоростью
+\begin{equation}
+v_{i}
+=
+r_{i}\omega_{i}
+\end{equation}
+
+Где $r_{i}$  - радиус $i$-го колеса тележки, $\omega_{i}$ - его угловая скорость, получим зависимость величины угловой скорости колеса от тройки  $(\dot{x},\dot{y},\omega)$
+
+\begin{equation}
+\omega_{i}
+=
+\frac{1}{r_{i}}
+(
+-sin(\varphi +\alpha_{i})\dot{x}
++cos(\varphi +\alpha_{i})\dot{y}
++
+R_{i}\omega
+)
+\end{equation}
+
+или в матричной форме 
+
+\begin{equation}
+\label{kinematic_omniwheel_res}
+\begin{bmatrix}
+\omega_{1} \\
+\omega_{2} \\
+...\\
+\omega_{N}
+\end{bmatrix}
+=
+\begin{bmatrix}
+-\frac{1}{r_{1}}sin(\varphi +\alpha_{1}) &
+\frac{1}{r_{1}}cos(\varphi +\alpha_{1}) &
+\frac{1}{r_{1}}R_{1}
+\\
+-\frac{1}{r_{2}}sin(\varphi +\alpha_{2}) &
+\frac{1}{r_{2}}cos(\varphi +\alpha_{2}) &
+\frac{1}{r_{2}}R_{2}
+\\
+... & ... & ...
+\\
+-\frac{1}{r_{N}}sin(\varphi +\alpha_{N}) &
+\frac{1}{r_{N}}cos(\varphi +\alpha_{N}) &
+\frac{1}{r_{N}}R_{N}
+\end{bmatrix}
+\begin{bmatrix}
+\dot{x} \\
+\dot{y} \\
+\omega
+\end{bmatrix}
+\end{equation}
+Таким образом, зная координаты траектории пути $(x,y,\varphi)$ можем получить величину угловой скорость каждого колеса. Для этого необходимо вычислить $(\dot{x},\dot{y},\omega)$ и подставить в формулу \ref{kinematic_omniwheel_res}.
+
+Кроме того, переходя к локальным координатам
+
+\begin{equation}
+\begin{bmatrix}
+\dot{x} \\
+\dot{y} \\
+\omega
+\end{bmatrix}
+=
+\begin{bmatrix}
+cos(\varphi) & 0 & 0 \\
+0 & cos(\varphi) & 0 \\
+0 & 0 & 1
+\end{bmatrix}
+\begin{bmatrix}
+\dot{x_{l}} \\
+\dot{y_{l}} \\
+\omega
+\end{bmatrix}
+\end{equation}
+
+Получаем уравнение движения тележки в локальной системе координат
+\begin{equation}
+\begin{bmatrix}
+\dot{\phi_{1}} \\
+\dot{\phi_{2}} \\
+...\\
+\dot{\phi_{N}}
+\end{bmatrix}
+=
+\begin{bmatrix}
+-\frac{1}{r_{1}}sin(\varphi +\alpha_{1}) &
+\frac{1}{r_{1}}cos(\varphi +\alpha_{1}) &
+\frac{1}{r_{1}}R_{1}
+\\
+-\frac{1}{r_{2}}sin(\varphi +\alpha_{2}) &
+\frac{1}{r_{2}}cos(\varphi +\alpha_{2}) &
+\frac{1}{r_{2}}R_{2}
+\\
+... & ... & ...
+\\
+-\frac{1}{r_{N}}sin(\varphi +\alpha_{N}) &
+\frac{1}{r_{N}}cos(\varphi +\alpha_{N}) &
+\frac{1}{r_{N}}R_{N}
+\end{bmatrix}
+\begin{bmatrix}
+cos(\varphi) & 0 & 0 \\
+0 & cos(\varphi) & 0 \\
+0 & 0 & 1
+\end{bmatrix}
+\begin{bmatrix}
+\dot{x_{l}} \\
+\dot{y_{l}} \\
+\omega
+\end{bmatrix}
+\end{equation}
+
+где $\dot{x_{l}}$,$\dot{y_{l}}$ - величина скорости по направлению $X_{l}$ и  $Y_{l}$ соответственно.
+
+
+\chapter{Динамическая модель робота с N всенаправленными колесами}
+Динамическая модель, в отличие от кинематической, рассматривает движение твердых тел с учетом сил, приводящих это тело в движение.
+ 
+Для того, чтобы привести тележку в движение, её колесам необходимо передать крутящий момент $T$. Увеличивая скорость тележки, мы преодолеваем её сопротивления покоя и придаем ей ускорение. 
+ 
+Рассмотрим движение тележки с $N$ всенаправленными колесами ($N > 3$) по негладкой двумерной поверхности с учетом действующих сил. В описании модели используются те же обозначения, что и в кинематической модели. Рассмотрим равнодействующую всех сил, действующих на тележку $F$. Сила как мера воздействия на тело характеризует поступательное движение модели, в то время как момент сил характеризует вращательное движение. Равнодействующую всех сил можно разложить на поступательную и вращательную составляющие, аналогично кинематической модели, следующим образом:
+\begin{equation}
+F
+=
+\begin{bmatrix}
+F_{X} \\
+F_{Y} \\
+M_{t}
+\end{bmatrix}
+=
+\begin{bmatrix}
+M & 0 & 0 \\
+0 & M & 0 \\
+0 & 0 & J
+\end{bmatrix}
+\cdot
+\begin{bmatrix}
+\ddot{x} \\
+\ddot{y} \\
+\dot{\omega}
+\end{bmatrix}
+=
+B \cdot \ddot{u}
+\end{equation}
+
+Где $M$ - масса тележки, $J$ - её момент инерции. 
+
+Момент инерции тележки можно считать приближенно равным моменту инерции цилиндра радиуса $R=max_{i}(R_{i})$ 
+\begin{equation}
+J
+=
+\frac{1}{2}
+MR^{2}
+\end{equation}
+
+\begin{figure}[H]
+\centering{
+\resizebox{140mm}{!}{\input{dynamic_model_pic.pdf_tex}}
+\caption{ динамическая модель тележки с тремя всенаправленными колесами.}
+\label{fig:dynamic_model}
+}
+\end{figure}
+
+Аналогично кинематической модели,
+В то же время, обозначая
+\begin{equation}
+A 
+= 
+\begin{bmatrix}
+-sin(\varphi + \alpha_{1}) &
+-sin(\varphi + \alpha_{2}) &
+... 					   &
+-sin(\varphi + \alpha_{N}) \\
+cos(\varphi + \alpha_{1}) &
+cos(\varphi + \alpha_{2}) &
+... 					   &
+cos(\varphi + \alpha_{N}) \\ 
+R_{1} & R_{2} & ... & R_{N}
+\end{bmatrix}
+\end{equation}
+\begin{equation}
+f
+=
+\begin{bmatrix}
+f_{1} \\
+f_{2} \\
+...   \\
+f_{n}
+\end{bmatrix}
+\end{equation}
+
+Проецируя поступательный вектор силы на $[X,Y]$,  используя свойство ассоциативности моментов сил
+можно представить вектор $F$ следующим образом:
+\begin{equation}
+F = Af
+\label{eq:f}
+\end{equation}
+
+где $f_{i}$ - сила, приложенная верхней точке $i$ - го колеса. 
+Разрешая уравнение \ref{eq:f} относительно $f$, получим
+\begin{equation}
+f
+=
+A^{-1}
+\cdot
+F
+=
+A^{-1}
+\cdot
+B 
+\cdot
+\ddot{u}
+\end{equation}
+
+Зная, что вращающий момент колеса равен силе, приложенной в его верхней точке на его радиус и обозначая 
+\begin{equation}
+\overline{r} 
+=
+\begin{bmatrix}
+r_{1} \\
+r_{2} \\
+... \\
+r_{N}
+\end{bmatrix}
+\end{equation}
+получим зависимость координат пути $(x,y,\varphi)$ от крутящих моментов каждого колеса:
+\begin{equation}
+\begin{bmatrix}
+T_{1} \\
+T_{2} \\
+... \\
+T_{N}
+\end{bmatrix}
+=
+\overline{r}
+(
+A^{-1}
+\cdot
+B 
+\cdot
+\ddot{u}
+)^{T}
+\end{equation}
+
+В свою очередь величину момента сил каждого колеса можно выразить через его угловое ускорение:
+
+\begin{equation}
+T_{i}
+=
+J_{i}\dot{\omega_{i}}
+\end{equation}
+
+$J_{i}$ - момент инерции $i$-го колеса
+
+Учтем силу трения качения модели по некоторой поверхности, предполагая равномерное распределение веса на каждое колесо. Известно, что сила трения качения противоположна по направлению силе, приводящей колесо в действие и для $i$-го колеса может быть вычислена по формуле:
+\begin{equation}
+F_{t_{i}}
+=
+\frac{Mg\eta}{Nr_{i}}
+\end{equation}
+
+Где $Mg$ - сила реакции опоры, равная силе тяжести, $\eta$ - коэффициент трения качения, зависящий от характеристик поверхности. Тогда зависимость момента сил каждого колеса от координат пути, учитывающая силу трения можно записать в виде:
+\begin{equation}
+\begin{bmatrix}
+T_{1} \\
+T_{2} \\
+... \\
+T_{N}
+\end{bmatrix}
+=
+\overline{r}
+(
+A^{-1}
+\cdot
+B 
+\cdot
+\ddot{u}
++
+\frac{Mg\eta}{N}
+\cdot
+\begin{bmatrix}
+\frac{1}{r_{1}} \\
+\frac{1}{r_{2}} \\
+...				\\
+\frac{1}{r_{N}}
+\end{bmatrix}
+)^{T}
+\end{equation} 
+
+Таким образом получаем динамическую модель тележки, учитывающую её массу и силу трения качения. 
+
+В работе ref более детально рассматривается динамическая модель тележки на N роликонесущих колесах.  Модель тележки строится исходя из предположения о том, что модель роликонесущего колеса — твердый диск, скорость наинизшей точки которого перпендикулярна направлению оси ролика в этой точке. Кроме того, рассмотрен критерий управляемости такой модели, из которого следует ряд ограничений на его конструкцию. Например если сумма угла оси ролика и угла поворота колеса всех роликонесущих колес равна, то такая модель не может двигаться по произвольной трактории. Если же эти углы у двух колес совпадают, то пару колес можно принять за одно виртуальное колесо с радиус вектором $r_{ij} = r_{i} - r_{j}$ в локальной системе координат и моментом $T_{ij} = T_{i} + T_{j}$.
+\chapter{Кинематическая модель роликонесущего колеса} 
+Для нероликового колеса, которое вращается по поверхности без скольжения, мгновенная скорость низшей точки касания равна нулю[Ссылка на источник]. На практике соприкасающиеся тела из-за физических ограничений всегда соприкасаются множеством точек, называемых пятном контакта. В качестве иллюстрации можно привести гусеничную тележку, двигающуюся по поверхности без просткальзываний. Пятно касания гусеницы достаточно большое чтобы заметить, что в определенное мгновение оно не двигается относительно поверхности. При достаточно низкой скорости тележки можно даже заметить, что некоторая подобласть пятна касания гусеницы не двигается относительно поверхности некоторый промежуток времени. 
+
+Особенность роликонесущих колес заключается в том, что мговенная точка касания имеет ненулевую скорость относительно поверхности качения, так как укрепленные на колесе ролики под силой тяжести тележки вращаются относительно своей оси. В случае всенаправленного колеса, оси роликов которого параллельны плоскости диска колеса, проскальзывания не происходит, что упрощает процесс построения математической модели
+
+ Простейшей неголономной моделью роликонесущего колеса является плоский диск, для которого скорость точки соприкосновения с несущей поверхностью направленная вдоль прямой, составляющий постоянный угол с плоскостью колеса.
+ 
+ В качестве модели роликонесущего колеса рассмотрим диск радиуса $R$ с центром в точке $C$, причем плоскости колес тележки вертикальны и неподвижны относительно платформы тележки. Обозначим за $l$ - единичный вектор оси вращения ролика, $\tau$ - касательная к плоскости диска, $\delta = \widehat{l \tau}$.Тогда уравнение связи записывается следующим образом:
+\begin{equation}
+v_{M}
+=
+v_{C}
++
+\omega
+\times
+\overrightarrow{CM}
+\end{equation}
+где $M$ - точка касания,$v_{M}$ - скорость точки касания, $v_{C}$ -   
+скорость центра колеса и  $\omega$ - угловая скорость колеса.
+Обозначим $\{O,e_{x},e_{y},e_{z}\}$ - глобальная инерциальная система координат, $\{C,E_{x},E_{y},E_{z}\}$ - система координат, жестко связанная с диском. Плоскость $\{C,E_{x},E_{y}\}$ параллельна плоскости поверхности. Обозначим $\varphi$ - угол поворота диска вокруг перпендикулярной плоскости диска оси, проходящей через точку $C$ против часовой стрелки, $\psi = \widehat{\tau e_{x}}$
+
+\end{document}

@@ -1,0 +1,545 @@
+\documentclass[oneside,final,14pt]{extreport}
+
+%% my command
+%%%%%%%%%%%%%%
+% Путь к файлу с изображениями
+\newcommand{\picPath}{pictures}
+% Величина отступа
+\newcommand{\indentSpace}{1.25cm}
+% Сокращения
+\newcommand{\urlTitle}{ $-$ URL: }
+%%%%%%%%%%%%%%%
+
+
+% Изменяем шрифт
+\usepackage{fontspec}
+\setmainfont{Times New Roman}
+\listfiles
+
+% Полуторный интервал
+\linespread{1.6}
+
+% Отступ
+\setlength\parindent{\indentSpace}
+
+% Математика
+\usepackage{mathtools}
+
+
+% Картинки
+\usepackage{graphicx}
+\usepackage{subcaption}
+
+% Языковой пакет
+\usepackage[russianb]{babel}
+
+% Таблицы
+\usepackage{tabularx}
+
+% Настройка подписей к фигурам
+% Меняем заголовки картинок
+\usepackage[ labelsep= endash]{caption}
+\captionsetup{%
+   figurename= Рисунок,
+   tablename= Таблица,
+   justification= centering% Формат - по центру
+}         
+
+% Кирилица в подфигурах
+\renewcommand{\thesubfigure}{\asbuk{subfigure}}
+% разделитель в подфигурах - правая скобка
+\DeclareCaptionLabelSeparator{r_paranthesis}{)\quad }
+\captionsetup[subfigure]{labelformat=simple, labelsep=r_paranthesis}
+
+% Добавляем итератор \asbuk,
+% чтобы использовать кирилицу
+% как маркеры
+\usepackage{enumitem}
+\makeatletter
+\AddEnumerateCounter{\asbuk}{\russian@alph}{щ}
+\makeatother
+
+% Меняем маркеры в перечислениях
+% Списки уровня 1
+\setlist[enumerate,1]{label=\arabic*),ref=\arabic*}
+% Списки уровня 2
+\setlist[enumerate,2]{label=\asbuk*),ref=\asbuk*}
+% Перечисления
+\setlist[itemize,1]{label=$-$}
+% Удаляем отступы перед и после
+% списка
+\setlist[itemize]{noitemsep, topsep=0pt}
+\setlist[enumerate]{noitemsep, topsep=0pt}
+
+% Красная строка в начале главы
+\usepackage{indentfirst}
+
+% Убиваем перенос
+\usepackage[none]{hyphenat}
+
+% Перенос длинных ссылок
+\usepackage[hyphens]{url}
+\urlstyle{same}
+
+% Выравнивание по ширине
+\usepackage{microtype}
+
+%\usepackage[fontfamily=courier]{fancyvrb}
+%\usepackage{verbatim}%     configurable verbatim
+% \makeatletter
+%  \def\verbatim@font{\normalfont\sffamily% select the font
+%                     \let\do\do@noligs
+%                     \verbatim@nolig@list}
+%\makeatother
+
+% Границы
+\usepackage{vmargin}
+\setpapersize{A4}
+% отступы
+%\setmarginsrb 
+%{3cm} % левый
+%{2cm} % верхний
+%{1cm} % Правый
+%{2cm} % Нижний
+%{0pt}{0mm} % Высота - отступ верхнего колонтитула
+%{0pt}{0mm} % Высота - отступ нижнего  колонтитула
+
+\setlength\hoffset{0cm}
+\setlength\voffset{0cm}
+\usepackage[top=2cm, bottom=2cm, left=3cm, right=2cm,
+]{geometry}
+ 		
+% Настройка заглавиий
+\addto\captionsrussian{% Replace "english" with the language you use
+  \renewcommand{\contentsname}% содержания
+    {\hfill\bfseries
+    СОДЕРЖАНИЕ
+	\hfill    
+    }%
+   \renewcommand{\bibname}% списка источников
+    {\hfill\bfseries
+    	СПИСОК ИСПОЛЬЗОВАННЫХ ИСТОЧНИКОВ
+	\hfill
+	}% 
+}%\
+
+%\renewcommand{\contentsname}{\hfill\bfseries СОДЕРЖАНИЕ \hfill} 
+
+% Настройка  заглавий в главах
+\usepackage{titlesec}
+
+
+%\titleformat
+%{\chapter} % command
+%[display]
+%{
+%\bfseries
+%} % format
+%{
+%\thechapter.
+%} 	% label
+%{ 
+%	0 pt
+%} % sep
+%{    
+%\centering
+%} % before-code
+
+\titleformat{\chapter}
+            {\bfseries}
+            {\hspace{\indentSpace}\thechapter\hspace{1em}}
+            {0pt}
+            {
+            \vspace{0mm} }
+            [\vspace{14pt}]% Отступ после
+% Начальный сдвиг заголовка 50 pt = 1.763888888cm.
+% Второй параметр- сдвиг до = 2cm - 50pt
+\titlespacing{\chapter}{0pt}{-0.2361cm}{0pt}
+
+\titleformat{\section}
+{\bfseries}{\hspace{\indentSpace}\thesection}{1em}{}
+
+\titleformat{\subsection}
+{\bfseries}{\hspace{\indentSpace}\thesubsection}{1em}{}
+
+%\titleformat{\section}
+%            {\bfseries}
+%            {\thechapter.\hspace{1em}}
+%            {0pt}
+%            {\centering
+%            \vspace{0mm} }
+%            [\vspace{14pt}]% Отступ после
+%\titlespacing{\section}{0pt}{-50pt}{0pt}
+
+% Конец настройка заглавий
+
+% Форматирование списка источников
+\makeatletter
+\renewcommand*{\@biblabel}[1]{\hfill#1}
+\makeatother
+
+% Убрать отсупы в списке источников
+\usepackage{lipsum}
+
+% ADD THE FOLLOWING COUPLE LINES INTO YOUR PREAMBLE
+\let\OLDthebibliography\thebibliography
+\renewcommand\thebibliography[1]{
+  \OLDthebibliography{#1}
+  \setlength{\parskip}{0pt}
+  \setlength{\itemsep}{0pt plus 0.3ex}
+}
+
+
+
+% Добавить точки в оглавление
+\usepackage{tocstyle}
+\newcommand{\autodot}{.}
+
+
+% Чтобы картинки вставляись
+% куда надо
+\usepackage{float}
+
+% Для вычисления кол-ва страниц
+\usepackage{lastpage}
+
+% Для вычисления кол-ва рисунков и таблиц
+%%%
+\usepackage{etoolbox}
+
+\newcounter{totfigures}
+\newcounter{tottables}
+
+\providecommand\totfig{} 
+\providecommand\tottab{}
+
+\makeatletter
+\AtEndDocument{%
+  \addtocounter{totfigures}{\value{figure}}%
+  \addtocounter{tottables}{\value{table}}%
+  \immediate\write\@mainaux{%
+    \string\gdef\string\totfig{\number\value{totfigures}}%
+    \string\gdef\string\tottab{\number\value{tottables}}%
+  }%
+}
+\makeatother
+
+\pretocmd{\chapter}{\addtocounter{totfigures}{\value{figure}}\setcounter{figure}{0}}{}{}
+\pretocmd{\chapter}{\addtocounter{tottables}{\value{table}}\setcounter{table}{0}}{}{}
+%%%
+
+% Режим релиза
+\sloppy
+\usepackage{layout}
+
+%\renewcommand{\arraystretch}{1.6}
+
+\begin{document}
+\chapter{Kinematic robot model with N roller-bearing wheels}   
+Consider the movement of a cart with $ N $ roller-bearing wheels ($ N> 3 $) on a non-smooth two-dimensional surface without taking into account the acting forces, and the plane of the cart wheels is vertical and stationary relative to the crew platform. Let a global coordinate system associated with the surface $ [X, Y] $ and a local, inertial relative to the global one, rigidly connected with the cart $ [X_ {l}, Y_ {l}] $ be given. Without loss of generality, the origin of local coordinates at the point of the center of mass of the cart. The position of the cart is determined by the coordinate vector $ (x, y, \varphi) $
+where $ x, y $ are the coordinates, and $ \varphi $ is the angle of rotation of the coordinate system $ [X_{l}, Y_{l}] $ relative to the axis $ OY $ in the global coordinate system. Cart speed is determined by the vector $ (\dot {x}, \dot {y}, \dot {\varphi}) $.
+
+Consider the velocity vector of the $ i $ th wheel $ v_ {i} $. We decompose it into translational and rotational components:
+\begin{equation}
+v_{i}
+=
+v_{i,tr} + v_{i,rot}
+\end{equation}
+ 
+The translational motion vector makes the angle $ \varphi $ with the $ Y $ axis. It can be represented as
+
+\begin{equation}
+v_{i,tr} 
+=
+-sin(\varphi +\alpha_{i})\dot{x}
++cos(\varphi +\alpha_{i})\dot{y}
+\end{equation}  
+
+Where is the $ \alpha_ {i} $ angle between the tangent to the disk of the $ i $-th wheel and the axis $ OY_{l} $.
+The rotational motion vector is given by the following equation
+
+\begin{equation}
+v_{i,rot}
+=
+R_{i}\dot{\varphi}
+\end{equation}
+
+Where $ R_ {i} $ is the distance from the axis of rotation (center of mass point) to the axis of the $ i $ th wheel. Thus, the velocity vector can be written as follows
+\begin{equation}
+v_{i}
+=
+-sin(\varphi +\alpha_{i})\dot{x}
++cos(\varphi +\alpha_{i})\dot{y}
++
+R_{i}\dot{\varphi}
+\end{equation}
+
+We correlate the velocity vector of the $ i $ th wheel with its angular velocity
+\begin{equation}
+v_{i}
+=
+r_{i}\dot{\phi_{i}}
+\end{equation}
+
+Where $ r_ {i} $ is the radius of the $ i $ th wheel of the trolley, $ \dot {\phi_ {i}} $ is its angular velocity, we obtain the dependence of the angular velocity of the wheel on three  $(\dot{x},\dot{y},\dot{\varphi})$
+
+\begin{equation}
+\dot{\phi_{i}}
+=
+\frac{1}{r_{i}}
+(
+-sin(\varphi +\alpha_{i})\dot{x}
++cos(\varphi +\alpha_{i})\dot{y}
++
+R_{i}\dot{\varphi}
+)
+\end{equation}
+
+or in a matrix form 
+
+\begin{equation}
+\begin{bmatrix}
+\dot{\phi_{1}} \\
+\dot{\phi_{2}} \\
+...\\
+\dot{\phi_{N}}
+\end{bmatrix}
+=
+\begin{bmatrix}
+-\frac{1}{r_{1}}sin(\varphi +\alpha_{1}) &
+\frac{1}{r_{1}}cos(\varphi +\alpha_{1}) &
+\frac{1}{r_{1}}R_{1}
+\\
+-\frac{1}{r_{2}}sin(\varphi +\alpha_{2}) &
+\frac{1}{r_{2}}cos(\varphi +\alpha_{2}) &
+\frac{1}{r_{2}}R_{2}
+\\
+... & ... & ...
+\\
+-\frac{1}{r_{N}}sin(\varphi +\alpha_{N}) &
+\frac{1}{r_{N}}cos(\varphi +\alpha_{N}) &
+\frac{1}{r_{N}}R_{N}
+\end{bmatrix}
+\begin{bmatrix}
+\dot{x} \\
+\dot{y} \\
+\dot{\varphi}
+\end{bmatrix}
+\end{equation}
+
+convert global to local coordinates with the following equation
+
+\begin{equation}
+\begin{bmatrix}
+\dot{x} \\
+\dot{y} \\
+\dot{\varphi}
+\end{bmatrix}
+=
+\begin{bmatrix}
+cos(\varphi) & 0 & 0 \\
+0 & cos(\varphi) & 0 \\
+0 & 0 & 1
+\end{bmatrix}
+\begin{bmatrix}
+\dot{x_{l}} \\
+\dot{y_{l}} \\
+\dot{\varphi}
+\end{bmatrix}
+\end{equation}
+
+got
+\begin{equation}
+\begin{bmatrix}
+\dot{\phi_{1}} \\
+\dot{\phi_{2}} \\
+...\\
+\dot{\phi_{N}}
+\end{bmatrix}
+=
+\begin{bmatrix}
+-\frac{1}{r_{1}}sin(\varphi +\alpha_{1}) &
+\frac{1}{r_{1}}cos(\varphi +\alpha_{1}) &
+\frac{1}{r_{1}}R_{1}
+\\
+-\frac{1}{r_{2}}sin(\varphi +\alpha_{2}) &
+\frac{1}{r_{2}}cos(\varphi +\alpha_{2}) &
+\frac{1}{r_{2}}R_{2}
+\\
+... & ... & ...
+\\
+-\frac{1}{r_{N}}sin(\varphi +\alpha_{N}) &
+\frac{1}{r_{N}}cos(\varphi +\alpha_{N}) &
+\frac{1}{r_{N}}R_{N}
+\end{bmatrix}
+\begin{bmatrix}
+cos(\varphi) & 0 & 0 \\
+0 & cos(\varphi) & 0 \\
+0 & 0 & 1
+\end{bmatrix}
+\begin{bmatrix}
+\dot{x_{l}} \\
+\dot{y_{l}} \\
+\dot{\varphi}
+\end{bmatrix}
+\end{equation}
+
+Thus, knowing the coordinates of the path of the path $ (x, y, \varphi) $, we can obtain the value of the angular velocity of each wheel. To do this, calculate $ (\dot {x}, \dot {y}, \dot {\varphi}) $ and substitute it in the formula (1.9).
+
+\chapter{Dynamic robot model with N roller-bearing wheels}
+In order to set the trolley in motion, its wheels need to transmit torque $ T $. By increasing the speed of the trolley, we overcome its resting resistance and give it acceleration.
+ 
+Consider the movement of a trolley with $ N $ roller-bearing wheels ($ N> 3 $) on a non-smooth two-dimensional surface, taking into account the acting forces. In the description of the model, the same notation is used as in the kinetic model. Consider the resultant of all the forces acting on the cart $ F $. Force as a measure of the impact on the body characterizes the translational motion of the model, while the moment of forces characterizes the rotational motion. The resultant of all forces can be decomposed into translational and rotational components, similar to the kinematic model, as follows:
+\begin{equation}
+F
+=
+\begin{bmatrix}
+F_{X} \\
+F_{Y} \\
+M_{t}
+\end{bmatrix}
+=
+\begin{bmatrix}
+M & 0 & 0 \\
+0 & M & 0 \\
+0 & 0 & J
+\end{bmatrix}
+\cdot
+\begin{bmatrix}
+\ddot{x} \\
+\ddot{y} \\
+\ddot{\varphi}
+\end{bmatrix}
+=
+B \cdot \ddot{u}
+\end{equation}
+
+Where $ M $ is the mass of the trolley, $ J $ is its moment of inertia.
+
+As the moment of inertia of the trolley, we take the moment of inertia of the cylinder of radius $r=max_{i}(r_{i})$ 
+\begin{equation}
+J
+=
+\frac{1}{2}
+Mr^{2}
+\end{equation}
+
+denotе
+\begin{equation}
+A 
+= 
+\begin{bmatrix}
+-sin(\varphi + \alpha_{1}) &
+-sin(\varphi + \alpha_{2}) &
+... 					   &
+-sin(\varphi + \alpha_{N}) \\
+cos(\varphi + \alpha_{1}) &
+cos(\varphi + \alpha_{2}) &
+... 					   &
+cos(\varphi + \alpha_{N}) \\ 
+R_{1} & R_{2} & ... & R_{N}
+\end{bmatrix}
+\end{equation}
+\begin{equation}
+f
+=
+\begin{bmatrix}
+f_{1} \\
+f_{2} \\
+...   \\
+f_{n}
+\end{bmatrix}
+\end{equation}
+
+Projecting the translational force vector on $ [X, Y] $, using the property of associative moments of forces
+we can represent the vector $ F $ as follows:
+\begin{equation}
+\label{Force}
+F = Af
+\end{equation}
+
+where $ f_{i} $ is the force applied to the top point of the $ i $ th wheel.
+Solving the equation \refeq{Force} for $ f $, we obtain
+\begin{equation}
+f
+=
+A^{-1}
+\cdot
+F
+=
+A^{-1}
+\cdot
+B 
+\cdot
+\ddot{u}
+\end{equation}
+
+Knowing that the wheel torque is equal to the force applied at its top point to its radius and denoting the vector of the model wheel radii for $ \overline {r} $, get the dependence of the path coordinates $ (x, y, \varphi) $ on the torques of each wheels:
+\begin{equation}
+\begin{bmatrix}
+T_{1} \\
+T_{2} \\
+... \\
+T_{N}
+\end{bmatrix}
+=
+\overline{r}
+(
+A^{-1}
+\cdot
+B 
+\cdot
+\ddot{u}
+)^{T}
+\end{equation}
+
+In turn, the magnitude of the moment of forces of each wheel can be expressed through its angular acceleration:
+
+\begin{equation}
+T_{i}
+=
+J_{i}\ddot{\alpha_{i}}
+\end{equation}
+
+$J_{i}$ - moment of inertia of the $ i $ th wheel
+
+We take into account the rolling friction force of the model on a certain surface, assuming a uniform distribution of weight on each wheel. It is known that the rolling friction force is opposite in direction to the force that drives the wheel and for the $ i $ -th wheel can be calculated by the formula:
+\begin{equation}
+F_{t_{i}}
+=
+\frac{Mg\eta}{Nr_{i}}
+\end{equation}
+
+Where $ Mg $ is the support reaction force equal to gravity, $ \eta $ is the rolling friction coefficient, which depends on the surface characteristics. Then the dependence of the moment of forces of each wheel on the coordinates of the path, taking into account the friction force can be written in the form:
+\begin{equation}
+\begin{bmatrix}
+T_{1} \\
+T_{2} \\
+... \\
+T_{N}
+\end{bmatrix}
+=
+\overline{r}
+(
+A^{-1}
+\cdot
+B 
+\cdot
+\ddot{u}
++
+\frac{Mg\eta}{N}
+\cdot
+\begin{bmatrix}
+\frac{1}{r_{1}} \\
+\frac{1}{r_{2}} \\
+...				\\
+\frac{1}{r_{N}}
+\end{bmatrix}
+)^{T}
+\end{equation} 
+
+Thus, we obtain a dynamic model of the trolley, taking into account its mass and rolling friction force.
+
+In ref, the dynamic model of a trolley with N roller-bearing wheels is considered in more detail. The trolley model is built on the assumption that the roller-bearing wheel model is a solid disk, the speed of the lowest point of which is perpendicular to the direction of the roller axis at this point. In addition, the controllability criterion of such a model is considered, from which a number of restrictions on its design follow. For example, if the sum of the angle of the axis of the roller and the angle of rotation of the wheel of all roller-bearing wheels is equal, then such a model cannot move along an arbitrary trajectory. If these angles at the two wheels coincide, then a pair of wheels can be taken as one virtual wheel with a radius vector$r_{ij} = r_{i} - r_{j}$ in the local coordinate system and moment $T_{ij} = T_{i} + T_{j}$.
+	
+\end{document}
