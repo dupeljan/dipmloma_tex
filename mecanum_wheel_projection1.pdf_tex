@@ -54,20 +54,20 @@
     \lineheight{1}%
     \setlength\tabcolsep{0pt}%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{mecanum_wheel_projection1.pdf}}%
-    \put(0.03440405,0.39579486){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$E_{y}$\end{tabular}}}}%
-    \put(0.79412511,0.06218604){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$E_{x}$\end{tabular}}}}%
+    \put(0.03440405,0.39579486){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\bs{E_{y}}$\end{tabular}}}}%
+    \put(0.79412511,0.06218604){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\bs{E_{x}}$\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=2]{mecanum_wheel_projection1.pdf}}%
     \put(0.50768361,0.38530307){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$C_{i}$\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=3]{mecanum_wheel_projection1.pdf}}%
     \put(0.23906812,0.12722143){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\alpha_{i}$\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=4]{mecanum_wheel_projection1.pdf}}%
-    \put(0.50190259,0.52066051){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$E_{y}$\end{tabular}}}}%
-    \put(0.78949368,0.37911933){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$E_{x}$\end{tabular}}}}%
+    \put(0.50190259,0.52066051){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\bs{E_{y}}$\end{tabular}}}}%
+    \put(0.78949368,0.37911933){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\bs{E_{x}}$\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=5]{mecanum_wheel_projection1.pdf}}%
     \put(0.55827672,0.32412114){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$90 - \alpha_{i}$\end{tabular}}}}%
     \put(0.42301616,0.10949203){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$90 - \alpha_{i}$\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=6]{mecanum_wheel_projection1.pdf}}%
     \put(-0.00408054,0.00722495){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$C$\end{tabular}}}}%
-    \put(0.58560216,0.26420249){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$v_{rot,i}$\end{tabular}}}}%
+    \put(0.58560216,0.26420249){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\bs{v_{rot,i}}$\end{tabular}}}}%
   \end{picture}%
 \endgroup%

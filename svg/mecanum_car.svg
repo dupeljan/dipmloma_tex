@@ -402,8 +402,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="2.3625"
-     inkscape:cx="263.14361"
-     inkscape:cy="260.16996"
+     inkscape:cx="303.79317"
+     inkscape:cy="378.68848"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -424,7 +424,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -502,7 +502,7 @@
          id="tspan6801"
          x="141.97144"
          y="43.988411"
-         style="stroke-width:0.20563693">$E_{x}$</tspan></text>
+         style="stroke-width:0.20563693">$\bs{E_{x}}$</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:4.11273861px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.20563693"
@@ -513,7 +513,7 @@
          id="tspan6805"
          x="120.06743"
          y="40.000206"
-         style="stroke-width:0.20563693">$E_{y}$</tspan></text>
+         style="stroke-width:0.20563693">$\bs{E_{y}}$</tspan></text>
     <path
        style="opacity:1;fill:none;stroke:#050000;stroke-width:0.28434989;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="path10482"
@@ -679,7 +679,7 @@
          id="tspan13030"
          x="70.612732"
          y="27.464046"
-         style="stroke-width:0.26458332">$l_{2}$</tspan></text>
+         style="stroke-width:0.26458332">$\bs{l_{2}}$</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:5.29166651px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
@@ -690,7 +690,7 @@
          id="tspan13034"
          x="84.30146"
          y="37.139996"
-         style="stroke-width:0.26458332">$p_{2}$</tspan></text>
+         style="stroke-width:0.26458332">$\bs{p_{2}}$</tspan></text>
     <flowRoot
        xml:space="preserve"
        id="flowRoot13038"
@@ -799,7 +799,7 @@
          id="tspan13604"
          x="186.95503"
          y="40.020351"
-         style="stroke-width:0.26458332">$l_{4}$</tspan></text>
+         style="stroke-width:0.26458332">$\bs{l_{4}}$</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:5.29166651px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
@@ -810,7 +810,7 @@
          id="tspan13608"
          x="204.4612"
          y="52.58202"
-         style="stroke-width:0.26458332">$p_{4}$</tspan></text>
+         style="stroke-width:0.26458332">$\bs{p_{4}}$</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:5.29166651px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
@@ -917,7 +917,7 @@
          id="tspan13604-3"
          x="123.53841"
          y="115.97306"
-         style="stroke-width:0.26458332">$l_{3}$</tspan></text>
+         style="stroke-width:0.26458332">$\bs{l_{3}}$</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:5.29166651px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
@@ -928,7 +928,7 @@
          id="tspan13608-7"
          x="123.04926"
          y="91.215141"
-         style="stroke-width:0.26458332">$p_{3}$</tspan></text>
+         style="stroke-width:0.26458332">$\bs{p_{3}}$</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:5.29166651px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
@@ -1037,7 +1037,7 @@
          id="tspan13604-3-8"
          x="172.25912"
          y="8.9476147"
-         style="stroke-width:0.26458332">$l_{1}$</tspan></text>
+         style="stroke-width:0.26458332">$\bs{l_{1}}$</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:5.29166651px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
@@ -1048,7 +1048,7 @@
          id="tspan13608-7-0"
          x="172.91896"
          y="-14.855049"
-         style="stroke-width:0.26458332">$p_{1}$</tspan></text>
+         style="stroke-width:0.26458332">$\bs{p_{1}}$</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:5.29166651px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
@@ -1105,7 +1105,7 @@
          id="tspan16567"
          x="38.754082"
          y="111.24768"
-         style="stroke-width:0.26458332">$E_{x}$</tspan></text>
+         style="stroke-width:0.26458332">$\bs{E_{x}}$</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:5.29166651px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
@@ -1116,7 +1116,7 @@
          id="tspan16571"
          x="15.501633"
          y="90.667923"
-         style="stroke-width:0.26458332">$E_{y}$</tspan></text>
+         style="stroke-width:0.26458332">$\bs{E_{y}}$</tspan></text>
     <path
        style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#marker16585)"
        d="m 127.53176,53.112249 h 23.80046"
@@ -1166,7 +1166,7 @@
          id="tspan16798"
          x="130.26466"
          y="26.028091"
-         style="stroke-width:0.26458332">$R_{1}$</tspan></text>
+         style="stroke-width:0.26458332">$\bs{R_{1}}$</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:5.29166651px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
@@ -1177,7 +1177,7 @@
          id="tspan16802"
          x="94.545906"
          y="48.328686"
-         style="stroke-width:0.26458332">$R_{2}$</tspan></text>
+         style="stroke-width:0.26458332">$\bs{R_{2}}$</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:5.29166651px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
@@ -1188,7 +1188,7 @@
          id="tspan16806"
          x="108.72001"
          y="75.353989"
-         style="stroke-width:0.26458332">$R_{3}$</tspan></text>
+         style="stroke-width:0.26458332">$\bs{R_{3}}$</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:5.29166651px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
@@ -1199,7 +1199,7 @@
          id="tspan16810"
          x="161.2587"
          y="53.242378"
-         style="stroke-width:0.26458332">$R_{4}$</tspan></text>
+         style="stroke-width:0.26458332">$\bs{R_{4}}$</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:5.29166651px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"

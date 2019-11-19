@@ -264,7 +264,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -555,7 +555,7 @@
          id="tspan14801"
          x="138.37544"
          y="66.282951"
-         style="stroke-width:0.26458332">$R_{1}$</tspan></text>
+         style="stroke-width:0.26458332">$\bs{R_{1}}$</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:5.29166651px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
@@ -566,7 +566,7 @@
          id="tspan14805"
          x="64.208153"
          y="63.47662"
-         style="stroke-width:0.26458332">$R_{2}$</tspan></text>
+         style="stroke-width:0.26458332">$\bs{R_{2}}$</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:5.29166651px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
@@ -577,7 +577,7 @@
          id="tspan14809"
          x="107.90672"
          y="118.93504"
-         style="stroke-width:0.26458332">$R_{3}$</tspan></text>
+         style="stroke-width:0.26458332">$\bs{R_{3}}$</tspan></text>
     <path
        style="fill:none;stroke:#000000;stroke-width:0.71232909;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.712329, 0.712329;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#marker7293-3-1)"
        d="M 166.76299,55.295982 137.46961,38.383453"

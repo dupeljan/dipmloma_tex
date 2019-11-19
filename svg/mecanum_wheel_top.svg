@@ -102,9 +102,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.35"
-     inkscape:cx="-321.32111"
-     inkscape:cy="-572.85633"
+     inkscape:zoom="0.98994949"
+     inkscape:cx="487.25566"
+     inkscape:cy="57.320505"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -125,7 +125,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -227,7 +227,7 @@
          id="tspan12610"
          x="181.20874"
          y="73.02813"
-         style="stroke-width:0.26458332">$E_{x}$</tspan></text>
+         style="stroke-width:0.26458332">$\bs{E_{x}}$</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:5.29166651px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
@@ -238,7 +238,7 @@
          id="tspan12614"
          x="110.11504"
          y="29.463202"
-         style="stroke-width:0.26458332">$E_{y}$</tspan></text>
+         style="stroke-width:0.26458332">$\bs{E_{y}}$</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:5.29166651px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
@@ -249,7 +249,7 @@
          id="tspan12618"
          x="90.069832"
          y="39.619446"
-         style="stroke-width:0.26458332">$l$</tspan></text>
+         style="stroke-width:0.26458332">$\bs{l}$</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:5.29166651px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
@@ -260,7 +260,7 @@
          id="tspan12618-3"
          x="137.28377"
          y="40.171715"
-         style="stroke-width:0.26458332">$l$</tspan></text>
+         style="stroke-width:0.26458332">$\bs{l}$</tspan></text>
     <path
        style="opacity:1;fill:none;stroke:#050000;stroke-width:0.71700001;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="path12640"

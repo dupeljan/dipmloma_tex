@@ -1,0 +1,1194 @@
+\documentclass[oneside,final,14pt]{extreport}
+
+%% my command
+%%%%%%%%%%%%%%
+% Путь к файлу с изображениями
+\newcommand{\picPath}{pictures}
+% Величина отступа
+\newcommand{\indentSpace}{1.25cm}
+% Сокращения
+\newcommand{\urlTitle}{ $-$ URL: }
+%%%%%%%%%%%%%%%
+
+
+% Изменяем шрифт
+\usepackage{fontspec}
+\setmainfont{Times New Roman}
+\listfiles
+
+% Полуторный интервал
+\linespread{1.6}
+
+% Отступ
+\setlength\parindent{\indentSpace}
+
+% Математика
+\usepackage{mathtools}
+
+
+% Картинки
+\usepackage{graphicx}
+\usepackage{subcaption}
+
+% Языковой пакет
+\usepackage[russianb]{babel}
+
+% Таблицы
+\usepackage{tabularx}
+
+% Настройка подписей к фигурам
+% Меняем заголовки картинок
+\usepackage[ labelsep= endash]{caption}
+\captionsetup{%
+   figurename= Рисунок,
+   tablename= Таблица,
+   justification= centering% Формат - по центру
+}         
+
+% Кирилица в подфигурах
+\renewcommand{\thesubfigure}{\asbuk{subfigure}}
+% разделитель в подфигурах - правая скобка
+\DeclareCaptionLabelSeparator{r_paranthesis}{)\quad }
+\captionsetup[subfigure]{labelformat=simple, labelsep=r_paranthesis}
+
+% Добавляем итератор \asbuk,
+% чтобы использовать кирилицу
+% как маркеры
+\usepackage{enumitem}
+\makeatletter
+\AddEnumerateCounter{\asbuk}{\russian@alph}{щ}
+\makeatother
+
+% Меняем маркеры в перечислениях
+% Списки уровня 1
+\setlist[enumerate,1]{label=\arabic*),ref=\arabic*}
+% Списки уровня 2
+\setlist[enumerate,2]{label=\asbuk*),ref=\asbuk*}
+% Перечисления
+\setlist[itemize,1]{label=$-$}
+% Удаляем отступы перед и после
+% списка
+\setlist[itemize]{noitemsep, topsep=0pt}
+\setlist[enumerate]{noitemsep, topsep=0pt}
+
+% Красная строка в начале главы
+\usepackage{indentfirst}
+
+% Убиваем перенос
+\usepackage[none]{hyphenat}
+
+% Перенос длинных ссылок
+\usepackage[hyphens]{url}
+\urlstyle{same}
+
+% Выравнивание по ширине
+\usepackage{microtype}
+
+%\usepackage[fontfamily=courier]{fancyvrb}
+%\usepackage{verbatim}%     configurable verbatim
+% \makeatletter
+%  \def\verbatim@font{\normalfont\sffamily% select the font
+%                     \let\do\do@noligs
+%                     \verbatim@nolig@list}
+%\makeatother
+
+% Границы
+\usepackage{vmargin}
+\setpapersize{A4}
+% отступы
+%\setmarginsrb 
+%{3cm} % левый
+%{2cm} % верхний
+%{1cm} % Правый
+%{2cm} % Нижний
+%{0pt}{0mm} % Высота - отступ верхнего колонтитула
+%{0pt}{0mm} % Высота - отступ нижнего  колонтитула
+
+\setlength\hoffset{0cm}
+\setlength\voffset{0cm}
+\usepackage[top=2cm, bottom=2cm, left=3cm, right=2cm,
+]{geometry}
+ 		
+% Настройка заглавиий
+\addto\captionsrussian{% Replace "english" with the language you use
+  \renewcommand{\contentsname}% содержания
+   {\hfill\bfseries
+    СОДЕРЖАНИЕ
+	\hfill    
+    }%
+   \renewcommand{\bibname}% списка источников
+   {\hfill\bfseries
+    	СПИСОК ИСПОЛЬЗОВАННЫХ ИСТОЧНИКОВ
+	\hfill
+	}% 
+}%\
+
+%\renewcommand{\contentsname}{\hfill\bfseries СОДЕРЖАНИЕ \hfill} 
+
+% Настройка  заглавий в главах
+\usepackage{titlesec}
+
+
+%\titleformat
+%{\chapter} % command
+%[display]
+%{
+%\bfseries
+%} % format
+%{
+%\thechapter.
+%} 	% label
+%{ 
+%	0 pt
+%} % sep
+%{    
+%\centering
+%} % before-code
+
+\titleformat{\chapter}
+           {\bfseries}
+           {\hspace{\indentSpace}\thechapter\hspace{1em}}
+           {0pt}
+           {
+            \vspace{0mm} }
+            [\vspace{14pt}]% Отступ после
+% Начальный сдвиг заголовка 50 pt = 1.763888888cm.
+% Второй параметр- сдвиг до = 2cm - 50pt
+\titlespacing{\chapter}{0pt}{-0.2361cm}{0pt}
+
+\titleformat{\section}
+{\bfseries}{\hspace{\indentSpace}\thesection}{1em}{}
+
+\titleformat{\subsection}
+{\bfseries}{\hspace{\indentSpace}\thesubsection}{1em}{}
+
+%\titleformat{\section}
+%           {\bfseries}
+%           {\thechapter.\hspace{1em}}
+%           {0pt}
+%           {\centering
+%            \vspace{0mm} }
+%            [\vspace{14pt}]% Отступ после
+%\titlespacing{\section}{0pt}{-50pt}{0pt}
+
+% Конец настройка заглавий
+
+% Форматирование списка источников
+\makeatletter
+\renewcommand*{\@biblabel}[1]{\hfill#1}
+\makeatother
+
+% Убрать отсупы в списке источников
+\usepackage{lipsum}
+
+% ADD THE FOLLOWING COUPLE LINES INTO YOUR PREAMBLE
+\let\OLDthebibliography\thebibliography
+\renewcommand\thebibliography[1]{
+  \OLDthebibliography{#1}
+  \setlength{\parskip}{0pt}
+  \setlength{\itemsep}{0pt plus 0.3ex}
+}
+
+
+
+% Добавить точки в оглавление
+\usepackage{tocstyle}
+\newcommand{\autodot}{.}
+
+
+% Чтобы картинки вставляись
+% куда надо
+\usepackage{float}
+
+% Для вычисления кол-ва страниц
+\usepackage{lastpage}
+
+% Для вычисления кол-ва рисунков и таблиц
+%%%
+\usepackage{etoolbox}
+
+\newcounter{totfigures}
+\newcounter{tottables}
+
+\providecommand\totfig{} 
+\providecommand\tottab{}
+
+\makeatletter
+\AtEndDocument{%
+  \addtocounter{totfigures}{\value{figure}}%
+  \addtocounter{tottables}{\value{table}}%
+  \immediate\write\@mainaux{%
+    \string\gdef\string\totfig{\number\value{totfigures}}%
+    \string\gdef\string\tottab{\number\value{tottables}}%
+  }%
+}
+\makeatother
+
+\pretocmd{\chapter}{\addtocounter{totfigures}{\value{figure}}\setcounter{figure}{0}}{}{}
+\pretocmd{\chapter}{\addtocounter{tottables}{\value{table}}\setcounter{table}{0}}{}{}
+%%%
+
+% Режим релиза
+\sloppy
+\usepackage{layout}
+
+%\renewcommand{\arraystretch}{1.6}
+
+\newcommand{\cmmnt}[1]{\ignorespaces}
+\newcommand{\bs}{\boldsymbol}
+\usepackage{breqn}
+\begin{document}
+\chapter{Kinematic Model of a Robot With N Omnidirectional Wheels}
+In order to describe the movements of the robot, it is necessary to model its behavior in some way. The simplest model of the movement of a robot in space is a kinematic one. This model describes movements exclusively through the dependence of coordinates on time. That is, in the kinematic model, the movement of the body is considered, but the reasons that create it are not considered.
+
+Consider the movement of a cart with $ N $ omnidirectional wheels ($ N> 3 $) on a smooth two-dimensional surface without taking into account the acting forces, and the plane of the cart wheels is vertical and stationary relative to the cart platform. Within the model, omnidirectional wheels can slide in any direction with a negligible friction force. Let a global coordinate system associated with the surface $ \{o, \boldsymbol{x}, \bs{y}, \bs{z} \} $ and a local, inertial relative to the global one, rigidly connected with the cart $ \{c, \bs{x_{l}}, \bs{y_{l}}, \bs{z_{l}} \} $, with the plane $ \bs{x_{l}} \bs{y_{l}} $ parallel to the plane $ \bs{x} \bs{y} $. Without loss of generality, we put the origin of local coordinates at the point of the center of mass of the cart. The position of the cart is determined by the coordinate vector $ (x, y, \varphi) $
+where $ x, y $ are the coordinates, and $ \varphi $ is the angle between the axis $ \bs{ox} $ and $ \bs{cx_{l}} $. The speed of the cart is determined by the vector $ (\dot{x}, \dot{y}, \omega) $ where $ \omega = \dot{\varphi} $ is the angular velocity of the cart.
+
+Denote by $ \{c_{i}, \bs{x_{w, i}}, \bs{y_{w, i}}, \bs{z_{w, i}} \} $ - the local coordinate system $ i $ of the wheel shown in the figure \ref{fig: omni_wheel_coords}, where $ c_{i} $ is the axis of rotation, $ \bs{x_{w, i}} $ is the axis directed from $ c_{i} $ towards the point of tangency with the surface, $ \bs{y_{w, i}} $ is the axis parallel to the rolling surface, directed to the right, $ \bs{z_{w, i}} = \bs{x_{w, i }} \times \bs{y_{w, i}} $.
+
+For example, the figure \ref{fig: kinematic_model} schematically shows a kinematic model of a robot with three omnidirectional wheels.
+\begin{figure} [H]
+\centering{
+\resizebox{140mm}{!}{\input{kinematic_model_pic.pdf_tex}}
+\caption{Kinematic model of a cart with three omnidirectional wheels.}
+\label{fig: kinematic_model}
+}
+\end{figure}
+
+\begin{figure} [H]
+\centering{
+\resizebox{40mm}{!}{\input{omni_wheel_coords.pdf_tex}}
+\caption{Coordinate axes of the $ i $ th wheel.}
+\label{fig: omni_wheel_coords}
+}
+\end{figure}
+
+
+Consider the velocity vector of the $ i $ th wheel, $ \bs{v_{i}} $, $ i = \overline{1, N} $. It is directed tangentially to the disk $ i $ of the wheel $ \bs{y_{w_i}} $. We decompose it into translational and rotational components:
+\begin{equation}
+\bs{v_{i}}
+=
+\bs{v_{i, tr}}
++
+\bs{v_{i, rot}}
+\end{equation}
+
+Let $ \alpha_{i} $ be the angle between $ \bs{y_{w, i}} $ and the $ \bs{y_{l}} $ axis, as shown in the figure \ref{fig: kinematic_model}.
+
+
+
+
+Consider the translational velocity vector of the cart $ \bs{v_{tr}} = [\dot{x}, \dot{y}, 0] $. In order for the trolley to have a speed of $ \bs{v_{tr}} $, the speed vector of the $ i $ th wheel should be equal to the projection of $ \bs{v_{tr}} $ in the direction $ \bs{y_{w, i}} $. The translational velocity vector of the $ i $ th makes up the angle $ \varphi + \alpha_{i} $ with the $ \bs{y} $ axis, which is illustrated in the figure \ref{fig: projection}. Then $ \bs{v_{tr, i}} $ can be represented as
+\begin{equation}
+\label{eq: v_rt_i_global}
+\bs{v_{tr, i}}
+=
+[
+-sin (\varphi + \alpha_{i})
+\dot{x}
++
+cos (\varphi + \alpha_{i})
+\dot{y}
+]
+\bs{y_{w, i}}
+\end{equation}
+
+
+
+\begin{figure} [H]
+\centering{
+\resizebox{80mm}{!}{\input{projection.pdf_tex}}
+\caption{Illustration designing the translational velocity vector in the direction of movement $ i $ - about the wheel}
+\label{fig: projection}
+}
+\end{figure}
+
+Let $ \bs{R_{i}} $ be the radius of the vector of the axis of the $ i $ -th wheel from the rotation axis (center of mass point) are long $ R_{i} $. In order to make the trolley rotate around the axis of rotation $ C \bs{z_{l}} $, it is necessary to set the velocity vector of each wheel perpendicular to $ \bs{R_{i}} $. In this case, the length of the vector should be $ R_{i} \omega $.
+Thus, the rotational motion velocities of $ i $ - th are given by the following equation
+\begin{equation}
+\bs{v_{rot, i}}
+=
+\bs{R_{i}}
+\times
+\omega
+\bs{z}
+\end{equation}
+
+\begin{figure} [H]
+\centering{
+\resizebox{100mm}{!}{\input{mecanum_wheel_projection3.pdf_tex}}
+\caption{Projection of the rotational velocity vector of the $ i $ - th wheel on the global coordinate system}
+\label{fig: mecanum_wheel_projection3}
+}
+\end{figure}
+
+Let $ \gamma_{i} $ be the angle between the axis $ \bs{y} $ and $ \bs{R_{i}} $. Then first projecting $ \bs{v_{rot, i}} $ onto $ \bs{xy} $, as shown in \ref{fig: mecanum_wheel_projection3}, we get
+\begin{equation}
+\bs{v_{rot, i}}
+=
+R_{i}
+\omega
+[
+-cos (\gamma_{i})
+\bs{x}
+-
+sin (\gamma_{i})
+\bs{y}
+]
+\end{equation}
+
+Projecting $ \bs{v_{rot, i}} $ in the direction $ \bs{y_{w, i}} $, similar to the equation \ref{eq: v_rt_i_global}, we obtain
+\begin{center}
+$
+\bs{v_{rot, i}}
+=
+R_{i}
+\omega
+[
+sin (\varphi + \alpha_{i})
+cos (\gamma_{i})
+-
+cos (\varphi + \alpha_{i})
+sin (\gamma_{i})
+]
+\bs{y_{w, i}}
+$
+\end{center}
+\begin{equation}
+\bs{v_{rot, i}}
+=
+R_{i}
+\omega
+sin (\varphi + \alpha_{i} - \gamma_{i})
+\bs{y_{w, i}}
+\end{equation}
+It is easy to see that the angle $ \theta_{i} = \gamma_{i} - \varphi = const $ is the angle between $ \bs{R_{i}} $ and $ \bs{y_{l}} $, therefore the coefficient the angular velocity vector is independent of $ \varphi $ in the general case. Obviously $ \alpha_{i} - \theta_{i} $ is the angle between $ \bs{y_{w, i}} $ and $ \bs{R_{i}} $. If the tangent of the disk $ i $ of the wheel $ y_{w, i} $ is perpendicular to $ R_{i} $, then $ \alpha_{i} - \theta_{i} = \frac{\pi}{2}, \bs{v_{rot, i}} = R_{i} \omega $.
+\iffalse
+ Also fair
+\begin{gather}
+\dot{x}
+=
+v_{x} \bs{x}
+\\
+\dot{y}
+=
+v_{y} \bs{y}
+\\
+\dot{\varphi}
+=
+\omega \bs{z}
+\end{gather}
+Where $ v_{x} $, $ v_{x} $, $ \omega $ is the velocity value in the direction of $ \bs{x} $ and $ \bs{y} $, respectively, $ \omega $ is the angular velocity value.
+\fi
+
+Thus, the velocity vector of the $ i $ th wheel can be written as:
+\begin{equation}
+\label{eq: local_v_global}
+\bs{v_{i}}
+=
+[
+-sin (\varphi + \alpha_{i}) \dot{x}
++ cos (\varphi + \alpha_{i}) \dot{y}
++
+R_{i}
+\omega
+sin (\alpha_{i} - \theta_{i})
+]
+\bs{y_{w, i}}
+\end{equation}
+
+
+
+
+We correlate the velocity value of the $ i $ - th wheel with its angular velocity
+\begin{equation}
+\label{eq: local_v_local}
+\bs{v_{i}}
+=
+\bs{r_{i}}
+\times
+\omega_{i}
+\bs{z_{w, i}}
+\end{equation}
+
+Where $ \bs{r_{i}} $ is a vector having the coordinates $ [- r_{i}, 0,0] $ in the coordinate system of the $ i $ -th wheel of the cart, $ r_{i} $ is the radius of $ i $ wheel of the cart, $ \omega_{i} $ is the angular velocity of this wheel.
+Computing the vector product in \ref{eq: local_v_local}, we obtain
+\begin{equation}
+\label{eq: local_v_local_res}
+\bs{v_{i}}
+=
+\bs{r_{i}}
+\times
+\omega_{i}
+\bs{z_{w, i}}
+=
+\omega_{i}
+r_{i}
+\bs{y_{w, i}}
+\end{equation}
+% we get the dependence of the value of the angular velocity of the wheel on the triple $ (\dot{x}, \dot{y}, \omega) $
+
+Thus, expressing from \ref{eq: local_v_local_res} $ w_{i} $, substituting $ \bs{v_{i}} $ from \ref{eq: local_v_global}, we get:
+\begin{equation}
+\omega_{i}
+=
+\frac{1}{r_{i}}
+(
+-sin (\varphi + \alpha_{i}) \dot{x}
++ cos (\varphi + \alpha_{i}) \dot{y}
++
+R_{i}
+\omega
+sin (\alpha_{i} - \theta_{i})
+)
+\end{equation}
+
+or in matrix form
+
+\begin{equation}
+\label{kinematic_omniwheel_res}
+\begin{bmatrix}
+\omega_{1} \\
+\omega_{2} \\
+... \\
+\omega_{N}
+\end{bmatrix}
+=
+\begin{bmatrix}
+- \frac{1}{r_{1}} sin (\varphi + \alpha_{1}) &
+\frac{1}{r_{1}} cos (\varphi + \alpha_{1}) &
+\frac{1}{r_{1}} R_{1} sin (\alpha_{1} - \theta_{1})
+\\
+- \frac{1}{r_{2}} sin (\varphi + \alpha_{2}) &
+\frac{1}{r_{2}} cos (\varphi + \alpha_{2}) &
+\frac{1}{r_{2}} R_{2} sin (\alpha_{2} - \theta_{2})
+\\
+... & ... & ...
+\\
+- \frac{1}{r_{N}} sin (\varphi + \alpha_{N}) &
+\frac{1}{r_{N}} cos (\varphi + \alpha_{N}) &
+\frac{1}{r_{N}} R_{N} sin (\alpha_{N} - \theta_{N})
+\end{bmatrix}
+\begin{bmatrix}
+\dot{x} \\
+\dot{y} \\
+\omega
+\end{bmatrix}
+\end{equation}
+Thus, knowing the coordinates of the path trajectory $ (x, y, \varphi) $, we can obtain the value of the angular velocity of each wheel. To do this, calculate $ (\dot{x}, \dot{y}, \omega) $ and substitute in the formula \ref{kinematic_omniwheel_res}.
+
+\iffalse
+In addition, moving to local coordinates
+
+\begin{equation}
+\begin{bmatrix}
+\dot{x} \\
+\dot{y} \\
+\omega
+\end{bmatrix}
+=
+\begin{bmatrix}
+cos (\varphi) & 0 & 0 \\
+0 & cos (\varphi) & 0 \\
+0 & 0 & 1
+\end{bmatrix}
+\begin{bmatrix}
+\dot{x_{l}} \\
+\dot{y_{l}} \\
+\omega
+\end{bmatrix}
+\end{equation}
+
+We get the equation of movement of the cart in the local coordinate system
+\begin{equation}
+\begin{bmatrix}
+\dot{\phi_{1}} \\
+\dot{\phi_{2}} \\
+... \\
+\dot{\phi_{N}}
+\end{bmatrix}
+=
+\begin{bmatrix}
+- \frac{1}{r_{1}} sin (\varphi + \alpha_{1}) &
+\frac{1}{r_{1}} cos (\varphi + \alpha_{1}) &
+\frac{1}{r_{1}} R_{1} sin (\alpha_{1} - \theta_{1})
+\\
+- \frac{1}{r_{2}} sin (\varphi + \alpha_{2}) &
+\frac{1}{r_{2}} cos (\varphi + \alpha_{2}) &
+\frac{1}{r_{2}} R_{2} sin (\alpha_{2} - \theta_{2})
+\\
+... & ... & ...
+\\
+- \frac{1}{r_{N}} sin (\varphi + \alpha_{N}) &
+\frac{1}{r_{N}} cos (\varphi + \alpha_{N}) &
+\frac{1}{r_{N}} R_{N} sin (\alpha_{N} - \theta_{N})
+\end{bmatrix}
+\begin{bmatrix}
+cos (\varphi) & 0 & 0 \\
+0 & cos (\varphi) & 0 \\
+0 & 0 & 1
+\end{bmatrix}
+\begin{bmatrix}
+\dot{x_{l}} \\
+\dot{y_{l}} \\
+\omega
+\end{bmatrix}
+\end{equation}
+
+where $ \dot{x_{l}} $, $ \dot{y_{l}} $ is the velocity in the direction of $ X_{l} $ and $ Y_{l} $, respectively.
+\fi
+
+\chapter{Dynamic Model of a Robot With N Omnidirectional Wheels}
+The dynamic model, in contrast to the kinematic, considers the motion of solids, taking into account the forces that cause this body to move.
+ 
+In order to set the trolley in motion, its wheels need to transmit torque $ T $. By increasing the speed of the trolley, we overcome its resting resistance and give it acceleration.
+ 
+Consider the movement of a trolley with $ N $ omnidirectional wheels ($ N> 3 $) over a nonsmooth two-dimensional surface, taking into account the acting forces. In the description of the model, the same notation is used as in the kinematic model. For example, the figure \ref{fig: dynamic_model} schematically shows a dynamic model of a robot with three omnidirectional wheels. Consider the resultant of all the forces acting on the cart $ \bs{F} $.
+\begin{equation}
+\bs{F}
+=
+F_{x} \bs{x}
++
+F_{y} \bs{y}
++
+M_{t} \bs{z}
+\end{equation}
+Force as a measure of the effect on the body characterizes the translational motion of the model, while the moment of forces $ M_{t} \bs{z} $ characterizes the rotational motion. The resultant of all forces can be decomposed into translational and rotational components, similar to the kinematic model, as follows:
+\begin{equation}
+F
+=
+\begin{bmatrix}
+F_{X} \\
+F_{Y} \\
+M_{t}
+\end{bmatrix}
+=
+\begin{bmatrix}
+M & 0 & 0 \\
+0 & M & 0 \\
+0 & 0 & J_{r}
+\end{bmatrix}
+\cdot
+\begin{bmatrix}
+\ddot{x} \\
+\ddot{y} \\
+\dot{\omega}
+\end{bmatrix}
+=
+B \cdot \ddot{u}
+\end{equation}
+
+Where $ M $ is the mass of the trolley, $ J_{r} $ is its moment of inertia.
+
+\begin{figure} [H]
+\centering{
+\resizebox{140mm}{!}{\input{dynamic_model_pic.pdf_tex}}
+\caption{Dynamic model of a cart with three omnidirectional wheels}
+\label{fig: dynamic_model}
+}
+\end{figure}
+The moment of inertia of the bogie can be considered approximately equal to the moment of inertia of a uniform cylinder of radius $ R = max_{i} (R_{i}) $
+\begin{equation}
+J_{r}
+=
+\frac{1}{2}
+MR ^{2}
+\end{equation}
+
+
+In addition, the vector $ \bs{F} $ can be represented as:
+\begin{equation}
+\bs{F}
+=
+\sum_{i = 1} ^{N} \bs{f_{i}}
+\end{equation}
+where $ \bs{f_{i}} $ is the force vector applied to the top point of the $ i $ th wheel. It has the direction $ \bs{y_{w, i}} $, the value $ f_{i} $ and makes the angle $ \varphi + \alpha_{i} $ with the axis $ \bs{y} $.
+Then, expanding $ \bs{F} $ into the components and projecting the vectors $ \bs{f_{i}} $ onto the coordinate axes, we get:
+
+\begin{equation}
+\bs{F_{X}}
+=
+-
+\bs{x}
+\sum_{i = 1} ^{N} f_{i} sin (\varphi + \alpha_{i})
+\end{equation}
+\begin{equation}
+\bs{F_{Y}}
+=
+\bs{y}
+\sum_{i = 1} ^{N} f_{i} cos (\varphi + \alpha_{i})
+\end{equation}
+\begin{equation}
+\label{eq: rot_force}
+\bs{M_{t}}
+=
+\sum_{i = 1} ^{N} \bs{f_{i}} \times \bs{R_{i}}
+=
+\bs{z}
+\sum_{i = 1} ^{N} f_{i} R_{i} sin (\alpha_{i} - \theta_{i})
+\end{equation}
+
+
+
+Then the values ​​of the components of the force vector have the following relationship:
+\begin{equation}
+\begin{bmatrix}
+F_{X} \\
+F_{Y} \\
+M_{t}
+\end{bmatrix}
+=
+\begin{bmatrix}
+-sin (\varphi + \alpha_{1}) &
+-sin (\varphi + \alpha_{2}) &
+... &
+-sin (\varphi + \alpha_{N}) \\
+cos (\varphi + \alpha_{1}) &
+cos (\varphi + \alpha_{2}) &
+... &
+cos (\varphi + \alpha_{N}) \\
+R_{1} sin (\alpha_{1} - \theta_{1}) &
+R_{2} sin (\alpha_{2} - \theta_{2}) &
+ ... &
+R_{N} sin (\alpha_{N} - \theta_{N})
+\end{bmatrix}
+\begin{bmatrix}
+f_{1} \\
+f_{2} \\
+... \\
+f_{n}
+\end{bmatrix}
+=
+Af
+\end{equation}
+
+We get the equation
+\begin{equation}
+F = af
+\label{eq: f}
+\end{equation}
+
+Solving the equation \ref{eq: f} with respect to $ f $, we obtain
+\begin{equation}
+f
+=
+A ^{- 1}
+\cdot
+F
+=
+A ^{- 1}
+\cdot
+B
+\cdot
+\ddot{u}
+\end{equation}
+
+Knowing that the torque of the wheel is equal to the force applied at its top point on its radius and denoting
+\begin{equation}
+\overline{r}
+=
+\begin{bmatrix}
+r_{1} \\
+r_{2} \\
+... \\
+r_{N}
+\end{bmatrix}
+\end{equation}
+We get the dependence of the coordinates of the path $ (x, y, \varphi) $ on the torques of each wheel:
+\begin{equation}
+\label{eq: dynamic_w_friction}
+\begin{bmatrix}
+T_{1} \\
+T_{2} \\
+... \\
+T_{N}
+\end{bmatrix}
+=
+\overline{r}
+f ^{T}
+=
+\overline{r}
+(
+A ^{- 1}
+\cdot
+B
+\cdot
+\ddot{u}
+) ^{T}
+\end{equation}
+
+In turn, the magnitude of the moment of forces of each wheel can be expressed through its angular acceleration:
+
+\begin{equation}
+T_{i}
+=
+J_{w, i} \dot{\omega_{i}}
+\end{equation}
+
+Where $ J_{w, i} $ is the moment of inertia of the $ i $ th wheel, $ \dot{\omega_{i}} $ is the angular acceleration of the $ i $ th wheel.
+
+We take into account the rolling friction force of the model on a certain surface, assuming a uniform distribution of weight on each wheel. It is known that the rolling friction force is opposite in direction to the force that drives the wheel and for the $ i $ -th wheel can be calculated by the formula:
+\begin{equation}
+f_{t_{i}}
+=
+\frac{Mg \eta}{Nr_{i}}
+\end{equation}
+
+Where $ Mg $ is the support reaction force equal to the gravity of the robot, $ \eta $ is the rolling friction coefficient, which depends on the surface characteristics. $ \eta = 0 $ in the case when friction between the wheel and the surface does not occur and $ \eta = \infty $ when the friction of the surface is insurmountably strong.
+The rolling friction force is directed in the opposite direction from the direction of movement of the wheel. Therefore, in order to compensate for it, it is necessary to increase the force applied at the upper point of the wheel by the value of the friction force.
+\begin{equation}
+\tilde{f_{i}}
+=
+f_{i}
++
+f_{t_{i}}
+\end{equation}
+
+We denote
+\begin{equation}
+\tilde{f}
+=
+f
++
+\begin{bmatrix}
+f_{t_{1}} \\
+f_{t_{2}} \\
+... \\
+f_{t_{N}}
+\end{bmatrix}
+=
+f
++
+\frac{Mg \eta}{N}
+\cdot
+\begin{bmatrix}
+\frac{1}{r_{1}} \\
+\frac{1}{r_{2}} \\
+... \\
+\frac{1}{r_{N}}
+\end{bmatrix}
+\end{equation}
+Then replacing the formula \ref{eq: dynamic_w_friction} $ f $ with $ \tilde{f} $, we obtain the dependence of the moment of forces of each wheel on the coordinates of the path, taking into account the friction force:
+\begin{equation}
+\label{eq: res_dinamic_omniwheel}
+\begin{bmatrix}
+T_{1} \\
+T_{2} \\
+... \\
+T_{N}
+\end{bmatrix}
+=
+\overline{r}
+(
+A ^{- 1}
+\cdot
+B
+\cdot
+\ddot{u}
++
+\frac{Mg \eta}{N}
+\cdot
+\begin{bmatrix}
+\frac{1}{r_{1}} \\
+\frac{1}{r_{2}} \\
+... \\
+\frac{1}{r_{N}}
+\end{bmatrix}
+) ^{T}
+\end{equation}
+
+Thus we obtain a dynamicA new model of the trolley, taking into account its mass and rolling friction force. Knowing the coordinates of the path $ (x, y, \varphi) $ and calculating the acceleration of each coordinate $ (\ddot{x}, \ddot{y}, \dot{\omega}) $, from the equation \ref{eq: res_dinamic_omniwheel} we can get the moments of forces of each wheel corresponding to a given path.
+
+\iffalse
+In ref, the dynamic model of a trolley with N roller-bearing wheels is considered in more detail. The trolley model is built on the assumption that the roller-bearing wheel model is a solid disk, the speed of the lowest point of which is perpendicular to the direction of the roller axis at this point. In addition, the controllability criterion of such a model is considered, from which a number of restrictions on its design follow. For example, if the sum of the angle of the roller axis and the angle of rotation of the wheel of all roller-bearing wheels is equal, then such a model cannot move along an arbitrary trajectory. If these angles of the two wheels coincide, then a pair of wheels can be taken as one virtual wheel with the radius vector $ r_{ij} = r_{i} - r_{j} $ in the local coordinate system and the moment $ T_{ij} = T_{i} + T_{j} $.
+\fi
+\chapter{Kinematic Model of a Roller Wheel}
+For a non-roller wheel that rotates on a surface without slipping, the instantaneous speed of the lowest point of contact is zero [Link to source]. In practice, contacting bodies, due to physical limitations, are always in contact with many points called the contact patch. As an illustration, you can bring a caterpillar trolley moving on the surface without slipping. The caterpillar’s ​​contact spot is large enough to notice that at a certain moment it does not move relative to the surface. At a fairly low speed of the cart, you can even notice that some sub-area of ​​the track’s contact spot does not move relative to the surface for a certain period of time.
+
+The peculiarity of the roller-bearing wheels is that the instantaneous point of contact has a non-zero velocity relative to the rolling surface, since the rollers mounted on the wheel under the gravity of the trolley rotate about its axis. \cmmnt{In the case of an omnidirectional wheel whose roller axes are parallel to the plane of the wheel disc, slipping does not occur, which simplifies the process of constructing a mathematical model}
+
+ The simplest non-holonomic model of a roller-bearing wheel is a flat disk, for which the speed of the point of contact with the bearing surface is directed along a straight line, making a constant angle with the plane of the wheel.
+
+\begin{figure} [H]
+\centering{
+\resizebox{160mm}{!}{\input{mecanum_disk.pdf_tex}}
+\caption{Roller model: side view}
+\label{fig: mecanum_disk_side}
+}
+\end{figure}
+
+\begin{figure} [H]
+\centering{
+\resizebox{130mm}{!}{\input{mecanum_wheel_top.pdf_tex}}
+\caption{Roller model: top view}
+\label{fig: mecanum_disk_top}
+}
+\end{figure}
+
+ As a model of a roller-bearing wheel, we consider a disk of radius $ R $ centered at the point $ C $, and the planes of the cart wheels are vertical and stationary relative to the cart platform. Let $ \bs{l} $ be the unit vector of the axis of rotation of the roller, $ \tau $ be the tangent to the disk plane, $ \delta = \widehat{\bs{l} \tau} $. Then the coupling equation is written as follows:
+\begin{equation}
+(
+\bs{v_{M}}
+,
+\bs{l}
+)
+=
+0
+\end{equation}
+where $ M $ is the point of tangency, $ \bs{v_{M}} $ is the speed of the point of tangency. The vector $ \bs{v_{M}} $ is defined as follows:
+\begin{equation}
+\bs{v_{M}}
+=
+\bs{v_{C}}
++
+\bs{\omega}
+\times
+\bs{CM}
+\end{equation}
+Where
+$ \bs{v_{C}} $ -
+speed of the center of the wheel, $ \bs{\omega} $ - vector angular speed of the wheel.
+Let $ \{O, \bs{e_{x}}, \bs{e_{y}}, \bs{e_{z}} \} $ be the global inertial coordinate system, $ \{C, \bs{E_{x}}, \bs{E_{y}}, \bs{E_{z}} \} $ - a coordinate system that is rigidly connected to the disk. The plane $ \{C, \bs{E_{x}}, \bs{E_{y}} \} $ is parallel to the plane of the surface. Let $ \varphi $ be the angle of rotation of the disk around the axis perpendicular to the plane of the disk passing through the point $ C $ counterclockwise, $ \psi = \widehat{\tau \bs{e_{x}}} $. The designations are illustrated in the figures \ref{fig: mecanum_disk_side} and \ref{fig: mecanum_disk_top}. Then the vectors $ \bs{\omega} $ and $ \bs{CM} $ can be represented as:
+\begin{equation}
+\bs{\omega}
+=
+\dot{\varphi}
+\bs{E_{y}}
++
+\dot{\psi}
+\bs{E_{z}}
+\end{equation}
+\begin{equation}
+\bs{CM}
+=
+-R
+\bs{E_{z}}
+\end{equation}
+
+From here it is fair
+\begin{equation}
+\bs{\omega}
+\times
+\bs{CM}
+=
+-R \dot{\varphi}
+\bs{E_{x}}
+\end{equation}
+
+Denoting the coordinates of the point $ C $ in global coordinates by $ x_{C} $ $ y_{C} $, projecting the velocity vector of the point $ C $ onto the local coordinate system, as illustrated in the figure \ref{fig: mecanum_wheel_projection}, we can write
+\begin{equation}
+\label{eq: velocity_c_projection}
+\bs{v_{C}}
+=
+(
+\dot{x_{C}}
+cos \psi
++
+\dot{y_{C}}
+sin \psi
+)
+\bs{E_{x}}
++
+(
+- \dot{x_{C}}
+sin \psi
++
+\dot{y_{C}}
+cos \psi
+)
+\bs{E_{y}}
+\end{equation}
+
+\begin{figure} [H]
+\centering{
+\resizebox{100mm}{!}{\input{mecanum_wheel_projection.pdf_tex}}
+\caption{Illustration of designing a velocity vector on a local coo systemrdinat}
+\label{fig: mecanum_wheel_projection}
+}
+\end{figure}
+
+ Finally, projecting the unit vector $ l $ onto the local coordinate system
+\begin{equation}
+\bs{l}
+=
+cos \delta
+\bs{E_{x}}
++
+sin \delta
+\bs{E_{y}}
+\end{equation}
+We can write the coupling equation in the form
+\begin{flushleft}
+$
+(
+\bs{v_{m}}
+,
+\bs{l}
+)
+=
+(
+\bs{v_{c}}
++
+\bs{\omega}
+\times
+\bs{CM}
+,
+\bs{l}
+)
+=
+$
+
+$
+(
+(
+\dot{x_{C}}
+cos \psi
++
+\dot{y_{C}}
+sin \psi
+-R \dot{\varphi}
+)
+\bs{E_{x}}
++
+(
+- \dot{x_{C}}
+sin \psi
++
+\dot{y_{C}}
+cos \psi
+)
+\bs{E_{y}}
+,
+cos \delta
+\bs{E_{x}}
++
+sin \delta
+\bs{E_{y}}
+)
+=
+$
+
+$
+(
+\dot{x_{C}}
+cos \psi
++
+\dot{y_{C}}
+sin \psi
+-R \dot{\varphi}
+)
+cos \delta
++
+(
+- \dot{x_{C}}
+sin \psi
++
+\dot{y_{C}}
+cos \psi
+)
+sin \delta
+=
+0
+$
+\end{flushleft}
+\begin{equation}
+\label{eq: mecanum_final}
+\dot{x_{C}}
+cos (\psi + \delta)
++
+\dot{y_{C}}
+sin (\psi + \delta)
+=
+R \dot{\varphi}
+cos \delta
+\end{equation}
+
+The equation \ref{eq: mecanum_final} connects the three coordinates $ (x_{C}, y_{C}, \psi) $ with the angular velocity of the wheel $ \varphi $. The work [link to the source] studied the dynamics of a trolley with $ N $ roller-bearing wheels and formulated a control criterion:
+if $ N \geq 3 $, at least one pair of vectors $ \bs{l_{i}}, \bs{l_{j}} $ $ i, j = \overline{1, N} $, which correspond to the axes of the rollers , is not parallel and the contact points of the wheels do not lie on one straight line, then for any trajectory it is always possible to find such control moments (that is, functions $ \varphi_{i} (t) $) that the cart, controlled by these moments, moves along a given path .
+
+\chapter{Kinematic Model of a Cart With Four Roller Wheels}
+Consider the kinematic model of a cart on four roller-bearing wheels, illustrated in the figure \ref{fig: mecanum_car}. Let $ C $ be the point of rotation of the cart, $ \{O, \bs{e_{x}}, \bs{e_{y}}, \bs{e_{z}} \} $ is the global inertial coordinate system, $ \{C, \bs{E_{x}}, \bs{E_{y}}, \bs{E_{z}} \} $ is a coordinate system rigidly connected to the cart. The plane $ \{C, \bs{E_{x}}, \bs{E_{y}} \} $ is parallel to the plane of the surface. Let $ r_{i} $ be the radius of the $ i $ th wheel, $ \delta_{i} $ be the angle between the tangent to the plane of the wheel $ \bs{p_{i}} $ and the roller axis $ \bs{l_{i }} $ \cmmnt{, $ \delta_{i} = \widehat{p_{i} l_{i}} $}, $ \psi $ is the angle between the axis $ \bs{e_{x}} $ and $ \bs{E_{x}} $ \cmmnt{, $ \psi $ = $ \widehat{e_{x} E{x}} $}, $ \alpha_{i} $ - the angle between the axis $ \bs{E_{ x}} $ and the radius of the vector $ \bs{R_{i}} $ are $ R_{i} $ long, directed from the point $ C $ to the point of contact with the surface of the $ i $ th wheel $ C_{i} $ \cmmnt{, $ \alpha_{i} = \widehat{E_{x} \overrightarrow{C C_{i}}} $}, $ i = \overline{1,4} $.
+
+\begin{figure} [H]
+\centering{
+\resizebox{170mm}{!}{\input{mecanum_car.pdf_tex}}
+\caption{Kinematic model of a cart with four roller wheels}
+\label{fig: mecanum_car}
+}
+\end{figure}
+
+Consider the velocity vector of the center of the $ i $ th wheel $ \bs{v_{c, i}} $. We decompose it into translational and rotational components:
+\begin{equation}
+\label{eq: mec_wheel_v_decomp}
+\bs{v_{c, i}}
+=
+\bs{v_{tr, i}}
++
+\bs{v_{rot, i}}
+\end{equation}
+
+The translational velocity vector $ \bs{v_{tr, i}} $ has the coordinates $ [\dot{x}, \dot{y}, 0] $. The equation of communication with the angular velocity of the $ i $ th wheel $ \varphi_{i} $, based on the equation \ref{eq: mecanum_final} has the form:
+\begin{equation}
+\dot{x}
+cos (\psi + \delta)
++
+\dot{y}
+sin (\psi + \delta)
+=
+r_{i} \dot{\varphi_{i}}
+cos \delta_{i}
+\end{equation}
+Where $ [\dot{x}, \dot{y}, 0] $ are the coordinates of the translational velocity vector of the cart.
+
+In order to make the trolley rotate around the axis of rotation $ C \bs{E_{z}} $, it is necessary to set the velocity vector of each wheel perpendicular to the radius of the vector $ \bs{R_{i}} $. The length of the vector should be $ R_{i}, \dot{\psi} $. The location of the vectors is illustrated in the figure \ref{fig: mecanum_car_rot}.
+
+\begin{figure} [H]
+\centering{
+\resizebox{150mm}{!}{\input{mecanum_car_rot.pdf_tex}}
+\caption{Illustration of the rotational movement of a trolley on cart with four roller wheels}
+\label{fig: mecanum_car_rot}
+}
+\end{figure}
+
+Consider the rotational velocity vector of the $ i $ th wheel $ \bs{v_{rot, i}} $. Projecting it on the axis $ \bs{E_{x}} $ $ \bs{E_{y}} $, as shown in the figure \ref{fig: mecanum_wheel_projection1}, we get:
+\begin{equation}
+\bs{v_{rot, i}}
+=
+R_{i}
+\dot{\psi}
+sin (\alpha_{i})
+\bs{E_{x}}
+-
+R_{i}
+\dot{\psi}
+cos (\alpha_{i})
+\bs{E_{y}}
+\end{equation}
+
+\begin{figure} [H]
+\centering{
+\resizebox{80mm}{!}{\input{mecanum_wheel_projection1.pdf_tex}}
+\caption{Projection of the rotational velocity vector onto the local coordinate system}
+\label{fig: mecanum_wheel_projection1}
+}
+\end{figure}
+
+Projecting the vector $ \bs{v_{rot, i}} $ on the axis $ \bs{e_{x}} $ $ \bs{e_{y}} $, as shown in the figure \ref{fig: mecanum_wheel_projection2}, we obtain
+
+$
+\bs{v_{rot, i}}
+=
+R_{i}
+\dot{\psi}
+sin \alpha_{i}
+(
+cos \psi \bs{e_{x}}
++
+sin \psi \bs{e_{y}}
+)
+-
+R_{i}
+\dot{\psi}
+cos \alpha_{i}
+(
+-sin \psi \bs{e_{x}}
++
+cos \psi \bs{e_{y}}
+)
+$
+\begin{equation}
+\label{eq: v_rot_global}
+\bs{v_{rot, i}}
+=
+R_{i}
+\dot{\psi}
+sin (\alpha_{i} + \psi)
+\bs{e_{x}}
+-
+R_{i}
+\dot{\psi}
+cos (\alpha_{i} + \psi)
+\bs{e_{y}}
+\end{equation}
+
+\begin{figure} [H]
+\centering{
+\resizebox{80mm}{!}{\input{mecanum_wheel_projection2.pdf_tex}}
+\caption{Projection of the rotational velocity vector onto the global coordinate system}
+\label{fig: mecanum_wheel_projection2}
+}
+\end{figure}
+
+Then substituting \ref{eq: v_rot_global} in the communication equation \ref{eq: mecanum_final}, we obtain
+
+$
+R_{i}
+\dot{\psi}
+sin (\alpha_{i} + \psi)
+cos (\psi + \delta_{i})
+-
+R_{i}
+\dot{\psi}
+cos (\alpha_{i} + \psi)
+sin (\psi + \delta_{i})
+=
+r_{i} \dot{\varphi_{i}}
+cos \delta_{i}
+$
+\begin{equation}
+R_{i}
+\dot{\psi}
+sin (\alpha_{i} - \delta_{i})
+=
+r_{i}
+\dot{\varphi}
+cos \delta_{i}
+\end{equation}
+
+Then the coupling equation for $ \bs{v_{c, i}} $, starting from \ref{eq: mec_wheel_v_decomp}, will take the form
+\begin{equation}
+\label{eq: res_mecanum_wheel_car}
+\dot{x}
+cos (\psi + \delta_{i})
++
+\dot{y}
+sin (\psi + \delta_{i})
++
+R_{i}
+\dot{\psi}
+sin (\alpha_{i} - \delta_{i})
+=
+r_{i} \dot{\varphi_{i}}
+cos \delta_{i}
+\end{equation}
+Expressing $ \dot{\varphi_{i}} $, we teach
+\begin{equation}
+\label{eq: res_mecanum_wheel_ang_v}
+\dot{\varphi_{i}}
+=
+\frac{
+\dot{x}
+cos (\psi + \delta_{i})
++
+\dot{y}
+sin (\psi + \delta_{i})
++
+R_{i}
+\dot{\psi}
+sin (\alpha_{i} - \delta_{i})
+}
+{
+r_{i} cos \delta_{i}
+}
+\end{equation}
+
+With purely translational ($ \dot{\psi_{i}} = 0 $) or purely rotational ($ \dot{x} = \dot{y} = 0 $) movements, the connection \ref{eq: res_mecanum_wheel_ang_v} is holonomic, that is, the angular acceleration of each wheel does not depend on previous movements of the robot. Otherwise, to calculate \ref{eq: res_mecanum_wheel_ang_v} it is necessary to take into account the current rotation angle as follows:
+\begin{equation}
+\psi
+=
+\int \limits_{t_{0}} ^{t_{cur}} \psi (t) dt
+\end{equation}
+Where $ t_{0} $, $ t_{cur} $ are the initial and current time, respectively.
+
+Thus, the dependence of the angular velocity on the coordinates of the path is found. In order to find the angular velocity of the $ i $ th wheel, $ i = \overline{1,4} $ corresponding to the given path $ (x, y, \psi) $, it is necessary to calculate $ (\dot{x}, \dot{y}, \dot{\psi}) $ and substitute in the equation \ref{eq: res_mecanum_wheel_ang_v}.
+\end{document}

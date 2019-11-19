@@ -54,10 +54,10 @@
     \lineheight{1}%
     \setlength\tabcolsep{0pt}%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{mecanum_wheel_top.pdf}}%
-    \put(0.8676542,0.1862786){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$E_{x}$\end{tabular}}}}%
-    \put(0.44308991,0.4464439){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$E_{y}$\end{tabular}}}}%
-    \put(0.32338196,0.38579185){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$l$\end{tabular}}}}%
-    \put(0.60533876,0.38249375){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$l$\end{tabular}}}}%
+    \put(0.8676542,0.1862786){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\bs{E_{x}}$\end{tabular}}}}%
+    \put(0.44308991,0.4464439){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\bs{E_{y}}$\end{tabular}}}}%
+    \put(0.32338196,0.38579185){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\bs{l}$\end{tabular}}}}%
+    \put(0.60533876,0.38249375){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\bs{l}$\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=2]{mecanum_wheel_top.pdf}}%
     \put(0.55800963,0.21820073){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\delta$\end{tabular}}}}%
   \end{picture}%

@@ -54,14 +54,14 @@
     \lineheight{1}%
     \setlength\tabcolsep{0pt}%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{mecanum_wheel_projection.pdf}}%
-    \put(0.83270364,0.25257048){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$E_{x}$\end{tabular}}}}%
-    \put(0.22301971,0.57886758){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$E_{y}$\end{tabular}}}}%
-    \put(0.85237081,0.1059603){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$e_{x}$\end{tabular}}}}%
-    \put(0.36694804,0.59406499){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$e_{y}$\end{tabular}}}}%
+    \put(0.83270364,0.25257048){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\bs{E_{x}}$\end{tabular}}}}%
+    \put(0.22301971,0.57886758){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\bs{E_{y}}$\end{tabular}}}}%
+    \put(0.85237081,0.1059603){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\bs{e_{x}}$\end{tabular}}}}%
+    \put(0.36694804,0.59406498){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\bs{e_{y}}$\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=2]{mecanum_wheel_projection.pdf}}%
     \put(0.59133312,0.11400593){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\psi$\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=3]{mecanum_wheel_projection.pdf}}%
-    \put(0.69324512,0.39649882){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$v_{C}$\end{tabular}}}}%
+    \put(0.69324512,0.39649882){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\bs{v_{C}}$\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=4]{mecanum_wheel_projection.pdf}}%
     \put(0.51638821,0.00577312){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\dot{x}$\end{tabular}}}}%
     \put(0.41564468,0.23800198){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\dot{y}$\end{tabular}}}}%

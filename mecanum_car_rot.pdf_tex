@@ -56,17 +56,17 @@
     \put(0,0){\includegraphics[width=\unitlength,page=1]{mecanum_car_rot.pdf}}%
     \put(0.39878309,0.26246411){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$C$\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=2]{mecanum_car_rot.pdf}}%
-    \put(0.5382935,0.31431254){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$E_{x}$\end{tabular}}}}%
-    \put(0.42071319,0.39300801){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$E_{y}$\end{tabular}}}}%
+    \put(0.5382935,0.31431254){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\bs{E_{x}}$\end{tabular}}}}%
+    \put(0.42071319,0.39300801){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\bs{E_{y}}$\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=3]{mecanum_car_rot.pdf}}%
     \put(0.48346417,0.31594658){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\alpha_{1}$\end{tabular}}}}%
     \put(0.72738731,0.51194406){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$C_{1}$\end{tabular}}}}%
     \put(0.08271301,0.51812487){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$C_{2}$\end{tabular}}}}%
     \put(0.09673661,0.08555124){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$C_{3}$\end{tabular}}}}%
     \put(0.7482939,0.08986618){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$C_{4}$\end{tabular}}}}%
-    \put(0.82164806,0.42966841){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$v_{rot,1}$\end{tabular}}}}%
-    \put(0.08271301,0.57853416){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$v_{rot,2}$\end{tabular}}}}%
-    \put(-0.00250722,0.19234624){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$v_{rot,3}$\end{tabular}}}}%
-    \put(0.72671911,0.03916559){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$v_{rot,4}$\end{tabular}}}}%
+    \put(0.82164806,0.42966841){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\bs{v_{rot,1}}$\end{tabular}}}}%
+    \put(0.08271301,0.57853416){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\bs{v_{rot,2}}$\end{tabular}}}}%
+    \put(-0.00250722,0.19234624){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\bs{v_{rot,3}}$\end{tabular}}}}%
+    \put(0.72671911,0.03916559){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\bs{v_{rot,4}}$\end{tabular}}}}%
   \end{picture}%
 \endgroup%

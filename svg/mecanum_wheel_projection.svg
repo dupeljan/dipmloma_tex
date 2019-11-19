@@ -106,7 +106,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.4"
-     inkscape:cx="172.02841"
+     inkscape:cx="39.885553"
      inkscape:cy="151.04023"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
@@ -134,7 +134,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -173,7 +173,7 @@
          id="tspan14551"
          x="132.9666"
          y="77.838989"
-         style="stroke-width:0.26458332">$E_{x}$</tspan></text>
+         style="stroke-width:0.26458332">$\bs{E_{x}}$</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:5.29166651px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
@@ -184,7 +184,7 @@
          id="tspan14555"
          x="41.827679"
          y="29.062298"
-         style="stroke-width:0.26458332">$E_{y}$</tspan></text>
+         style="stroke-width:0.26458332">$\bs{E_{y}}$</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:5.29166651px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
@@ -195,7 +195,7 @@
          id="tspan14559"
          x="135.90656"
          y="99.755089"
-         style="stroke-width:0.26458332">$e_{x}$</tspan></text>
+         style="stroke-width:0.26458332">$\bs{e_{x}}$</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:5.29166651px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
@@ -206,7 +206,7 @@
          id="tspan14563"
          x="63.34288"
          y="26.790506"
-         style="stroke-width:0.26458332">$e_{y}$</tspan></text>
+         style="stroke-width:0.26458332">$\bs{e_{y}}$</tspan></text>
     <path
        style="opacity:1;fill:none;stroke:#050000;stroke-width:0.56499994;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="path14567"
@@ -245,7 +245,7 @@
          id="tspan14627"
          x="112.11957"
          y="56.323788"
-         style="stroke-width:0.26458332">$v_{C}$</tspan></text>
+         style="stroke-width:0.26458332">$\bs{v_{C}}$</tspan></text>
     <path
        style="fill:none;stroke:#000000;stroke-width:0.5632956;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.56329562, 0.56329562;stroke-dashoffset:0;stroke-opacity:1"
        d="M 115.99497,57.793771 V 101.89324"

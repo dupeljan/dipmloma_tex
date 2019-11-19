@@ -73,9 +73,9 @@
     \put(0.46429561,0.21772641){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\alpha_{3}$\end{tabular}}}}%
     \put(0.1385787,0.7696124){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\alpha_{2}$\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=7]{kinematic_model_pic.pdf}}%
-    \put(0.67238367,0.70427269){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$R_{1}$\end{tabular}}}}%
-    \put(0.29582168,0.71852099){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$R_{2}$\end{tabular}}}}%
-    \put(0.51768796,0.43694761){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$R_{3}$\end{tabular}}}}%
+    \put(0.67238367,0.70427269){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\bs{R_{1}}$\end{tabular}}}}%
+    \put(0.29582168,0.71852099){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\bs{R_{2}}$\end{tabular}}}}%
+    \put(0.51768796,0.43694761){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\bs{R_{3}}$\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=8]{kinematic_model_pic.pdf}}%
     \put(0.04033766,0.87773228){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\bs{y_{l}}$\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=9]{kinematic_model_pic.pdf}}%

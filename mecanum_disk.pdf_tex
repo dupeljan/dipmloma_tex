@@ -54,16 +54,16 @@
     \lineheight{1}%
     \setlength\tabcolsep{0pt}%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{mecanum_disk.pdf}}%
-    \put(0.1644183,0.08387961){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$e_{x}$\end{tabular}}}}%
-    \put(0.12817729,0.15914945){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$e_{y}$\end{tabular}}}}%
-    \put(0.08450221,0.19817825){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$e_{z}$\end{tabular}}}}%
-    \put(0.65738919,0.24557034){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$E_{x}$\end{tabular}}}}%
-    \put(0.48315344,0.26415548){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$E_{y}$\end{tabular}}}}%
-    \put(0.57472062,0.32114959){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$E_{z}$\end{tabular}}}}%
+    \put(0.1644183,0.08387961){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\bs{e_{x}}$\end{tabular}}}}%
+    \put(0.12817729,0.15914945){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\bs{e_{y}}$\end{tabular}}}}%
+    \put(0.08450221,0.19817825){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\bs{e_{z}}$\end{tabular}}}}%
+    \put(0.65738919,0.24557034){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\bs{E_{x}}$\end{tabular}}}}%
+    \put(0.48315344,0.26415548){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\bs{E_{y}}$\end{tabular}}}}%
+    \put(0.57472062,0.32114959){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\bs{E_{z}}$\end{tabular}}}}%
     \put(0.05569525,0.05042635){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$o$\end{tabular}}}}%
     \put(0.53519192,0.18609789){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$C$\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=2]{mecanum_disk.pdf}}%
-    \put(0.67314207,0.21459359){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$e_{x}$\end{tabular}}}}%
+    \put(0.67314207,0.21459359){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\bs{e_{x}}$\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=3]{mecanum_disk.pdf}}%
     \put(0.6254232,0.21164819){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\psi$\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=4]{mecanum_disk.pdf}}%

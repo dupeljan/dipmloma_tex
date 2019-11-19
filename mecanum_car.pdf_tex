@@ -56,8 +56,8 @@
     \put(0,0){\includegraphics[width=\unitlength,page=1]{mecanum_car.pdf}}%
     \put(0.50920202,0.28906124){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$C$\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=2]{mecanum_car.pdf}}%
-    \put(0.60216036,0.34801145){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$E_{x}$\end{tabular}}}}%
-    \put(0.49951772,0.36670026){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$E_{y}$\end{tabular}}}}%
+    \put(0.60216036,0.34801145){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\bs{E_{x}}$\end{tabular}}}}%
+    \put(0.49951772,0.36670026){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\bs{E_{y}}$\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=3]{mecanum_car.pdf}}%
     \put(0.55955494,0.33892183){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\alpha_{1}$\end{tabular}}}}%
     \put(0.65115808,0.50839659){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$C_{1}$\end{tabular}}}}%
@@ -65,31 +65,31 @@
     \put(0.82476802,0.24377455){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$C_{4}$\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=4]{mecanum_car.pdf}}%
     \put(0.27961227,0.39211238){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\delta_{2}$\end{tabular}}}}%
-    \put(0.26777198,0.42544497){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$l_{2}$\end{tabular}}}}%
-    \put(0.33191765,0.38010327){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$p_{2}$\end{tabular}}}}%
+    \put(0.26777198,0.42544497){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\bs{l_{2}}$\end{tabular}}}}%
+    \put(0.33191765,0.38010327){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\bs{p_{2}}$\end{tabular}}}}%
     \put(0.20302073,0.57325692){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.25862691\unitlength}\raggedright \end{minipage}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=5]{mecanum_car.pdf}}%
-    \put(0.81295444,0.36660586){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$l_{4}$\end{tabular}}}}%
-    \put(0.89498869,0.30774162){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$p_{4}$\end{tabular}}}}%
+    \put(0.81295444,0.36660586){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\bs{l_{4}}$\end{tabular}}}}%
+    \put(0.89498869,0.30774162){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\bs{p_{4}}$\end{tabular}}}}%
     \put(0.83455886,0.34124414){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\delta_{4}$\end{tabular}}}}%
     \put(0.65244582,0.2428285){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.35689764\unitlength}\raggedright \end{minipage}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=6]{mecanum_car.pdf}}%
-    \put(0.5157828,0.01068987){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$l_{3}$\end{tabular}}}}%
-    \put(0.51349066,0.126706){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$p_{3}$\end{tabular}}}}%
+    \put(0.5157828,0.01068987){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\bs{l_{3}}$\end{tabular}}}}%
+    \put(0.51349066,0.126706){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\bs{p_{3}}$\end{tabular}}}}%
     \put(0.497146,0.05371212){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\delta_{3}$\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=7]{mecanum_car.pdf}}%
-    \put(0.74408911,0.51221336){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$l_{1}$\end{tabular}}}}%
-    \put(0.74718111,0.62375314){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$p_{1}$\end{tabular}}}}%
+    \put(0.74408911,0.51221336){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\bs{l_{1}}$\end{tabular}}}}%
+    \put(0.74718111,0.62375314){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\bs{p_{1}}$\end{tabular}}}}%
     \put(0.72578227,0.56252881){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\delta_{1}$\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=8]{mecanum_car.pdf}}%
-    \put(0.11848167,0.0328331){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$E_{x}$\end{tabular}}}}%
-    \put(0.00952021,0.12927028){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$E_{y}$\end{tabular}}}}%
+    \put(0.11848167,0.0328331){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\bs{E_{x}}$\end{tabular}}}}%
+    \put(0.00952021,0.12927028){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\bs{E_{y}}$\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=9]{mecanum_car.pdf}}%
     \put(0.60528747,0.31124128){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\psi$\end{tabular}}}}%
     \put(0.43521968,0.02410934){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$C_{3}$\end{tabular}}}}%
-    \put(0.54730218,0.43217388){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$R_{1}$\end{tabular}}}}%
-    \put(0.37992333,0.32767283){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$R_{2}$\end{tabular}}}}%
-    \put(0.44634348,0.20103169){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$R_{3}$\end{tabular}}}}%
-    \put(0.69254088,0.30464716){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$R_{4}$\end{tabular}}}}%
+    \put(0.54730218,0.43217388){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\bs{R_{1}}$\end{tabular}}}}%
+    \put(0.37992333,0.32767283){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\bs{R_{2}}$\end{tabular}}}}%
+    \put(0.44634348,0.20103169){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\bs{R_{3}}$\end{tabular}}}}%
+    \put(0.69254088,0.30464716){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\bs{R_{4}}$\end{tabular}}}}%
   \end{picture}%
 \endgroup%
