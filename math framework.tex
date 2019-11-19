@@ -234,11 +234,17 @@
 
 %\renewcommand{\arraystretch}{1.6}
 
+\newcommand{\cmmnt}[1]{\ignorespaces}
+\newcommand{\bs}{\boldsymbol}
+\usepackage{breqn}
 \begin{document}
 \chapter{Кинематическая модель робота с N всенаправленными колесами}   
 Для того, чтобы описать движения робота необходимо некоторым образом смоделировать его поведение. Простейший модель движения робота в пространстве - кинематическая. Эта модель описывает движения исключительно через зависимость координат от времени. То есть в кинематической модели рассматривается движение тела, но не рассматриваются причины, его создающие.
-Рассмотрим движение тележки с $N$ всенаправленными колесами ($N > 3$) по гладкой двумерной поверхности без учета действующих сил, причем плоскости колес тележки вертикальны и неподвижны относительно платформы тележки. В рамках модели всенаправленные колеса способны скользить в любом направлении с пренебрежимо малой силой трения. Пусть задана глобальная система координат, связанная с поверхностью $[X,Y]$ и локальная,  инерциальная относительно глобальной, жестко связанная с тележкой $[X_{l},Y_{l}]$. Не теряя общности начало локальных координат в точке центра масс тележки. Положение тележки определено вектором координат $(x,y,\varphi)$
-где $x,y$ - координаты, и $\varphi$ -  угол поворота системы координат $[X_{l},Y_{l}]$ относительно оси $OY$ в глобальной системе координат. Скорость тележки определяется вектором $(\dot{x},\dot{y},\omega)$ где $\omega = \dot{\varphi}$ - угловая скорость тележки.
+
+Рассмотрим движение тележки с $N$ всенаправленными колесами ($N > 3$) по гладкой двумерной поверхности без учета действующих сил, причем плоскости колес тележки вертикальны и неподвижны относительно платформы тележки. В рамках модели всенаправленные колеса способны скользить в любом направлении с пренебрежимо малой силой трения. Пусть задана глобальная система координат, связанная с поверхностью $\{o,\boldsymbol{x},\bs{y},\bs{z}\}$ и локальная,  инерциальная относительно глобальной, жестко связанная с тележкой $\{c,\bs{x_{l}},\bs{y_{l}},\bs{z_{l}}\}$, причем плоскость $\bs{x_{l}}\bs{y_{l}}$  параллельна плоскости $\bs{x}\bs{y}$ . Не теряя общности начало локальных координат положим в точке центра масс тележки. Положение тележки определено вектором координат $(x,y,\varphi)$
+где $x,y$ - координаты, и $\varphi$ -  угол между осью $\bs{ox}$ и $\bs{cx_{l}}$. Скорость тележки определяется вектором $(\dot{x},\dot{y},\omega)$ где $\omega = \dot{\varphi}$ - угловая скорость тележки. 
+
+Обозначим за $\{c_{i},\bs{x_{w,i}},\bs{y_{w,i}},\bs{z_{w,i}}\}$ - локальную систему координат $i$ - го колеса, изображенная на рисунке \ref{fig:omni_wheel_coords}, где $c_{i}$ - ось вращения, $\bs{x_{w,i}}$  - ось, направленная из $c_{i}$  в сторону точки касания с поверхностью, $\bs{y_{w,i}}$ - ось, параллельная поверхности качения, направленная вправо, $\bs{z_{w,i}} = \bs{x_{w,i}} \times \bs{y_{w,i}}$.  
 
 Для примера на рисунке \ref{fig:kinematic_model} схематически изображена кинематическая модель робота с тремя всенаправленными колесами.
 \begin{figure}[H]
@@ -249,78 +255,180 @@
 }
 \end{figure}
 
-Рассмотрим величину скорости $i$- го колеса, $v_{i}$, $i = \overline{1,N}$. Разложим её на поступательную и  вращательную составляющие:
-\begin{equation}
-v_{i}
-=
-v_{i,tr} + v_{i,rot}
-\end{equation}
-
-Обозначим за $\alpha_{i}$ -угол между касательной к диску $i$-го колеса и осью $OY_{l}$, что изображено на рисунке 
-\ref{fig:projection}. 
 \begin{figure}[H]
 \centering{
-\resizebox{60mm}{!}{\input{projection.pdf_tex}}
+\resizebox{40mm}{!}{\input{omni_wheel_coords.pdf_tex}}
+\caption{ координатные оси $i$ - го колеса.}
+\label{fig:omni_wheel_coords}
+}
+\end{figure}
+
+
+Рассмотрим вектор скорости $i$- го колеса, $\bs{v_{i}}$, $i = \overline{1,N}$. Он направлен по касательной к диску $i$ - го колеса $\bs{y_{w,i}}$. Разложим его на поступательную и  вращательную составляющие:
+\begin{equation}
+\bs{v_{i}}
+=
+\bs{v_{i,tr}}
++
+\bs{v_{i,rot}}
+\end{equation}
+
+Обозначим за $\alpha_{i}$ - угол между $\bs{y_{w,i}}$ и осью $\bs{y_{l}}$, что изображено на рисунке \ref{fig:kinematic_model}. 
+
+
+
+
+Рассмотрим вектор поступательной скорости тележки $\bs{v_{tr}}=[\dot{x},\dot{y},0]$. Для того, чтобы тележка имела скорость $\bs{v_{tr}}$, вектор скорости $i$ - го колеса должен быть равен проекции $\bs{v_{tr}}$ на направление $\bs{y_{w,i}}$. Вектор поступательной скорости $i$ - го составляет с осью $\bs{y}$  угол $\varphi + \alpha_{i}$, что проиллюстрировано на рисунке \ref{fig:projection}. Тогда $\bs{v_{tr,i}}$ может быть представлен в виде
+\begin{equation}
+\label{eq:v_rt_i_global}
+\bs{v_{tr,i}} 
+=
+[
+-sin(\varphi +\alpha_{i})
+\dot{x}
++
+cos(\varphi +\alpha_{i})
+\dot{y}
+]
+\bs{y_{w,i}}
+\end{equation} 
+
+
+
+\begin{figure}[H]
+\centering{
+\resizebox{80mm}{!}{\input{projection.pdf_tex}}
 \caption{ расположение векторов модели в плоскости}
 \label{fig:projection}
 }
 \end{figure} 
 
-Вектор поступательной скорости составляет с осью $Y$  угол $\varphi + \alpha_{i}$. Тогда величину скорости поступательного движения можно представить в виде
-
+Обозначим $\bs{R_{i}}$ - радиус вектор оси $i$-го колеса от оси вращения  (точки центра масс) длинны $R_{i}$. Для того, чтобы заставить тележку вращаться вокруг оси вращения $C\bs{z_{l}}$, необходимо задать вектор скоростей каждого колеса перпендикулярно $\bs{R_{i}}$. При этом длинна вектора должна составлять $R_{i}\omega$.
+Таким образом скорости вращательного движения $i$ - го задается следующим уравнением
 \begin{equation}
-v_{i,tr} 
+\bs{v_{rot,i}}
 =
--sin(\varphi +\alpha_{i})\dot{x}
-+cos(\varphi +\alpha_{i})\dot{y}
-\end{equation} 
-
-
-
-Величина скорости вращательного движения задается следующим уравнением
-\begin{equation}
-v_{i,rot}
-=
-R_{i}\omega
+\bs{R_{i}}
+\times
+\omega
+\bs{z}
 \end{equation}
 
-Где $R_{i}$ - расстояние от оси вращения  (точки центра масс) до оси $i$-го колеса.
+\begin{figure}[H]
+\centering{
+\resizebox{100mm}{!}{\input{mecanum_wheel_projection3.pdf_tex}}
+\caption{ проекция вектора вращательной скорости  $i$ - го колеса на глобальную систему координат}
+\label{fig:mecanum_wheel_projection3}
+}
+\end{figure}
+
+Обозначим $\gamma_{i}$ - угол между осью $\bs{y}$ и  $\bs{R_{i}}$. Тогда сперва проецируя $\bs{v_{rot,i}}$   на  $\bs{xy}$, как показано на рисунке \ref{fig:mecanum_wheel_projection3}, получим
+\begin{equation}
+\bs{v_{rot,i}}
+=
+R_{i}
+\omega
+[
+-cos(\gamma_{i})
+\bs{x}
+-
+sin(\gamma_{i})
+\bs{y}
+]
+\end{equation}
+
+Проецируя $\bs{v_{rot,i}}$ на направление $\bs{y_{w,i}}$, аналогично уравнению \ref{eq:v_rt_i_global}, получим
+\begin{center}
+$
+\bs{v_{rot,i}}
+=
+R_{i}
+\omega
+[
+sin(\varphi + \alpha_{i})
+cos(\gamma_{i})
+-
+cos(\varphi+\alpha_{i})
+sin(\gamma_{i})
+]
+\bs{y_{w,i}}
+$
+\end{center}
+\begin{equation}
+\bs{v_{rot,i}}
+=
+R_{i}
+\omega
+sin(\varphi+\alpha_{i}-\gamma_{i})
+\bs{y_{w,i}}
+\end{equation}
+Нетрудно видеть, что угол $\theta_{i} = \gamma_{i} -\varphi = const$ есть угол между $\bs{R_{i}}$ и $\bs{y_{l}}$, следовательно коэффициент вектора угловой скорости не зависит от $\varphi$ в общем случае. Если же касательная диска $i$ - го колеса $y_{w,i}$  перпендикулярна $R_{i}$, то $\alpha_{i} - \theta_{i} = \frac{\pi}{2}, \bs{v_{rot,i}} = R_{i}\omega$. 
 \iffalse
  Кроме того, справедливо 
 \begin{gather}
 \dot{x}
 =
-v_{x}\boldsymbol{x}
+v_{x}\bs{x}
 \\
 \dot{y}
 =
-v_{y}\boldsymbol{y}
+v_{y}\bs{y}
 \\
 \dot{\varphi}
 =
-\omega\boldsymbol{z}
+\omega\bs{z}
 \end{gather}
-Где  $v_{x}$, $v_{x}$, $\omega$ - величина скорости по направлению $\boldsymbol{x}$ и $\boldsymbol{y}$ соответственно, $\omega$ - величина угловой скорости.
+Где  $v_{x}$, $v_{x}$, $\omega$ - величина скорости по направлению $\bs{x}$ и $\bs{y}$ соответственно, $\omega$ - величина угловой скорости.
 \fi 
-Таким образом величину скорости можно записать в следующем виде:
+
+Таким образом вектор скорости $i$ - го колеса можно записать в виде:
 \begin{equation}
-v_{i}
+\label{eq:local_v_global}
+\bs{v_{i}}
 =
+[
 -sin(\varphi +\alpha_{i})\dot{x}
 +cos(\varphi +\alpha_{i})\dot{y}
 +
-R_{i}\omega
+R_{i}
+\omega
+sin(\alpha_{i} - \theta_{i})
+]
+\bs{y_{w,i}}
 \end{equation}
+
+
+
 
 Соотнесем величину скорости $i$ - го колеса с его угловой скоростью
 \begin{equation}
-v_{i}
+\label{eq:local_v_local}
+\bs{v_{i}}
 =
-r_{i}\omega_{i}
+\bs{r_{i}}
+\times
+\omega_{i}
+\bs{z_{w,i}}
 \end{equation}
 
-Где $r_{i}$  - радиус $i$-го колеса тележки, $\omega_{i}$ - его угловая скорость, получим зависимость величины угловой скорости колеса от тройки  $(\dot{x},\dot{y},\omega)$
+Где $\bs{r_{i}}$  - вектор, имеющий координаты $[-r_{i},0,0]$ в системе координат $i$-го колеса тележки, $r_{i}$ - радиус $i$ -го колеса тележки, $\omega_{i}$ - угловая скорость этого колеса.
+Вычисляя векторное произведение в \ref{eq:local_v_local}, получим
+\begin{equation}
+\label{eq:local_v_local_res}
+\bs{v_{i}}
+=
+\bs{r_{i}}
+\times
+\omega_{i}
+\bs{z_{w,i}}
+=
+\omega_{i}
+r_{i}
+\bs{y_{w,i}}
+\end{equation}
+% получим зависимость величины угловой скорости колеса от тройки  $(\dot{x},\dot{y},\omega)$
 
+Таким образом, выражая из \ref{eq:local_v_local_res} $w_{i}$, подставляя $\bs{v_{i}}$ из \ref{eq:local_v_global}, получим:
 \begin{equation}
 \omega_{i}
 =
@@ -329,7 +437,9 @@ r_{i}\omega_{i}
 -sin(\varphi +\alpha_{i})\dot{x}
 +cos(\varphi +\alpha_{i})\dot{y}
 +
-R_{i}\omega
+R_{i}
+\omega
+sin(\alpha_{i} - \theta_{i})
 )
 \end{equation}
 
@@ -347,17 +457,17 @@ R_{i}\omega
 \begin{bmatrix}
 -\frac{1}{r_{1}}sin(\varphi +\alpha_{1}) &
 \frac{1}{r_{1}}cos(\varphi +\alpha_{1}) &
-\frac{1}{r_{1}}R_{1}
+\frac{1}{r_{1}}R_{1}sin(\alpha_{1} - \theta_{1})
 \\
 -\frac{1}{r_{2}}sin(\varphi +\alpha_{2}) &
 \frac{1}{r_{2}}cos(\varphi +\alpha_{2}) &
-\frac{1}{r_{2}}R_{2}
+\frac{1}{r_{2}}R_{2}sin(\alpha_{2} - \theta_{2})
 \\
 ... & ... & ...
 \\
 -\frac{1}{r_{N}}sin(\varphi +\alpha_{N}) &
 \frac{1}{r_{N}}cos(\varphi +\alpha_{N}) &
-\frac{1}{r_{N}}R_{N}
+\frac{1}{r_{N}}R_{N}sin(\alpha_{N} - \theta_{N})
 \end{bmatrix}
 \begin{bmatrix}
 \dot{x} \\
@@ -367,6 +477,7 @@ R_{i}\omega
 \end{equation}
 Таким образом, зная координаты траектории пути $(x,y,\varphi)$ можем получить величину угловой скорость каждого колеса. Для этого необходимо вычислить $(\dot{x},\dot{y},\omega)$ и подставить в формулу \ref{kinematic_omniwheel_res}.
 
+\iffalse
 Кроме того, переходя к локальным координатам
 
 \begin{equation}
@@ -400,17 +511,17 @@ cos(\varphi) & 0 & 0 \\
 \begin{bmatrix}
 -\frac{1}{r_{1}}sin(\varphi +\alpha_{1}) &
 \frac{1}{r_{1}}cos(\varphi +\alpha_{1}) &
-\frac{1}{r_{1}}R_{1}
+\frac{1}{r_{1}}R_{1}sin(\alpha_{1} - \theta_{1})
 \\
 -\frac{1}{r_{2}}sin(\varphi +\alpha_{2}) &
 \frac{1}{r_{2}}cos(\varphi +\alpha_{2}) &
-\frac{1}{r_{2}}R_{2}
+\frac{1}{r_{2}}R_{2}sin(\alpha_{2} - \theta_{2})
 \\
 ... & ... & ...
 \\
 -\frac{1}{r_{N}}sin(\varphi +\alpha_{N}) &
 \frac{1}{r_{N}}cos(\varphi +\alpha_{N}) &
-\frac{1}{r_{N}}R_{N}
+\frac{1}{r_{N}}R_{N}sin(\alpha_{N} - \theta_{N})
 \end{bmatrix}
 \begin{bmatrix}
 cos(\varphi) & 0 & 0 \\
@@ -425,7 +536,7 @@ cos(\varphi) & 0 & 0 \\
 \end{equation}
 
 где $\dot{x_{l}}$,$\dot{y_{l}}$ - величина скорости по направлению $X_{l}$ и  $Y_{l}$ соответственно.
-
+\fi
 
 \chapter{Динамическая модель робота с N всенаправленными колесами}
 Динамическая модель, в отличие от кинематической, рассматривает движение твердых тел с учетом сил, приводящих это тело в движение.
@@ -466,7 +577,7 @@ B \cdot \ddot{u}
 \label{fig:dynamic_model}
 }
 \end{figure}
-Момент инерции тележки можно считать приближенно равным моменту инерции цилиндра радиуса $R=max_{i}(R_{i})$ 
+Момент инерции тележки можно считать приближенно равным моменту инерции однородного цилиндра радиуса $R=max_{i}(R_{i})$ 
 \begin{equation}
 J
 =
@@ -738,6 +849,7 @@ E_{x}
 
 Обозначая за $x_{C}$ $y_{C}$ координаты точки $C$ в глобальных координатах, проектируя вектор скорости точки $C$ на локальную систему координат, что проиллюстрировано на рисунке \ref{fig:mecanum_wheel_projection}, можем записать
 \begin{equation}
+\label{eq:velocity_c_projection}
 v_{C}
 =
 (
@@ -767,7 +879,7 @@ E_{y}
 }
 \end{figure}
 
- Наконец проецируя единичный вектор $l$ на локальную систему координат 
+ Наконец, проецируя единичный вектор $l$ на локальную систему координат 
 \begin{equation}
 l
 =
@@ -865,4 +977,158 @@ cos\delta
 если $N \geq 3$, хотя бы одна пара векторов  $l_{i}, l_{j}$ $i,j=\overline{1,N}$, которые соответствуют осям роликов, не параллельна и точки контакта колес не лежат на одной прямой, то для любой траектории всегда возможно найти такие управляющие моменты (то есть функции $\varphi_{i}(t)$), что тележка, управляемая этими моментами, переместится по заданной траектории.
 
 \chapter{Кинематическая модель тележки на четырех роликонесущих колесах}
+Рассмотрим кинематическую модель тележки на четырех роликонесущих колесах, проиллюстрированную на рисунке  \ref{fig:mecanum_car}. Обозначим $C$ - точка вращения тележки, $\{O,e_{x},e_{y},e_{z}\}$ - глобальная инерциальная система координат, $\{C,E_{x},E_{y},E_{z}\}$ - система координат, жестко связанная с тележкой. Плоскость $\{C,E_{x},E_{y}\}$ параллельна плоскости поверхности. Обозначим $\delta_{i}$ - угол между плоскость колеса $p_{i}$ и осью ролика $l_{i}$\cmmnt{, $\delta_{i} = \widehat{p_{i} l_{i}}$ }, $\psi$ - угол между осью $e_{x}$ и $E_{x}$\cmmnt{, $\psi$ = $\widehat{e_{x}E{x}}$}, $\alpha_{i}$ - угол между осью $E_{x}$ и радиус вектором, направленным из точки $C$ в точку касания с поверхностью $i$-го колеса $C_{i}$\cmmnt{,$\alpha_{i} = \widehat{E_{x}\overrightarrow{C C_{i}}}$}, $i=\overline{1,4}$. 
+
+\begin{figure}[H]
+\centering{
+\resizebox{170mm}{!}{\input{mecanum_car.pdf_tex}}
+\caption{ модель тележки на четырех роликонесущих колесах }
+\label{fig:mecanum_car}
+}
+\end{figure}
+
+Рассмотрим вектор скорости центра $i$-го колеса $v_{c,i}$. Разложим его на поступательную и вращательную составляющие:
+\begin{equation}
+\label{eq:mec_wheel_v_decomp}
+v_{c,i}
+=
+v_{tr,i}
++
+v_{rot,i}
+\end{equation}
+
+Вектор поступательной скорости $v_{tr,i}$ задается парой $(\dot{x_{tr,i}},\dot{y_{tr,i}})$. Уравнение связи с угловой скоростью $i$ - го колеса $\varphi_{i}$, основываясь на уравнении \ref{eq:mecanum_final} имеет вид:
+\begin{equation}
+\dot{x_{tr,i}}
+cos(\psi+\delta)
++
+\dot{y_{tr,i}}
+sin(\psi+\delta)
+=
+R\dot{\varphi_{i}}
+cos\delta
+\end{equation}
+
+Для того, чтобы заставить тележку вращаться вокруг оси вращения $CE_{z}$, необходимо задать вектор скоростей каждого колеса перпендикулярно радиус вектору $\overrightarrow{C C_{i}}$.При этом длинна вектора должна составлять $R_{i},\dot{\psi}$, где $R_{i}=|\overrightarrow{C C_{i}}|$. Расположение векторов проиллюстрировано на  рисунке \ref{fig:mecanum_car_rot}.
+
+\begin{figure}[H]
+\centering{
+\resizebox{150mm}{!}{\input{mecanum_car_rot.pdf_tex}}
+\caption{ иллюстрация вращательного движения тележки на четырех роликонесущих колесах}
+\label{fig:mecanum_car_rot}
+}
+\end{figure}
+
+Рассмотрим вектор вращательной скорости $i$ - го колеса $v_{rot,i}$. Проектируя его на оси $E_{x}$ $E_{y}$, как показано на рисунке \ref{fig:mecanum_wheel_projection1}, получим:
+\begin{equation}
+v_{rot,i}
+=
+R_{i}
+\dot{\psi}
+sin(\alpha_{i})
+E_{x}
+-
+R_{i}
+\dot{\psi}
+cos(\alpha_{i})
+E_{y}
+\end{equation}
+
+\begin{figure}[H]
+\centering{
+\resizebox{80mm}{!}{\input{mecanum_wheel_projection1.pdf_tex}}
+\caption{ проекция вектора вращательной скорости на локальную систему координат}
+\label{fig:mecanum_wheel_projection1}
+}
+\end{figure}
+
+Проектируя вектор $v_{rot,i}$ на оси $e_{x}$ $e_{y}$, как показано на рисунке \ref{fig:mecanum_wheel_projection2} , получим
+
+$
+v_{rot,i}
+=
+R_{i}
+\dot{\psi}
+sin\alpha_{i}
+(
+cos\psi e_{x}
++
+sin\psi e_{y}
+)
+-
+R_{i}
+\dot{\psi}
+cos\alpha_{i}
+(
+-sin\psi e_{x}
++
+cos\psi e_{y}
+)
+$
+\begin{equation}
+\label{eq:v_rot_global}
+v_{rot,i}
+=
+R_{i}
+\dot{\psi}
+sin(\alpha_{i} + \psi)
+e_{x}
+-
+R_{i}
+\dot{\psi}
+cos(\alpha_{i} + \psi)
+e_{y}
+\end{equation}
+
+\begin{figure}[H]
+\centering{
+\resizebox{80mm}{!}{\input{mecanum_wheel_projection2.pdf_tex}}
+\caption{ проекция вектора вращательной скорости на глобальную систему координат}
+\label{fig:mecanum_wheel_projection2}
+}
+\end{figure}
+
+Тогда подставляя \ref{eq:v_rot_global} в уравнение связи \ref{eq:mecanum_final}, получим
+
+$
+R_{i}
+\dot{\psi}
+sin(\alpha_{i} + \psi)
+cos(\psi + \delta_{i})
+-
+R_{i}
+\dot{\psi}
+cos(\alpha_{i} + \psi)
+sin(\psi + \delta_{i})
+=
+R\dot{\varphi_{i}}
+cos\delta
+$
+
+\begin{equation}
+R_{i}
+\dot{\psi}
+sin(\alpha_{i} - \delta_{i})
+=
+R
+\dot{\varphi}
+cos\delta
+\end{equation}
+
+Таким образом, уравнение связи для $v_{i}$, исходя из \ref{eq:mec_wheel_v_decomp}, примет вид
+\begin{equation}
+\dot{x_{tr,i}}
+cos(\psi+\delta_{i})
++
+\dot{y_{tr,i}}
+sin(\psi+\delta_{i})
++
+R_{i}
+\dot{\psi}
+sin(\alpha_{i}-\delta_{i})
+=
+R\dot{\varphi_{i}}
+cos\delta
+\end{equation}
+
 \end{document}

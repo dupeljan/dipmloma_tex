@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/Debian) (preloaded format=xelatex 2019.5.20)  10 NOV 2019 14:32
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/Debian) (preloaded format=xelatex 2019.5.20)  19 NOV 2019 09:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -765,92 +765,131 @@ Package: layout 2014/10/28 v1.2c Show layout parameters
 \PositionY=\count310
 \ArrowLength=\count311
 )
+(/usr/share/texlive/texmf-dist/tex/latex/breqn/breqn.sty
+Package: breqn 2017/01/27 v0.98e Breaking equations
+
+(/usr/share/texlive/texmf-dist/tex/latex/breqn/flexisym.sty
+Package: flexisym 2017/01/27 v0.98e Make math characters macros
+LaTeX Info: Redefining \textprime on input line 300.
+LaTeX Info: Redefining \not on input line 358.
+
+(/usr/share/texlive/texmf-dist/tex/latex/breqn/cmbase.sym
+File: cmbase.sym 2007/12/19 v0.92
+LaTeX Info: Redefining \hbar on input line 325.
+LaTeX Info: Redefining \surd on input line 327.
+LaTeX Info: Redefining \angle on input line 335.
+LaTeX Info: Redefining \neq on input line 336.
+LaTeX Info: Redefining \mapsto on input line 337.
+LaTeX Info: Redefining \cong on input line 338.
+LaTeX Info: Redefining \notin on input line 341.
+LaTeX Info: Redefining \rightleftharpoons on input line 342.
+LaTeX Info: Redefining \doteq on input line 343.
+LaTeX Info: Redefining \hookrightarrow on input line 344.
+LaTeX Info: Redefining \hookleftarrow on input line 345.
+LaTeX Info: Redefining \bowtie on input line 346.
+LaTeX Info: Redefining \models on input line 347.
+LaTeX Info: Redefining \Longrightarrow on input line 348.
+LaTeX Info: Redefining \longrightarrow on input line 349.
+LaTeX Info: Redefining \Longleftarrow on input line 350.
+LaTeX Info: Redefining \longleftarrow on input line 351.
+LaTeX Info: Redefining \longmapsto on input line 352.
+LaTeX Info: Redefining \longleftrightarrow on input line 353.
+LaTeX Info: Redefining \Longleftrightarrow on input line 354.
+LaTeX Info: Redefining \cdots on input line 358.
+LaTeX Info: Redefining \vdots on input line 361.
+LaTeX Info: Redefining \ddots on input line 366.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/breqn/mathstyle.sty
+Package: mathstyle 2017/01/27 0.98e Tracking mathstyle implicitly
+LaTeX Info: Redefining \displaystyle on input line 93.
+LaTeX Info: Redefining \textstyle on input line 95.
+LaTeX Info: Redefining \scriptstyle on input line 97.
+LaTeX Info: Redefining \scriptscriptstyle on input line 99.
+LaTeX Info: Redefining \genfrac on input line 145.
+))
+\inf@bad=\count312
+\maxint=\count313
+\listwidth=\dimen190
+\eqnumsep=\dimen191
+\eqmargin=\dimen192
+\eqlinespacing=\skip61
+\eqlineskip=\skip62
+\eqlineskiplimit=\dimen193
+\eqbinoffset=\muskip18
+\eqdelimoffset=\muskip19
+\eqindentstep=\dimen194
+\eqstyle=\toks28
+\eqbreakdepth=\count314
+\eqinterlinepenalty=\count315
+\intereqpenalty=\count316
+\intereqskip=\skip63
+\prerelpenalty=\count317
+\prebinoppenalty=\count318
+\Dmedmuskip=\muskip20
+\Dthickmuskip=\muskip21
+\eqleftskip=\skip64
+\eqrightskip=\skip65
+\eq@vspan=\skip66
+\eq@binoffset=\muskip22
+\EQ@box=\box48
+\EQ@copy=\box49
+\EQ@numbox=\box50
+\eq@wdNum=\dimen195
+\GRP@numbox=\box51
+\grp@wdNum=\dimen196
+\eq@lines=\count319
+\eq@curline=\count320
+\eq@badness=\count321
+\EQ@vims=\count322
+\eq@dp=\dimen197
+\eq@wdL=\dimen198
+\eq@wdT=\dimen199
+\eq@wdMin=\dimen256
+\grp@wdL=\dimen257
+\grp@wdR=\dimen258
+\grp@wdT=\dimen259
+\eq@wdRmax=\dimen260
+\eq@firstht=\dimen261
+\eq@wdCond=\dimen262
+\eq@indentstep=\dimen263
+\eq@linewidth=\dimen264
+\grp@linewidth=\dimen265
+\eq@hshift=\dimen266
+\eq@given@sidespace=\dimen267
+\mathindent=\dimen268
+\eq@final@linecount=\count323
+\eq@wdR=\dimen269
+\EQ@continue=\toks29
+\lr@level=\count324
+\GRP@queue=\toks30
+\GRP@box=\box52
+\GRP@wholebox=\box53
+\darraycolsep=\skip67
+\cur@row=\count325
+\cur@col=\count326
+\conditionsep=\skip68
+)
 (./math framework.aux)
 \openout1 = `"math framework.aux"'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 237.
-LaTeX Font Info:    ... okay on input line 237.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 237.
-LaTeX Font Info:    ... okay on input line 237.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 237.
-LaTeX Font Info:    ... okay on input line 237.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 237.
-LaTeX Font Info:    ... okay on input line 237.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 237.
-LaTeX Font Info:    ... okay on input line 237.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 237.
-LaTeX Font Info:    ... okay on input line 237.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 237.
-LaTeX Font Info:    ... okay on input line 237.
-.................................................
-. fontspec info: "setup-math"
-. 
-. Adjusting the maths setup (use [no-math] to avoid this).
-.................................................
-\symlegacymaths=\mathgroup4
-LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 237.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 237.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 237.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 237.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 237.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 237.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 237.
-LaTeX Font Info:    Redeclaring math accent \check on input line 237.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 237.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 237.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 237.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 237.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 237.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 237.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 237.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 237.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 237.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 237.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 237.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 237.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 237.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 237.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 237.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 237.
-LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 237.
-
-LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> TU/TimesNewRoman(0)/m/n on input line 2
-37.
-LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 237.
-LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> TU/TimesNewRoman(0)/m/n on input line 
-237.
-LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  TU/TimesNewRoman(0)/m/n --> TU/TimesNewRoman(0)/m/n on 
-input line 237.
-LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> TU/TimesNewRoman(0)/m/it on input line
- 237.
-LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> TU/TimesNewRoman(0)/bx/n on input line
- 237.
-LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 237.
-LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 237.
-LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  TU/TimesNewRoman(0)/m/n --> TU/TimesNewRoman(0)/bx/n on
- input line 237.
-LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> TU/TimesNewRoman(0)/bx/it on input li
-ne 237.
-LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/lmss/bx/n on input line 237.
-LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/bx/n on input line 237.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 240.
+LaTeX Font Info:    ... okay on input line 240.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 240.
+LaTeX Font Info:    ... okay on input line 240.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 240.
+LaTeX Font Info:    ... okay on input line 240.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 240.
+LaTeX Font Info:    ... okay on input line 240.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 240.
+LaTeX Font Info:    ... okay on input line 240.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 240.
+LaTeX Font Info:    ... okay on input line 240.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 240.
+LaTeX Font Info:    ... okay on input line 240.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Info: Redefining \microtypecontext on input line 237.
+LaTeX Info: Redefining \microtypecontext on input line 240.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: No adjustment of tracking.
@@ -895,59 +934,66 @@ Package microtype Info: Loading generic protrusion settings for font family
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package tocstyle Info: prepare \l@part for redefinition on input line 237.
-Package tocstyle Info: prepare \l@chapter for redefinition on input line 237.
-Package tocstyle Info: prepare \l@section for redefinition on input line 237.
+Package tocstyle Info: prepare \l@part for redefinition on input line 240.
+Package tocstyle Info: prepare \l@chapter for redefinition on input line 240.
+Package tocstyle Info: prepare \l@section for redefinition on input line 240.
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-cmr.cfg
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
 (RS)
 )
-Package tocstyle Info: prepare \l@subsection for redefinition on input line 237
+Package tocstyle Info: prepare \l@subsection for redefinition on input line 240
 .
-Package tocstyle Info: prepare \l@table for redefinition on input line 237.
-Package tocstyle Info: prepare \l@subtable for redefinition on input line 237.
-Package tocstyle Info: prepare \l@figure for redefinition on input line 237.
-Package tocstyle Info: prepare \l@subfigure for redefinition on input line 237.
+Package tocstyle Info: prepare \l@table for redefinition on input line 240.
+Package tocstyle Info: prepare \l@subtable for redefinition on input line 240.
+Package tocstyle Info: prepare \l@figure for redefinition on input line 240.
+Package tocstyle Info: prepare \l@subfigure for redefinition on input line 240.
 
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
-(lastpage)             ! on input line 237.
+(lastpage)             ! on input line 240.
 
 Глава 1.
 
-Underfull \hbox (badness 3029) in paragraph at lines 238--238
+Underfull \hbox (badness 3029) in paragraph at lines 241--241
 |[] \TU/TimesNewRoman(0)/bx/n/14.4 Кинематическая модель робота с N всенаправле
 нными
  []
 
 
-Underfull \hbox (badness 1360) in paragraph at lines 239--242
+Underfull \hbox (badness 1360) in paragraph at lines 242--243
 \TU/TimesNewRoman(0)/m/n/14.4 образом смоделировать его поведение. Простейший м
 одель движения
  []
 
 
-Underfull \hbox (badness 8000) in paragraph at lines 239--242
-\TU/TimesNewRoman(0)/m/n/14.4 исключительно через зависимость координат от врем
-ени. То есть
+Underfull \hbox (badness 10000) in paragraph at lines 242--243
+\TU/TimesNewRoman(0)/m/n/14.4 робота в пространстве - кинематическая. Эта модел
+ь описывает
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 239--242
-\TU/TimesNewRoman(0)/m/n/14.4 в кинематической модели рассматривается движение 
-тела, но не
+Underfull \hbox (badness 5607) in paragraph at lines 242--243
+\TU/TimesNewRoman(0)/m/n/14.4 движения исключительно через зависимость координа
+т от времени.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 239--242
-\TU/TimesNewRoman(0)/m/n/14.4 рассматриваются причины, его создающие. Рассмотри
-м движение
+Underfull \hbox (badness 5817) in paragraph at lines 244--246
+\TU/TimesNewRoman(0)/m/n/14.4 сил, причем плоскости колес тележки вертикальны и
+ неподвижны
  []
 
 
-Underfull \hbox (badness 1242) in paragraph at lines 239--242
-\TU/TimesNewRoman(0)/m/n/14.4 общности начало локальных координат в точке центр
-а масс тележки.
+Underfull \hbox (badness 1371) in paragraph at lines 244--246
+\TU/TimesNewRoman(0)/m/n/14.4 силой трения. Пусть задана глобальная система коо
+рдинат, связанная
+ []
+
+
+Underfull \hbox (badness 2150) in paragraph at lines 244--246
+\TU/TimesNewRoman(0)/m/n/14.4 с поверхностью $\OMS/cmsy/m/n/14.4 f\OML/cmm/m/it
+/14.4 o; []; []; []\OMS/cmsy/m/n/14.4 g$ \TU/TimesNewRoman(0)/m/n/14.4 и локаль
+ная, инерциальная относительно
  []
 
 (./kinematic_model_pic.pdf_tex
@@ -970,7 +1016,7 @@ File: kinematic_model_pic.pdf Graphic file (type pdf)
 File: kinematic_model_pic.pdf Graphic file (type pdf)
 <use kinematic_model_pic.pdf, page 9>
 )
-Underfull \hbox (badness 10000) in paragraph at lines 243--250
+Underfull \hbox (badness 10000) in paragraph at lines 249--256
 []\TU/TimesNewRoman(0)/m/n/14.4 Для примера на рисунке 1.1[] схематически изобр
 ажена
  []
@@ -978,84 +1024,103 @@ Underfull \hbox (badness 10000) in paragraph at lines 243--250
 [1
 
 
-] (./projection.pdf_tex
+] (./omni_wheel_coords.pdf_tex
+File: omni_wheel_coords.pdf Graphic file (type pdf)
+<use omni_wheel_coords.pdf, page 1>
+File: omni_wheel_coords.pdf Graphic file (type pdf)
+<use omni_wheel_coords.pdf, page 2>
+) [2]
+Underfull \hbox (badness 1221) in paragraph at lines 281--282
+\TU/TimesNewRoman(0)/m/n/14.4 Для того, чтобы тележка имела скорость $[]$, вект
+ор скорости $\OML/cmm/m/it/14.4 i$ \TU/TimesNewRoman(0)/m/n/14.4 - го
+ []
+
+(./projection.pdf_tex
 File: projection.pdf Graphic file (type pdf)
 <use projection.pdf, page 1>
-) [2] [3]
-Underfull \hbox (badness 5403) in paragraph at lines 367--369
+File: projection.pdf Graphic file (type pdf)
+<use projection.pdf, page 2>
+File: projection.pdf Graphic file (type pdf)
+<use projection.pdf, page 3>
+File: projection.pdf Graphic file (type pdf)
+<use projection.pdf, page 4>
+) [3] (./mecanum_wheel_projection3.pdf_tex
+File: mecanum_wheel_projection3.pdf Graphic file (type pdf)
+<use mecanum_wheel_projection3.pdf, page 1>
+File: mecanum_wheel_projection3.pdf Graphic file (type pdf)
+<use mecanum_wheel_projection3.pdf, page 2>
+File: mecanum_wheel_projection3.pdf Graphic file (type pdf)
+<use mecanum_wheel_projection3.pdf, page 3>
+File: mecanum_wheel_projection3.pdf Graphic file (type pdf)
+<use mecanum_wheel_projection3.pdf, page 4>
+File: mecanum_wheel_projection3.pdf Graphic file (type pdf)
+<use mecanum_wheel_projection3.pdf, page 5>
+File: mecanum_wheel_projection3.pdf Graphic file (type pdf)
+<use mecanum_wheel_projection3.pdf, page 6>
+) [4]
+Underfull \hbox (badness 5403) in paragraph at lines 477--479
 \TU/TimesNewRoman(0)/m/n/14.4 величину угловой скорость каждого колеса. Для это
 го необходимо
  []
 
-
-Underfull \hbox (badness 6675) in paragraph at lines 391--392
-[]\TU/TimesNewRoman(0)/m/n/14.4 Получаем уравнение движения тележки в локальной
- системе
- []
-
-
-Overfull \hbox (27.50525pt too wide) detected at line 425
-[] \OT1/cmr/m/n/14.4 = [] [] []
- []
-
-[4]
+[5]
 Глава 2.
 
-Underfull \hbox (badness 10000) in paragraph at lines 430--430
+Underfull \hbox (badness 10000) in paragraph at lines 541--541
 |[] \TU/TimesNewRoman(0)/bx/n/14.4 Динамическая модель робота с N всенаправленн
 ыми
  []
 
 
-Underfull \hbox (badness 7869) in paragraph at lines 433--434
+Underfull \hbox (badness 7869) in paragraph at lines 544--545
 []\TU/TimesNewRoman(0)/m/n/14.4 Для того, чтобы привести тележку в движение, её
  колесам
  []
 
 
-Underfull \hbox (badness 2529) in paragraph at lines 435--436
+Underfull \hbox (badness 2529) in paragraph at lines 546--547
 \TU/TimesNewRoman(0)/m/n/14.4 сил. В описании модели используются те же обознач
 ения, что и в
  []
 
 
-Underfull \hbox (badness 4001) in paragraph at lines 435--436
+Underfull \hbox (badness 4001) in paragraph at lines 546--547
 \TU/TimesNewRoman(0)/m/n/14.4 кинематической модели. Для примера на рисунке 2.1
 [] схематически
  []
 
 
-Underfull \hbox (badness 2680) in paragraph at lines 435--436
+Underfull \hbox (badness 2680) in paragraph at lines 546--547
 \TU/TimesNewRoman(0)/m/n/14.4 изображена динамическая модель робота с тремя все
 направленными
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 435--436
+Underfull \hbox (badness 10000) in paragraph at lines 546--547
 \TU/TimesNewRoman(0)/m/n/14.4 колесами. Рассмотрим равнодействующую всех сил, д
 ействующих
  []
 
 
-Underfull \hbox (badness 5622) in paragraph at lines 435--436
+Underfull \hbox (badness 5622) in paragraph at lines 546--547
 \TU/TimesNewRoman(0)/m/n/14.4 на тележку $\OML/cmm/m/it/14.4 F$\TU/TimesNewRoma
 n(0)/m/n/14.4 . Сила как мера воздействия на тело характеризует
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 435--436
+Underfull \hbox (badness 10000) in paragraph at lines 546--547
 \TU/TimesNewRoman(0)/m/n/14.4 поступательное движение модели, в то время как мо
 мент сил
  []
 
 
-Underfull \hbox (badness 4279) in paragraph at lines 435--436
+Underfull \hbox (badness 4279) in paragraph at lines 546--547
 \TU/TimesNewRoman(0)/m/n/14.4 характеризует вращательное движение. Равнодейству
 ющую всех сил
  []
 
 
-Underfull \hbox (badness 1406) in paragraph at lines 435--436
+Underfull \hbox (badness 1406) in paragraph at lines 546--547
 \TU/TimesNewRoman(0)/m/n/14.4 можно разложить на поступательную и вращательную 
 составляющие,
  []
@@ -1075,145 +1140,145 @@ File: dynamic_model_pic.pdf Graphic file (type pdf)
 <use dynamic_model_pic.pdf, page 6>
 File: dynamic_model_pic.pdf Graphic file (type pdf)
 <use dynamic_model_pic.pdf, page 7>
-) [5
+) [6
 
 ]
-Underfull \hbox (badness 2027) in paragraph at lines 469--470
+Underfull \hbox (badness 2027) in paragraph at lines 580--581
 []\TU/TimesNewRoman(0)/m/n/14.4 Момент инерции тележки можно считать приближенн
 о равным
  []
 
 
-Underfull \hbox (badness 1796) in paragraph at lines 479--482
+Underfull \hbox (badness 1796) in paragraph at lines 590--593
 []\TU/TimesNewRoman(0)/m/n/14.4 Аналогично кинематической модели, проецируя пос
 тупательный
  []
 
-[6]
-Underfull \hbox (badness 1147) in paragraph at lines 561--563
+[7]
+Underfull \hbox (badness 1147) in paragraph at lines 672--674
 \TU/TimesNewRoman(0)/m/n/14.4 получим зависимость координат пути $\OT1/cmr/m/n/
 14.4 (\OML/cmm/m/it/14.4 x; y; '\OT1/cmr/m/n/14.4 )$ \TU/TimesNewRoman(0)/m/n/1
 4.4 от крутящих моментов
  []
 
-[7]
-Underfull \hbox (badness 2221) in paragraph at lines 585--586
+[8]
+Underfull \hbox (badness 2221) in paragraph at lines 696--697
 []\TU/TimesNewRoman(0)/m/n/14.4 В свою очередь величину момента сил каждого кол
 еса можно
  []
 
 
-Underfull \hbox (badness 2134) in paragraph at lines 595--596
+Underfull \hbox (badness 2134) in paragraph at lines 706--707
 []\TU/TimesNewRoman(0)/m/n/14.4 Учтем силу трения качения модели по некоторой п
 оверхности,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 595--596
+Underfull \hbox (badness 10000) in paragraph at lines 706--707
 \TU/TimesNewRoman(0)/m/n/14.4 предполагая равномерное распределение веса на каж
 дое колесо.
  []
 
 
-Underfull \hbox (badness 1675) in paragraph at lines 595--596
+Underfull \hbox (badness 1675) in paragraph at lines 706--707
 \TU/TimesNewRoman(0)/m/n/14.4 Известно, что сила трения качения противоположна 
 по направлению
  []
 
 
-Underfull \hbox (badness 2285) in paragraph at lines 595--596
+Underfull \hbox (badness 2285) in paragraph at lines 706--707
 \TU/TimesNewRoman(0)/m/n/14.4 силе, приводящей колесо в действие и для $\OML/cm
 m/m/it/14.4 i$\TU/TimesNewRoman(0)/m/n/14.4 -го колеса может быть
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 602--604
+Underfull \hbox (badness 10000) in paragraph at lines 713--715
 \TU/TimesNewRoman(0)/m/n/14.4 качения направлена в противоположную сторону от н
 аправления
  []
 
-[8]
-Underfull \hbox (badness 10000) in paragraph at lines 664--665
+[9]
+Underfull \hbox (badness 10000) in paragraph at lines 775--776
 []\TU/TimesNewRoman(0)/m/n/14.4 Таким образом получаем динамическую модель теле
 жки,
  []
 
-[9]
+[10]
 Глава 3.
 
-Underfull \hbox (badness 6625) in paragraph at lines 670--671
+Underfull \hbox (badness 6625) in paragraph at lines 781--782
 []\TU/TimesNewRoman(0)/m/n/14.4 Для нероликового колеса, которое вращается по п
 оверхности
  []
 
 
-Underfull \hbox (badness 5161) in paragraph at lines 670--671
+Underfull \hbox (badness 5161) in paragraph at lines 781--782
 \TU/TimesNewRoman(0)/m/n/14.4 без скольжения, мгновенная скорость низшей точки 
 касания равна
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 670--671
+Underfull \hbox (badness 10000) in paragraph at lines 781--782
 \TU/TimesNewRoman(0)/m/n/14.4 нулю[Ссылка на источник]. На практике соприкасающ
 иеся тела
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 670--671
+Underfull \hbox (badness 10000) in paragraph at lines 781--782
 \TU/TimesNewRoman(0)/m/n/14.4 из-за физических ограничений всегда соприкасаются
  множеством
  []
 
 
-Underfull \hbox (badness 1331) in paragraph at lines 670--671
+Underfull \hbox (badness 1331) in paragraph at lines 781--782
 \TU/TimesNewRoman(0)/m/n/14.4 точек, называемым пятном контакта. В качестве илл
 юстрации можно
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 670--671
+Underfull \hbox (badness 10000) in paragraph at lines 781--782
 \TU/TimesNewRoman(0)/m/n/14.4 привести гусеничную тележку, двигающуюся по повер
 хности без
  []
 
 
-Underfull \hbox (badness 2318) in paragraph at lines 670--671
+Underfull \hbox (badness 2318) in paragraph at lines 781--782
 \TU/TimesNewRoman(0)/m/n/14.4 поверхности. При достаточно низкой скорости тележ
 ки можно даже
  []
 
 
-Underfull \hbox (badness 3312) in paragraph at lines 672--673
+Underfull \hbox (badness 3312) in paragraph at lines 783--784
 \TU/TimesNewRoman(0)/m/n/14.4 точка касания имеет ненулевую скорость относитель
 но поверхности
  []
 
 
-Underfull \hbox (badness 2189) in paragraph at lines 672--673
+Underfull \hbox (badness 2189) in paragraph at lines 783--784
 \TU/TimesNewRoman(0)/m/n/14.4 качения, так как укрепленные на колесе ролики под
  силой тяжести
  []
 
 
-Underfull \hbox (badness 3919) in paragraph at lines 672--673
+Underfull \hbox (badness 3919) in paragraph at lines 783--784
 \TU/TimesNewRoman(0)/m/n/14.4 колеса, оси роликов которого параллельны плоскост
 и диска колеса,
  []
 
 
-Underfull \hbox (badness 5105) in paragraph at lines 672--673
+Underfull \hbox (badness 5105) in paragraph at lines 783--784
 \TU/TimesNewRoman(0)/m/n/14.4 проскальзывания не происходит, что упрощает проце
 сс построения
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 674--675
+Underfull \hbox (badness 10000) in paragraph at lines 785--786
 []\TU/TimesNewRoman(0)/m/n/14.4 Простейшей неголономной моделью роликонесущего 
 колеса
  []
 
 
-Underfull \hbox (badness 1888) in paragraph at lines 674--675
+Underfull \hbox (badness 1888) in paragraph at lines 785--786
 \TU/TimesNewRoman(0)/m/n/14.4 с несущей поверхностью направленная вдоль прямой,
  составляющий
  []
@@ -1227,7 +1292,7 @@ File: mecanum_disk.pdf Graphic file (type pdf)
 <use mecanum_disk.pdf, page 3>
 File: mecanum_disk.pdf Graphic file (type pdf)
 <use mecanum_disk.pdf, page 4>
-) [10
+) [11
 
 ] (./mecanum_wheel_top.pdf_tex
 File: mecanum_wheel_top.pdf Graphic file (type pdf)
@@ -1235,31 +1300,31 @@ File: mecanum_wheel_top.pdf Graphic file (type pdf)
 File: mecanum_wheel_top.pdf Graphic file (type pdf)
 <use mecanum_wheel_top.pdf, page 2>
 )
-Underfull \hbox (badness 3333) in paragraph at lines 692--693
+Underfull \hbox (badness 3333) in paragraph at lines 803--804
 \TU/TimesNewRoman(0)/m/n/14.4 и неподвижны относительно платформы тележки. Обоз
 начим за $\OML/cmm/m/it/14.4 l$ \TU/TimesNewRoman(0)/m/n/14.4 -
  []
 
 
-Underfull \hbox (badness 6141) in paragraph at lines 699--701
+Underfull \hbox (badness 6141) in paragraph at lines 810--812
 \TU/TimesNewRoman(0)/m/n/14.4 где $\OML/cmm/m/it/14.4 M$ \TU/TimesNewRoman(0)/m
 /n/14.4 - точка касания,$\OML/cmm/m/it/14.4 v[]$ \TU/TimesNewRoman(0)/m/n/14.4 
 - скорость точки касания. Вектор $\OML/cmm/m/it/14.4 v[]$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 709--713
+Underfull \hbox (badness 10000) in paragraph at lines 820--824
 \OMS/cmsy/m/n/14.4 f\OML/cmm/m/it/14.4 O; e[]; e[]; e[]\OMS/cmsy/m/n/14.4 g$ \T
 U/TimesNewRoman(0)/m/n/14.4 - глобальная инерциальная система координат,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 709--713
+Underfull \hbox (badness 10000) in paragraph at lines 820--824
 \OMS/cmsy/m/n/14.4 f\OML/cmm/m/it/14.4 C; E[]; E[]; E[]\OMS/cmsy/m/n/14.4 g$ \T
 U/TimesNewRoman(0)/m/n/14.4 - система координат, жестко связанная с диском.
  []
 
-[11] (./mecanum_wheel_projection.pdf_tex
+[12] (./mecanum_wheel_projection.pdf_tex
 File: mecanum_wheel_projection.pdf Graphic file (type pdf)
 <use mecanum_wheel_projection.pdf, page 1>
 File: mecanum_wheel_projection.pdf Graphic file (type pdf)
@@ -1273,28 +1338,156 @@ File: mecanum_wheel_projection.pdf Graphic file (type pdf)
 File: mecanum_wheel_projection.pdf Graphic file (type pdf)
 <use mecanum_wheel_projection.pdf, page 6>
 )
-Underfull \hbox (badness 1946) in paragraph at lines 770--771
-[]\TU/TimesNewRoman(0)/m/n/14.4 Наконец проецируя единичный вектор $\OML/cmm/m/
-it/14.4 l$ \TU/TimesNewRoman(0)/m/n/14.4 на локальную систему
+Underfull \hbox (badness 1389) in paragraph at lines 882--883
+[]\TU/TimesNewRoman(0)/m/n/14.4 Наконец, проецируя единичный вектор $\OML/cmm/m
+/it/14.4 l$ \TU/TimesNewRoman(0)/m/n/14.4 на локальную систему
  []
 
-[12]
-Underfull \hbox (badness 2134) in paragraph at lines 864--866
+[13]
+Underfull \hbox (badness 2134) in paragraph at lines 976--978
 \TU/TimesNewRoman(0)/m/n/14.4 динамика тележки с $\OML/cmm/m/it/14.4 N$ \TU/Tim
 esNewRoman(0)/m/n/14.4 роликонесущими колесами и сформулирован
  []
 
-[13]
+[14]
 Глава 4.
+
+Underfull \hbox (badness 10000) in paragraph at lines 980--981
+[]\TU/TimesNewRoman(0)/m/n/14.4 Рассмотрим кинематическую модель тележки на чет
+ырех
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 980--981
+\TU/TimesNewRoman(0)/m/n/14.4 роликонесущих колесах, проиллюстрированную на рис
+унке 4.1[].
+ []
+
+
+Underfull \hbox (badness 2277) in paragraph at lines 980--981
+\TU/TimesNewRoman(0)/m/n/14.4 Обозначим $\OML/cmm/m/it/14.4 C$ \TU/TimesNewRoma
+n(0)/m/n/14.4 - точка вращения тележки, $\OMS/cmsy/m/n/14.4 f\OML/cmm/m/it/14.4
+ O; e[]; e[]; e[]\OMS/cmsy/m/n/14.4 g$ \TU/TimesNewRoman(0)/m/n/14.4 - глобальн
+ая
+ []
+
+
+Underfull \hbox (badness 1337) in paragraph at lines 980--981
+\TU/TimesNewRoman(0)/m/n/14.4 инерциальная система координат, $\OMS/cmsy/m/n/14
+.4 f\OML/cmm/m/it/14.4 C; E[]; E[]; E[]\OMS/cmsy/m/n/14.4 g$ \TU/TimesNewRoman(
+0)/m/n/14.4 - система координат,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 980--981
+\TU/TimesNewRoman(0)/m/n/14.4 жестко связанная с тележкой. Плоскость $\OMS/cmsy
+/m/n/14.4 f\OML/cmm/m/it/14.4 C; E[]; E[]\OMS/cmsy/m/n/14.4 g$ \TU/TimesNewRoma
+n(0)/m/n/14.4 параллельна
+ []
+
+
+Underfull \hbox (badness 1184) in paragraph at lines 980--981
+\OML/cmm/m/it/14.4 E[]$ \TU/TimesNewRoman(0)/m/n/14.4 и радиус вектором, направ
+ленным из точки $\OML/cmm/m/it/14.4 C$ \TU/TimesNewRoman(0)/m/n/14.4 в точку ка
+сания с
+ []
+
+(./mecanum_car.pdf_tex
+File: mecanum_car.pdf Graphic file (type pdf)
+<use mecanum_car.pdf, page 1>
+File: mecanum_car.pdf Graphic file (type pdf)
+<use mecanum_car.pdf, page 2>
+File: mecanum_car.pdf Graphic file (type pdf)
+<use mecanum_car.pdf, page 3>
+File: mecanum_car.pdf Graphic file (type pdf)
+<use mecanum_car.pdf, page 4>
+File: mecanum_car.pdf Graphic file (type pdf)
+<use mecanum_car.pdf, page 5>
+File: mecanum_car.pdf Graphic file (type pdf)
+<use mecanum_car.pdf, page 6>
+File: mecanum_car.pdf Graphic file (type pdf)
+<use mecanum_car.pdf, page 7>
+File: mecanum_car.pdf Graphic file (type pdf)
+<use mecanum_car.pdf, page 8>
+File: mecanum_car.pdf Graphic file (type pdf)
+<use mecanum_car.pdf, page 9>
+)
+Overfull \hbox (27.82623pt too wide) in paragraph at lines 984--985
+ [][] 
+ []
+
+[15
+
+]
+Underfull \hbox (badness 2368) in paragraph at lines 1000--1001
+[]\TU/TimesNewRoman(0)/m/n/14.4 Вектор поступательной скорости $\OML/cmm/m/it/1
+4.4 v[]$ \TU/TimesNewRoman(0)/m/n/14.4 задается парой $\OT1/cmr/m/n/14.4 ([]\OM
+L/cmm/m/it/14.4 ; []\OT1/cmr/m/n/14.4 )$\TU/TimesNewRoman(0)/m/n/14.4 .
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1012--1013
+[]\TU/TimesNewRoman(0)/m/n/14.4 Для того, чтобы заставить тележку вращаться вок
+руг оси
+ []
+
+
+Underfull \hbox (badness 2426) in paragraph at lines 1012--1013
+\TU/TimesNewRoman(0)/m/n/14.4 вращения $\OML/cmm/m/it/14.4 CE[]$\TU/TimesNewRom
+an(0)/m/n/14.4 , необходимо задать вектор скоростей каждого колеса
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1012--1013
+\TU/TimesNewRoman(0)/m/n/14.4 перпендикулярно радиус вектору $[]$.При этом длин
+на вектора
+ []
+
+
+Underfull \hbox (badness 2735) in paragraph at lines 1012--1013
+\TU/TimesNewRoman(0)/m/n/14.4 должна составлять $\OML/cmm/m/it/14.4 R[]; []$\TU
+/TimesNewRoman(0)/m/n/14.4 , где $\OML/cmm/m/it/14.4 R[] \OT1/cmr/m/n/14.4 = \O
+MS/cmsy/m/n/14.4 j[]j$\TU/TimesNewRoman(0)/m/n/14.4 . Расположение векторов
+ []
+
+(./mecanum_car_rot.pdf_tex
+File: mecanum_car_rot.pdf Graphic file (type pdf)
+<use mecanum_car_rot.pdf, page 1>
+File: mecanum_car_rot.pdf Graphic file (type pdf)
+<use mecanum_car_rot.pdf, page 2>
+File: mecanum_car_rot.pdf Graphic file (type pdf)
+<use mecanum_car_rot.pdf, page 3>
+)
+Underfull \hbox (badness 3118) in paragraph at lines 1022--1023
+[]\TU/TimesNewRoman(0)/m/n/14.4 Рассмотрим вектор вращательной скорости $\OML/c
+mm/m/it/14.4 i$ \TU/TimesNewRoman(0)/m/n/14.4 - го колеса $\OML/cmm/m/it/14.4 v
+[]$\TU/TimesNewRoman(0)/m/n/14.4 .
+ []
+
+[16] (./mecanum_wheel_projection1.pdf_tex
+File: mecanum_wheel_projection1.pdf Graphic file (type pdf)
+<use mecanum_wheel_projection1.pdf, page 1>
+File: mecanum_wheel_projection1.pdf Graphic file (type pdf)
+<use mecanum_wheel_projection1.pdf, page 2>
+File: mecanum_wheel_projection1.pdf Graphic file (type pdf)
+<use mecanum_wheel_projection1.pdf, page 3>
+File: mecanum_wheel_projection1.pdf Graphic file (type pdf)
+<use mecanum_wheel_projection1.pdf, page 4>
+File: mecanum_wheel_projection1.pdf Graphic file (type pdf)
+<use mecanum_wheel_projection1.pdf, page 5>
+File: mecanum_wheel_projection1.pdf Graphic file (type pdf)
+<use mecanum_wheel_projection1.pdf, page 6>
+) (./mecanum_wheel_projection2.pdf_tex
+File: mecanum_wheel_projection2.pdf Graphic file (type pdf)
+<use mecanum_wheel_projection2.pdf, page 1>
+) [17]
 
 Package caption Warning: Unused \captionsetup[subfigure] on input line 52.
 See the caption package documentation for explanation.
 
 
 AED: lastpage setting LastPage
-[14
-
-] (./math framework.aux)
+[18] (./math framework.aux)
 
  *File List*
 extreport.cls    1996/10/08 v1.0 Non Standard LaTeX document class
@@ -1351,6 +1544,10 @@ s)
 lastpage.sty    2015/03/29 v1.2m Refers to last page's name (HMM; JPG)
 etoolbox.sty    2018/02/11 v2.5e e-TeX tools for LaTeX (JAW)
   layout.sty    2014/10/28 v1.2c Show layout parameters
+   breqn.sty    2017/01/27 v0.98e Breaking equations
+flexisym.sty    2017/01/27 v0.98e Make math characters macros
+  cmbase.sym    2007/12/19 v0.92
+mathstyle.sty    2017/01/27 0.98e Tracking mathstyle implicitly
   mt-cmr.cfg    2013/05/19 v2.2 microtype config. file: Computer Modern Roman (
 RS)
 kinematic_model_pic.pdf_tex
@@ -1363,8 +1560,21 @@ kinematic_model_pic.pdf    Graphic file (type pdf)
 kinematic_model_pic.pdf    Graphic file (type pdf)
 kinematic_model_pic.pdf    Graphic file (type pdf)
 kinematic_model_pic.pdf    Graphic file (type pdf)
+omni_wheel_coords.pdf_tex
+omni_wheel_coords.pdf    Graphic file (type pdf)
+omni_wheel_coords.pdf    Graphic file (type pdf)
 projection.pdf_tex
 projection.pdf    Graphic file (type pdf)
+projection.pdf    Graphic file (type pdf)
+projection.pdf    Graphic file (type pdf)
+projection.pdf    Graphic file (type pdf)
+mecanum_wheel_projection3.pdf_tex
+mecanum_wheel_projection3.pdf    Graphic file (type pdf)
+mecanum_wheel_projection3.pdf    Graphic file (type pdf)
+mecanum_wheel_projection3.pdf    Graphic file (type pdf)
+mecanum_wheel_projection3.pdf    Graphic file (type pdf)
+mecanum_wheel_projection3.pdf    Graphic file (type pdf)
+mecanum_wheel_projection3.pdf    Graphic file (type pdf)
 dynamic_model_pic.pdf_tex
 dynamic_model_pic.pdf    Graphic file (type pdf)
 dynamic_model_pic.pdf    Graphic file (type pdf)
@@ -1388,16 +1598,39 @@ mecanum_wheel_projection.pdf    Graphic file (type pdf)
 mecanum_wheel_projection.pdf    Graphic file (type pdf)
 mecanum_wheel_projection.pdf    Graphic file (type pdf)
 mecanum_wheel_projection.pdf    Graphic file (type pdf)
+mecanum_car.pdf_tex
+mecanum_car.pdf    Graphic file (type pdf)
+mecanum_car.pdf    Graphic file (type pdf)
+mecanum_car.pdf    Graphic file (type pdf)
+mecanum_car.pdf    Graphic file (type pdf)
+mecanum_car.pdf    Graphic file (type pdf)
+mecanum_car.pdf    Graphic file (type pdf)
+mecanum_car.pdf    Graphic file (type pdf)
+mecanum_car.pdf    Graphic file (type pdf)
+mecanum_car.pdf    Graphic file (type pdf)
+mecanum_car_rot.pdf_tex
+mecanum_car_rot.pdf    Graphic file (type pdf)
+mecanum_car_rot.pdf    Graphic file (type pdf)
+mecanum_car_rot.pdf    Graphic file (type pdf)
+mecanum_wheel_projection1.pdf_tex
+mecanum_wheel_projection1.pdf    Graphic file (type pdf)
+mecanum_wheel_projection1.pdf    Graphic file (type pdf)
+mecanum_wheel_projection1.pdf    Graphic file (type pdf)
+mecanum_wheel_projection1.pdf    Graphic file (type pdf)
+mecanum_wheel_projection1.pdf    Graphic file (type pdf)
+mecanum_wheel_projection1.pdf    Graphic file (type pdf)
+mecanum_wheel_projection2.pdf_tex
+mecanum_wheel_projection2.pdf    Graphic file (type pdf)
  ***********
 
  ) 
 Here is how much of TeX's memory you used:
- 17260 strings out of 494173
- 352239 string characters out of 6167614
- 587649 words of memory out of 5000000
- 20963 multiletter control sequences out of 15000+600000
- 531748 words of font info for 41 fonts, out of 8000000 for 9000
+ 18082 strings out of 494173
+ 364556 string characters out of 6167614
+ 598570 words of memory out of 5000000
+ 21749 multiletter control sequences out of 15000+600000
+ 534493 words of font info for 48 fonts, out of 8000000 for 9000
  704 hyphenation exceptions out of 8191
- 42i,18n,65p,10428b,377s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 42i,21n,65p,10428b,418s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on math framework.pdf (14 pages).
+Output written on math framework.pdf (18 pages).

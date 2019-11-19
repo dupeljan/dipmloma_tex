@@ -1,6 +1,6 @@
 %% Creator: Inkscape inkscape 0.92.3, www.inkscape.org
 %% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
-%% Accompanies image file 'projection.pdf' (pdf, eps, ps)
+%% Accompanies image file 'omni_wheel_coords.pdf' (pdf, eps, ps)
 %%
 %% To include the image in your LaTeX document, write
 %%   \input{<filename>.pdf_tex}
@@ -38,7 +38,7 @@
   \newcommand*\fsize{\dimexpr\f@size pt\relax}%
   \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
   \ifx\svgwidth\undefined%
-    \setlength{\unitlength}{284.97194305bp}%
+    \setlength{\unitlength}{164.45870347bp}%
     \ifx\svgscale\undefined%
       \relax%
     \else%
@@ -50,19 +50,14 @@
   \global\let\svgwidth\undefined%
   \global\let\svgscale\undefined%
   \makeatother%
-  \begin{picture}(1,0.91531111)%
+  \begin{picture}(1,1)%
     \lineheight{1}%
     \setlength\tabcolsep{0pt}%
-    \put(0,0){\includegraphics[width=\unitlength,page=1]{projection.pdf}}%
-    \put(0.06833319,0.49136037){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\varphi + \alpha_{i}$\end{tabular}}}}%
-    \put(0.76053876,0.24931801){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\bs{x}$\end{tabular}}}}%
-    \put(0.29808727,0.8771994){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\boldsymbol{y}$\end{tabular}}}}%
-    \put(0.05746206,0.83584195){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\bs{y_{w,i}}$\end{tabular}}}}%
-    \put(0,0){\includegraphics[width=\unitlength,page=2]{projection.pdf}}%
-    \put(0.59757304,0.63329859){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\bs{v_{tr}}$\end{tabular}}}}%
-    \put(0,0){\includegraphics[width=\unitlength,page=3]{projection.pdf}}%
-    \put(0.41376281,0.29220632){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\dot{x}$\end{tabular}}}}%
-    \put(0.35099182,0.42327251){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\dot{y}$\end{tabular}}}}%
-    \put(0,0){\includegraphics[width=\unitlength,page=4]{projection.pdf}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{omni_wheel_coords.pdf}}%
+    \put(0.35213771,0.16573705){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\boldsymbol{x_{w_{i}}}$\end{tabular}}}}%
+    \put(0.86027508,0.58854876){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\boldsymbol{y_{w_{i}}}$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{omni_wheel_coords.pdf}}%
+    \put(0.31898608,0.59085215){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\boldsymbol{z_{w_{i}}}$\end{tabular}}}}%
+    \put(0.3835635,0.49105904){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$c_{i}$\end{tabular}}}}%
   \end{picture}%
 \endgroup%

@@ -1,6 +1,6 @@
 %% Creator: Inkscape inkscape 0.92.3, www.inkscape.org
 %% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
-%% Accompanies image file 'projection.pdf' (pdf, eps, ps)
+%% Accompanies image file 'mecanum_wheel_projection2.pdf' (pdf, eps, ps)
 %%
 %% To include the image in your LaTeX document, write
 %%   \input{<filename>.pdf_tex}
@@ -38,7 +38,7 @@
   \newcommand*\fsize{\dimexpr\f@size pt\relax}%
   \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
   \ifx\svgwidth\undefined%
-    \setlength{\unitlength}{284.97194305bp}%
+    \setlength{\unitlength}{302.5388222bp}%
     \ifx\svgscale\undefined%
       \relax%
     \else%
@@ -50,19 +50,15 @@
   \global\let\svgwidth\undefined%
   \global\let\svgscale\undefined%
   \makeatother%
-  \begin{picture}(1,0.91531111)%
+  \begin{picture}(1,0.8188941)%
     \lineheight{1}%
     \setlength\tabcolsep{0pt}%
-    \put(0,0){\includegraphics[width=\unitlength,page=1]{projection.pdf}}%
-    \put(0.06833319,0.49136037){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\varphi + \alpha_{i}$\end{tabular}}}}%
-    \put(0.76053876,0.24931801){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\bs{x}$\end{tabular}}}}%
-    \put(0.29808727,0.8771994){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\boldsymbol{y}$\end{tabular}}}}%
-    \put(0.05746206,0.83584195){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\bs{y_{w,i}}$\end{tabular}}}}%
-    \put(0,0){\includegraphics[width=\unitlength,page=2]{projection.pdf}}%
-    \put(0.59757304,0.63329859){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\bs{v_{tr}}$\end{tabular}}}}%
-    \put(0,0){\includegraphics[width=\unitlength,page=3]{projection.pdf}}%
-    \put(0.41376281,0.29220632){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\dot{x}$\end{tabular}}}}%
-    \put(0.35099182,0.42327251){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\dot{y}$\end{tabular}}}}%
-    \put(0,0){\includegraphics[width=\unitlength,page=4]{projection.pdf}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{mecanum_wheel_projection2.pdf}}%
+    \put(0.53351576,0.31055402){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\psi$\end{tabular}}}}%
+    \put(0.27541202,0.29091853){\color[rgb]{0,0,0}\rotatebox{30}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$R_{i}\dot{\psi}sin\alpha_{i}E_{x}$\end{tabular}}}}}%
+    \put(0.12153566,0.58793011){\color[rgb]{0,0,0}\rotatebox{-60}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$-R_{i}\dot{\psi}cos\alpha_{i}E_{y}$\end{tabular}}}}}%
+    \put(0.63923318,0.13103399){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$e_{x}$\end{tabular}}}}%
+    \put(0.04603894,0.75078912){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$e_{y}$\end{tabular}}}}%
+    \put(0.62919842,0.23933634){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$e_{x}$\end{tabular}}}}%
   \end{picture}%
 \endgroup%

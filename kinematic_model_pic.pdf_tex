@@ -54,31 +54,33 @@
     \lineheight{1}%
     \setlength\tabcolsep{0pt}%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{kinematic_model_pic.pdf}}%
-    \put(0.68190582,0.54251723){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\dot{x}$\end{tabular}}}}%
-    \put(0.52086849,0.78914186){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\dot{y}$\end{tabular}}}}%
+    \put(0.68190582,0.54251723){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\bs{x}$\end{tabular}}}}%
+    \put(0.52086849,0.78914186){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\bs{y}$\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=2]{kinematic_model_pic.pdf}}%
-    \put(0.72283685,0.92595539){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$v_{1,tr}$\end{tabular}}}}%
-    \put(0.08599043,0.66852661){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$v_{2.tr}$\end{tabular}}}}%
-    \put(0.66981044,0.20155408){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$v_{3,tr}$\end{tabular}}}}%
+    \put(0.74047759,0.92595539){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\bs{v_{1}}$\end{tabular}}}}%
+    \put(0.09548929,0.62103232){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\bs{v_{2}}$\end{tabular}}}}%
+    \put(0.66981044,0.20155408){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\bs{v_{3}}$\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=3]{kinematic_model_pic.pdf}}%
-    \put(0.01449008,0.51126992){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$X$\end{tabular}}}}%
-    \put(0.4552782,0.02356312){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$Y$\end{tabular}}}}%
+    \put(0.01449008,0.51126992){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\bs{x}$\end{tabular}}}}%
+    \put(0.4583314,0.03000878){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\bs{y}$\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=4]{kinematic_model_pic.pdf}}%
-    \put(0.60779214,0.74123665){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$X_{l}$\end{tabular}}}}%
-    \put(0.35715629,0.69761053){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$Y_{l}$\end{tabular}}}}%
+    \put(0.60779214,0.74123665){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\bs{x_{l}}$\end{tabular}}}}%
+    \put(0.35715629,0.69761053){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\bs{y_{l}}$\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=5]{kinematic_model_pic.pdf}}%
     \put(0.57966539,0.60599584){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\varphi$\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=6]{kinematic_model_pic.pdf}}%
-    \put(0.82927873,0.74538101){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\alpha_{1}$\end{tabular}}}}%
-    \put(0,0){\includegraphics[width=\unitlength,page=7]{kinematic_model_pic.pdf}}%
-    \put(0.46226016,0.2136555){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\alpha_{3}$\end{tabular}}}}%
+    \put(0.81367341,0.72095537){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\alpha_{1}$\end{tabular}}}}%
+    \put(0.46429561,0.21772641){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\alpha_{3}$\end{tabular}}}}%
     \put(0.1385787,0.7696124){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\alpha_{2}$\end{tabular}}}}%
-    \put(0,0){\includegraphics[width=\unitlength,page=8]{kinematic_model_pic.pdf}}%
-    \put(0.05256068,0.87292077){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\dot{y}$\end{tabular}}}}%
-    \put(0.50149273,0.37946192){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\dot{y}$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=7]{kinematic_model_pic.pdf}}%
     \put(0.67238367,0.70427269){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$R_{1}$\end{tabular}}}}%
     \put(0.29582168,0.71852099){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$R_{2}$\end{tabular}}}}%
     \put(0.51768796,0.43694761){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$R_{3}$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=8]{kinematic_model_pic.pdf}}%
+    \put(0.04033766,0.87773228){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\bs{y_{l}}$\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=9]{kinematic_model_pic.pdf}}%
+    \put(0.47630004,0.63913769){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\gamma_{1}$\end{tabular}}}}%
+    \put(0.46239101,0.57502037){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\gamma_{2}$\end{tabular}}}}%
+    \put(0.53431095,0.55737963){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\gamma_{3}$\end{tabular}}}}%
   \end{picture}%
 \endgroup%
