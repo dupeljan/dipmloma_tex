@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/Debian) (preloaded format=xelatex 2019.5.20)  19 NOV 2019 13:45
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/Debian) (preloaded format=xelatex 2019.5.20)  3 DEC 2019 22:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1140,14 +1140,18 @@ File: mecanum_wheel_projection1.pdf Graphic file (type pdf)
 (./mecanum_wheel_projection2.pdf_tex
 File: mecanum_wheel_projection2.pdf Graphic file (type pdf)
 <use mecanum_wheel_projection2.pdf, page 1>
-) [17]
+) [17] [18]
+Глава 5.
+[19
+
+]
 
 Package caption Warning: Unused \captionsetup[subfigure] on input line 52.
 See the caption package documentation for explanation.
 
 
 AED: lastpage setting LastPage
-[18] (./math framework_eng2.aux)
+[20] (./math framework_eng2.aux)
 
  *File List*
 extreport.cls    1996/10/08 v1.0 Non Standard LaTeX document class
@@ -1285,14 +1289,17 @@ mecanum_wheel_projection2.pdf_tex
 mecanum_wheel_projection2.pdf    Graphic file (type pdf)
  ***********
 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
  ) 
 Here is how much of TeX's memory you used:
  18090 strings out of 494173
  364875 string characters out of 6167614
- 599585 words of memory out of 5000000
+ 599584 words of memory out of 5000000
  21757 multiletter control sequences out of 15000+600000
  534493 words of font info for 48 fonts, out of 8000000 for 9000
  704 hyphenation exceptions out of 8191
  42i,21n,65p,10433b,435s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on math framework_eng2.pdf (18 pages).
+Output written on math framework_eng2.pdf (20 pages).

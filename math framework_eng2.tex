@@ -1191,4 +1191,56 @@ With purely translational ($ \dot{\psi_{i}} = 0 $) or purely rotational ($ \dot{
 Where $ t_{0} $, $ t_{cur} $ are the initial and current time, respectively.
 
 Thus, the dependence of the angular velocity on the coordinates of the path is found. In order to find the angular velocity of the $ i $ th wheel, $ i = \overline{1,4} $ corresponding to the given path $ (x, y, \psi) $, it is necessary to calculate $ (\dot{x}, \dot{y}, \dot{\psi}) $ and substitute in the equation \ref{eq: res_mecanum_wheel_ang_v}.
+
+\chapter{test}
+Дано уравнение:
+$$x \frac{d}{d x} y{\left(x \right)} - \left(\log{\left(\frac{y{\left(x \right)}}{x} \right)} + 1\right) y{\left(x \right)} = 0$$
+Сделаем замену
+$$u{\left(x \right)} = \frac{y{\left(x \right)}}{x}$$
+и т.к.
+$$y{\left(x \right)} = x u{\left(x \right)}$$
+то
+$$\frac{d}{d x} y{\left(x \right)} = x \frac{d}{d x} u{\left(x \right)} + u{\left(x \right)}$$
+подставляем
+$$- x u{\left(x \right)} \log{\left(u{\left(x \right)} \right)} - x u{\left(x \right)} + x \frac{d}{d x} x u{\left(x \right)} = 0$$
+или
+$$x^{2} \frac{d}{d x} u{\left(x \right)} - x u{\left(x \right)} \log{\left(u{\left(x \right)} \right)} = 0$$
+Это дифф. уравнение имеет вид:
+f1(x)*g1(u)*u' = f2(x)*g2(u),
+
+где
+$$\operatorname{f_{1}}{\left(x \right)} = 1$$
+$$\operatorname{g_{1}}{\left(u \right)} = 1$$
+$$\operatorname{f_{2}}{\left(x \right)} = - \frac{1}{x}$$
+$$\operatorname{g_{2}}{\left(u \right)} = - u{\left(x \right)} \log{\left(u{\left(x \right)} \right)}$$
+Приведём ур-ние к виду:
+g1(u)/g2(u)*u'= f2(x)/f1(x).
+
+Разделим обе части ур-ния на g2(u)
+$$- u{\left(x \right)} \log{\left(u{\left(x \right)} \right)}$$
+получим
+$$- \frac{\frac{d}{d x} u{\left(x \right)}}{u{\left(x \right)} \log{\left(u{\left(x \right)} \right)}} = - \frac{1}{x}$$
+Этим самым мы разделили переменные x и u.
+
+Теперь домножим обе части ур-ния на dx,
+тогда ур-ние будет таким
+$$- \frac{dx \frac{d}{d x} u{\left(x \right)}}{u{\left(x \right)} \log{\left(u{\left(x \right)} \right)}} = - \frac{dx}{x}$$
+или
+$$- \frac{du}{u{\left(x \right)} \log{\left(u{\left(x \right)} \right)}} = - \frac{dx}{x}$$
+
+Возьмём от обеих частей ур-ния интегралы:
+- от левой части интеграл по u,
+- от правой части интеграл по x.
+$$\int \left(- \frac{1}{u \log{\left(u \right)}}\right)\, du = \int \left(- \frac{1}{x}\right)\, dx$$
+Возьмём эти интегралы
+$$- \log{\left(\log{\left(u \right)} \right)} = Const - \log{\left(x \right)}$$
+Мы получили обыкн. ур-ние с неизвестной u.
+(Const - это константа)
+
+Решением будет:
+$$\operatorname{u_{1}} = u{\left(x \right)} = e^{C_{1} x}$$
+делаем обратную замену
+$$y{\left(x \right)} = x u{\left(x \right)}$$
+$$y1 = y(x) = x e^{C_{1} x}$$
+
 \end{document}
