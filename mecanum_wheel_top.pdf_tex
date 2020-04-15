@@ -60,5 +60,7 @@
     \put(0.60533876,0.38249375){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\bs{l}$\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=2]{mecanum_wheel_top.pdf}}%
     \put(0.55800963,0.21820073){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\delta$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=3]{mecanum_wheel_top.pdf}}%
+    \put(0.65376228,0.17228498){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\tau$\end{tabular}}}}%
   \end{picture}%
 \endgroup%

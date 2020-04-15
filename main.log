@@ -1,9 +1,9 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/Debian) (preloaded format=xelatex 2019.5.20)  10 APR 2020 10:44
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/Debian) (preloaded format=xelatex 2019.5.20)  14 APR 2020 18:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**"math framework.tex"
-(./math framework.tex
+**main.tex
+(./main.tex
 LaTeX2e <2017-04-15>
 Babel <3.18> and hyphenation patterns for 18 language(s) loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/extsizes/extreport.cls
@@ -868,9 +868,8 @@ LaTeX Info: Redefining \genfrac on input line 145.
 \cur@row=\count325
 \cur@col=\count326
 \conditionsep=\skip68
-)
-(./math framework.aux)
-\openout1 = `"math framework.aux"'.
+) (./main.aux)
+\openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 240.
 LaTeX Font Info:    ... okay on input line 240.
@@ -952,481 +951,198 @@ Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
 (lastpage)             ! on input line 240.
 
-Глава 1.
-
-Underfull \hbox (badness 3029) in paragraph at lines 241--241
-|[] \TU/TimesNewRoman(0)/bx/n/14.4 Кинематическая модель робота с N всенаправле
-нными
- []
-
-
-Underfull \hbox (badness 1360) in paragraph at lines 242--243
-\TU/TimesNewRoman(0)/m/n/14.4 образом смоделировать его поведение. Простейший м
-одель движения
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 242--243
-\TU/TimesNewRoman(0)/m/n/14.4 робота в пространстве - кинематическая. Эта модел
-ь описывает
- []
-
-
-Underfull \hbox (badness 5607) in paragraph at lines 242--243
-\TU/TimesNewRoman(0)/m/n/14.4 движения исключительно через зависимость координа
-т от времени.
- []
-
-
-Underfull \hbox (badness 5817) in paragraph at lines 244--246
-\TU/TimesNewRoman(0)/m/n/14.4 сил, причем плоскости колес тележки вертикальны и
- неподвижны
- []
-
-
-Underfull \hbox (badness 1371) in paragraph at lines 244--246
-\TU/TimesNewRoman(0)/m/n/14.4 силой трения. Пусть задана глобальная система коо
-рдинат, связанная
- []
-
-
-Underfull \hbox (badness 2150) in paragraph at lines 244--246
-\TU/TimesNewRoman(0)/m/n/14.4 с поверхностью $\OMS/cmsy/m/n/14.4 f\OML/cmm/m/it
-/14.4 o; []; []; []\OMS/cmsy/m/n/14.4 g$ \TU/TimesNewRoman(0)/m/n/14.4 и локаль
-ная, инерциальная относительно
+Underfull \hbox (badness 1881) in paragraph at lines 247--248
+\TU/TimesNewRoman(0)/m/n/14.4 ФУРЬЕ, ЛОКАЛИЗАЦИЯ ТЕКСТА, TESSERACT, РАСПОЗНАВАН
+ИЕ
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 249--250
-[]\TU/TimesNewRoman(0)/m/n/14.4 Для примера на рисунке 1.2[] схематически изобр
-ажена
+[]\TU/TimesNewRoman(0)/m/n/14.4 Объектом исследования являются мобильные роботы
+,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 251--252
+[]\TU/TimesNewRoman(0)/m/n/14.4 Цель курсовой работы $\OMS/cmsy/m/n/14.4 ^^@$ \
+TU/TimesNewRoman(0)/m/n/14.4 программная реализация процедур,
  []
 
 [1
 
+] (./main.toc
+number indent by \l@... (toc, 0):  0.0pt
+text indent by \l@... (toc, 0):  21.59999pt
+number indent by parent (toc, 0):  0.0pt
+text indent calculated (toc, 0): 18.0pt
+number indent calculated (toc, 0): 0.0pt
+number indent by \l@... (toc, 0):  0.0pt
+text indent by \l@... (toc, 0):  21.59999pt
+number indent by parent (toc, 0):  0.0pt
+text indent calculated (toc, 0): 18.0pt
+number indent calculated (toc, 0): 0.0pt
+number indent by \l@... (toc, 1):  21.59999pt
+text indent by \l@... (toc, 1):  33.12003pt
+number indent by parent (toc, 1):  18.0pt
+text indent calculated (toc, 1): 28.79999pt
+number indent calculated (toc, 1): 18.0pt
+number indent by \l@... (toc, 1):  21.59999pt
+text indent by \l@... (toc, 1):  33.12003pt
+number indent by parent (toc, 1):  18.0pt
+text indent calculated (toc, 1): 28.79999pt
+number indent calculated (toc, 1): 18.0pt
+number indent by \l@... (toc, 2):  54.72002pt
+text indent by \l@... (toc, 2):  46.07993pt
+number indent by parent (toc, 2):  46.79999pt
+text indent calculated (toc, 2): 39.59999pt
+number indent calculated (toc, 2): 46.79999pt
+number indent by \l@... (toc, 2):  54.72002pt
+text indent by \l@... (toc, 2):  46.07993pt
+number indent by parent (toc, 2):  46.79999pt
+text indent calculated (toc, 2): 39.59999pt
+number indent calculated (toc, 2): 46.79999pt
+number indent by \l@... (toc, 2):  54.72002pt
+text indent by \l@... (toc, 2):  46.07993pt
+number indent by parent (toc, 2):  46.79999pt
+text indent calculated (toc, 2): 39.59999pt
+number indent calculated (toc, 2): 46.79999pt
+number indent by \l@... (toc, 1):  21.59999pt
+text indent by \l@... (toc, 1):  33.12003pt
+number indent by parent (toc, 1):  18.0pt
+text indent calculated (toc, 1): 28.79999pt
+number indent calculated (toc, 1): 18.0pt
+)
+\tf@toc=\write3
+\openout3 = `main.toc'.
 
-] (./omni_wheel_coords.pdf_tex
-File: omni_wheel_coords.pdf Graphic file (type pdf)
-<use omni_wheel_coords.pdf, page 1>
-File: omni_wheel_coords.pdf Graphic file (type pdf)
-<use omni_wheel_coords.pdf, page 2>
-) (./kinematic_model_pic.pdf_tex
-File: kinematic_model_pic.pdf Graphic file (type pdf)
-<use kinematic_model_pic.pdf, page 1>
-File: kinematic_model_pic.pdf Graphic file (type pdf)
-<use kinematic_model_pic.pdf, page 2>
-File: kinematic_model_pic.pdf Graphic file (type pdf)
-<use kinematic_model_pic.pdf, page 3>
-File: kinematic_model_pic.pdf Graphic file (type pdf)
-<use kinematic_model_pic.pdf, page 4>
-File: kinematic_model_pic.pdf Graphic file (type pdf)
-<use kinematic_model_pic.pdf, page 5>
-File: kinematic_model_pic.pdf Graphic file (type pdf)
-<use kinematic_model_pic.pdf, page 6>
-File: kinematic_model_pic.pdf Graphic file (type pdf)
-<use kinematic_model_pic.pdf, page 7>
-File: kinematic_model_pic.pdf Graphic file (type pdf)
-<use kinematic_model_pic.pdf, page 8>
-File: kinematic_model_pic.pdf Graphic file (type pdf)
-<use kinematic_model_pic.pdf, page 9>
-) [2]
-Underfull \hbox (badness 2012) in paragraph at lines 277--278
-[]\TU/TimesNewRoman(0)/m/n/14.4 Обозначим за $\OML/cmm/m/it/14.4 ^^K[]$ \TU/Tim
-esNewRoman(0)/m/n/14.4 - угол между $[]$ и осью $[]$. Векторы $[]$ и
+ [2
+
+]
+Underfull \hbox (badness 7595) in paragraph at lines 267--268
+[]\TU/TimesNewRoman(0)/m/n/14.4 Перед автором была поставлена задача $\OMS/cmsy
+/m/n/14.4 ^^@$ \TU/TimesNewRoman(0)/m/n/14.4 исследовать виды
  []
 
-(./projection.pdf_tex
-File: projection.pdf Graphic file (type pdf)
-<use projection.pdf, page 1>
-File: projection.pdf Graphic file (type pdf)
-<use projection.pdf, page 2>
-File: projection.pdf Graphic file (type pdf)
-<use projection.pdf, page 3>
-File: projection.pdf Graphic file (type pdf)
-<use projection.pdf, page 4>
-) [3] (./mecanum_wheel_projection3.pdf_tex
-File: mecanum_wheel_projection3.pdf Graphic file (type pdf)
-<use mecanum_wheel_projection3.pdf, page 1>
-File: mecanum_wheel_projection3.pdf Graphic file (type pdf)
-<use mecanum_wheel_projection3.pdf, page 2>
-File: mecanum_wheel_projection3.pdf Graphic file (type pdf)
-<use mecanum_wheel_projection3.pdf, page 3>
-File: mecanum_wheel_projection3.pdf Graphic file (type pdf)
-<use mecanum_wheel_projection3.pdf, page 4>
-File: mecanum_wheel_projection3.pdf Graphic file (type pdf)
-<use mecanum_wheel_projection3.pdf, page 5>
-File: mecanum_wheel_projection3.pdf Graphic file (type pdf)
-<use mecanum_wheel_projection3.pdf, page 6>
-) [4]
-Underfull \hbox (badness 5403) in paragraph at lines 477--479
-\TU/TimesNewRoman(0)/m/n/14.4 величину угловой скорость каждого колеса. Для это
-го необходимо
+
+Underfull \hbox (badness 10000) in paragraph at lines 267--268
+\TU/TimesNewRoman(0)/m/n/14.4 движущихся роботизированных систем и методы управ
+ления ими.
+ []
+
+
+Underfull \hbox (badness 3977) in paragraph at lines 269--270
+[]\TU/TimesNewRoman(0)/m/n/14.4 В процессе выполнения дипломной работы были раз
+работаны
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 269--270
+\TU/TimesNewRoman(0)/m/n/14.4 и обозрены методы управления роботизированными си
+стемами.
+ []
+
+[3]
+Глава 1.
+
+Underfull \hbox (badness 1852) in paragraph at lines 272--273
+[]\TU/TimesNewRoman(0)/m/n/14.4 Мобильным роботом называют робота, способного м
+енять свое
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 272--273
+\TU/TimesNewRoman(0)/m/n/14.4 местоположение в пространстве. Мобильные роботы м
+огут быть
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 272--273
+\TU/TimesNewRoman(0)/m/n/14.4 автономными и управляемыми вручную. Автономные мо
+бильные
+ []
+
+
+Underfull \hbox (badness 3068) in paragraph at lines 272--273
+\TU/TimesNewRoman(0)/m/n/14.4 роботы способны без участия человека, основываясь
+ на показаниях
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 272--273
+\TU/TimesNewRoman(0)/m/n/14.4 установленных на нем сенсоров и датчиков, определ
+ять свое
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 274--276
+\TU/TimesNewRoman(0)/m/n/14.4 Мобильные роботы способны передвигаться используя
+ следующие
+ []
+
+
+Underfull \hbox (badness 1824) in paragraph at lines 284--288
+\TU/TimesNewRoman(0)/m/n/14.4 [ссылка на книжку] Естественно, техники могут ком
+бинироваться. В
+ []
+
+
+Underfull \hbox (badness 5862) in paragraph at lines 284--288
+\TU/TimesNewRoman(0)/m/n/14.4 по твердым горизонтальным поверхностям в земной с
+реде. Кроме
+ []
+
+
+Underfull \hbox (badness 3579) in paragraph at lines 284--288
+\TU/TimesNewRoman(0)/m/n/14.4 того, ограничим возможные техники движения ходьбо
+й и качением
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 284--288
+\TU/TimesNewRoman(0)/m/n/14.4 Существующие роботы, способные двигаться по гориз
+онтальной
+ []
+
+[4
+
+]
+Underfull \hbox (badness 6063) in paragraph at lines 295--296
+[]\TU/TimesNewRoman(0)/m/n/14.4 Роботы, использующие ноги, используются в услов
+иях, когда
+ []
+
+
+Underfull \hbox (badness 4492) in paragraph at lines 295--296
+\TU/TimesNewRoman(0)/m/n/14.4 колесо испытывает малое количество сопротивления.
+ Неровности и
+ []
+
+
+Underfull \hbox (badness 5431) in paragraph at lines 295--296
+\TU/TimesNewRoman(0)/m/n/14.4 требуется большое количество ограничений. Роботы,
+ использующие
+ []
+
+
+Underfull \hbox (badness 4779) in paragraph at lines 297--298
+\TU/TimesNewRoman(0)/m/n/14.4 широко использовать таких роботов в сложной среде
+ обитания. К
+ []
+
+
+Underfull \hbox (badness 5022) in paragraph at lines 297--298
+\TU/TimesNewRoman(0)/m/n/14.4 недостаткам роботов с ногами можно отнести высоку
+ю сложность
  []
 
 [5]
-Глава 2.
-
-Underfull \hbox (badness 10000) in paragraph at lines 541--541
-|[] \TU/TimesNewRoman(0)/bx/n/14.4 Динамическая модель робота с N всенаправленн
-ыми
- []
-
-
-Underfull \hbox (badness 7869) in paragraph at lines 544--545
-[]\TU/TimesNewRoman(0)/m/n/14.4 Для того, чтобы привести тележку в движение, её
- колесам
- []
-
-
-Underfull \hbox (badness 2529) in paragraph at lines 546--547
-\TU/TimesNewRoman(0)/m/n/14.4 сил. В описании модели используются те же обознач
-ения, что и в
- []
-
-
-Underfull \hbox (badness 2680) in paragraph at lines 546--547
-\TU/TimesNewRoman(0)/m/n/14.4 кинематической модели за исключением того, что вм
-есто веркторов
- []
-
-
-Underfull \hbox (badness 1163) in paragraph at lines 546--547
-\TU/TimesNewRoman(0)/m/n/14.4 точке $\OML/cmm/m/it/14.4 i$ \TU/TimesNewRoman(0)
-/m/n/14.4 - го колеса в направлении качения. Для примера на рисунке
- []
-
-
-Underfull \hbox (badness 4303) in paragraph at lines 546--547
-\TU/TimesNewRoman(0)/m/n/14.4 2.1[] схематически изображена динамическая модель
- робота с тремя
- []
-
-
-Underfull \hbox (badness 6910) in paragraph at lines 555--557
-\TU/TimesNewRoman(0)/m/n/14.4 Сила как мера воздействия на тело характеризует п
-оступательное
- []
-
-
-Underfull \hbox (badness 4954) in paragraph at lines 555--557
-\TU/TimesNewRoman(0)/m/n/14.4 движение модели, в то время как момент сил $\OML/
-cmm/m/it/14.4 M[][]$ \TU/TimesNewRoman(0)/m/n/14.4 характеризует
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 555--557
-\TU/TimesNewRoman(0)/m/n/14.4 на поступательную и вращательную составляющие, ан
-алогично
- []
-
-(./dynamic_model_pic.pdf_tex
-File: dynamic_model_pic.pdf Graphic file (type pdf)
-<use dynamic_model_pic.pdf, page 1>
-File: dynamic_model_pic.pdf Graphic file (type pdf)
-<use dynamic_model_pic.pdf, page 2>
-File: dynamic_model_pic.pdf Graphic file (type pdf)
-<use dynamic_model_pic.pdf, page 3>
-File: dynamic_model_pic.pdf Graphic file (type pdf)
-<use dynamic_model_pic.pdf, page 4>
-File: dynamic_model_pic.pdf Graphic file (type pdf)
-<use dynamic_model_pic.pdf, page 5>
-File: dynamic_model_pic.pdf Graphic file (type pdf)
-<use dynamic_model_pic.pdf, page 6>
-File: dynamic_model_pic.pdf Graphic file (type pdf)
-<use dynamic_model_pic.pdf, page 7>
-File: dynamic_model_pic.pdf Graphic file (type pdf)
-<use dynamic_model_pic.pdf, page 8>
-File: dynamic_model_pic.pdf Graphic file (type pdf)
-<use dynamic_model_pic.pdf, page 9>
-) [6
-
-]
-Underfull \hbox (badness 2027) in paragraph at lines 590--591
-[]\TU/TimesNewRoman(0)/m/n/14.4 Момент инерции тележки можно считать приближенн
-о равным
- []
-
-[7]
-Overfull \hbox (20.99762pt too wide) detected at line 663
-[] \OT1/cmr/m/n/14.4 = [] [] = \OML/cmm/m/it/14.4 Af
- []
-
-[8]
-Underfull \hbox (badness 2221) in paragraph at lines 720--721
-[]\TU/TimesNewRoman(0)/m/n/14.4 В свою очередь величину момента сил каждого кол
-еса можно
- []
-
-
-Underfull \hbox (badness 2134) in paragraph at lines 730--731
-[]\TU/TimesNewRoman(0)/m/n/14.4 Учтем силу трения качения модели по некоторой п
-оверхности,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 730--731
-\TU/TimesNewRoman(0)/m/n/14.4 предполагая равномерное распределение веса на каж
-дое колесо.
- []
-
-
-Underfull \hbox (badness 1675) in paragraph at lines 730--731
-\TU/TimesNewRoman(0)/m/n/14.4 Известно, что сила трения качения противоположна 
-по направлению
- []
-
-
-Underfull \hbox (badness 2285) in paragraph at lines 730--731
-\TU/TimesNewRoman(0)/m/n/14.4 силе, приводящей колесо в действие и для $\OML/cm
-m/m/it/14.4 i$\TU/TimesNewRoman(0)/m/n/14.4 -го колеса может быть
- []
-
-
-Underfull \hbox (badness 3108) in paragraph at lines 737--739
-\TU/TimesNewRoman(0)/m/n/14.4 и $\OML/cmm/m/it/14.4 ^^Q \OT1/cmr/m/n/14.4 = \OM
-S/cmsy/m/n/14.4 1$ \TU/TimesNewRoman(0)/m/n/14.4 когда трение поверхности непре
-одолимо сильно. Сила
- []
-
-[9]
-Underfull \hbox (badness 10000) in paragraph at lines 800--801
-[]\TU/TimesNewRoman(0)/m/n/14.4 Таким образом получаем динамическую модель теле
-жки,
- []
-
-
-Underfull \hbox (badness 1205) in paragraph at lines 800--801
-\TU/TimesNewRoman(0)/m/n/14.4 2.17[] можем получить соответствующие заданному п
-ути моменты сил
- []
-
-[10]
-Глава 3.
-
-Underfull \hbox (badness 5161) in paragraph at lines 806--807
-\TU/TimesNewRoman(0)/m/n/14.4 без скольжения, мгновенная скорость низшей точки 
-касания равна
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 806--807
-\TU/TimesNewRoman(0)/m/n/14.4 нулю[Ссылка на источник]. На практике соприкасающ
-иеся тела
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 806--807
-\TU/TimesNewRoman(0)/m/n/14.4 из-за физических ограничений всегда соприкасаются
- множеством
- []
-
-
-Underfull \hbox (badness 1331) in paragraph at lines 806--807
-\TU/TimesNewRoman(0)/m/n/14.4 точек, называемым пятном контакта. В качестве илл
-юстрации можно
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 806--807
-\TU/TimesNewRoman(0)/m/n/14.4 привести гусеничную тележку, двигающуюся по повер
-хности без
- []
-
-
-Underfull \hbox (badness 2318) in paragraph at lines 806--807
-\TU/TimesNewRoman(0)/m/n/14.4 поверхности. При достаточно низкой скорости тележ
-ки можно даже
- []
-
-
-Underfull \hbox (badness 3312) in paragraph at lines 808--809
-\TU/TimesNewRoman(0)/m/n/14.4 точка касания имеет ненулевую скорость относитель
-но поверхности
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 810--811
-[]\TU/TimesNewRoman(0)/m/n/14.4 Простейшей неголономной моделью роликонесущего 
-колеса
- []
-
-
-Underfull \hbox (badness 1888) in paragraph at lines 810--811
-\TU/TimesNewRoman(0)/m/n/14.4 с несущей поверхностью направленная вдоль прямой,
- составляющий
- []
-
-(./mecanum_disk.pdf_tex
-File: mecanum_disk.pdf Graphic file (type pdf)
-<use mecanum_disk.pdf, page 1>
-File: mecanum_disk.pdf Graphic file (type pdf)
-<use mecanum_disk.pdf, page 2>
-File: mecanum_disk.pdf Graphic file (type pdf)
-<use mecanum_disk.pdf, page 3>
-File: mecanum_disk.pdf Graphic file (type pdf)
-<use mecanum_disk.pdf, page 4>
-) [11
-
-] (./mecanum_wheel_top.pdf_tex
-File: mecanum_wheel_top.pdf Graphic file (type pdf)
-<use mecanum_wheel_top.pdf, page 1>
-File: mecanum_wheel_top.pdf Graphic file (type pdf)
-<use mecanum_wheel_top.pdf, page 2>
-File: mecanum_wheel_top.pdf Graphic file (type pdf)
-<use mecanum_wheel_top.pdf, page 3>
-)
-Underfull \hbox (badness 3199) in paragraph at lines 828--829
-\TU/TimesNewRoman(0)/m/n/14.4 и неподвижны относительно платформы тележки. Обоз
-начим за $[]$ -
- []
-
-
-Underfull \hbox (badness 2951) in paragraph at lines 837--839
-\TU/TimesNewRoman(0)/m/n/14.4 где $\OML/cmm/m/it/14.4 M$ \TU/TimesNewRoman(0)/m
-/n/14.4 - точка касания, $[]$ - скорость точки касания. Вектор $[]$
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 847--852
-\OMS/cmsy/m/n/14.4 f\OML/cmm/m/it/14.4 C; []; []; []\OMS/cmsy/m/n/14.4 g$ \TU/T
-imesNewRoman(0)/m/n/14.4 - система координат, жестко связанная с диском.
- []
-
-[12] (./mecanum_wheel_projection.pdf_tex
-File: mecanum_wheel_projection.pdf Graphic file (type pdf)
-<use mecanum_wheel_projection.pdf, page 1>
-File: mecanum_wheel_projection.pdf Graphic file (type pdf)
-<use mecanum_wheel_projection.pdf, page 2>
-File: mecanum_wheel_projection.pdf Graphic file (type pdf)
-<use mecanum_wheel_projection.pdf, page 3>
-File: mecanum_wheel_projection.pdf Graphic file (type pdf)
-<use mecanum_wheel_projection.pdf, page 4>
-File: mecanum_wheel_projection.pdf Graphic file (type pdf)
-<use mecanum_wheel_projection.pdf, page 5>
-File: mecanum_wheel_projection.pdf Graphic file (type pdf)
-<use mecanum_wheel_projection.pdf, page 6>
-)
-Underfull \hbox (badness 1389) in paragraph at lines 910--911
-[]\TU/TimesNewRoman(0)/m/n/14.4 Наконец, проецируя единичный вектор $\OML/cmm/m
-/it/14.4 l$ \TU/TimesNewRoman(0)/m/n/14.4 на локальную систему
- []
-
-[13]
-Underfull \hbox (badness 2134) in paragraph at lines 1006--1008
-\TU/TimesNewRoman(0)/m/n/14.4 динамика тележки с $\OML/cmm/m/it/14.4 N$ \TU/Tim
-esNewRoman(0)/m/n/14.4 роликонесущими колесами и сформулирован
- []
-
-[14]
-Глава 4.
-
-Underfull \hbox (badness 10000) in paragraph at lines 1010--1011
-[]\TU/TimesNewRoman(0)/m/n/14.4 Рассмотрим кинематическую модель тележки на чет
-ырех
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1010--1011
-\TU/TimesNewRoman(0)/m/n/14.4 роликонесущих колесах, проиллюстрированную на рис
-унке 4.1[].
- []
-
-
-Underfull \hbox (badness 1286) in paragraph at lines 1010--1011
-\TU/TimesNewRoman(0)/m/n/14.4 Обозначим $\OML/cmm/m/it/14.4 C$ \TU/TimesNewRoma
-n(0)/m/n/14.4 - точка вращения тележки, $\OMS/cmsy/m/n/14.4 f\OML/cmm/m/it/14.4
- O; []; []; []\OMS/cmsy/m/n/14.4 g$ \TU/TimesNewRoman(0)/m/n/14.4 - глобальная
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1010--1011
-\TU/TimesNewRoman(0)/m/n/14.4 жестко связанная с тележкой. Плоскость $\OMS/cmsy
-/m/n/14.4 f\OML/cmm/m/it/14.4 C; []; []\OMS/cmsy/m/n/14.4 g$ \TU/TimesNewRoman(
-0)/m/n/14.4 параллельна
- []
-
-(./mecanum_car.pdf_tex
-File: mecanum_car.pdf Graphic file (type pdf)
-<use mecanum_car.pdf, page 1>
-File: mecanum_car.pdf Graphic file (type pdf)
-<use mecanum_car.pdf, page 2>
-File: mecanum_car.pdf Graphic file (type pdf)
-<use mecanum_car.pdf, page 3>
-File: mecanum_car.pdf Graphic file (type pdf)
-<use mecanum_car.pdf, page 4>
-File: mecanum_car.pdf Graphic file (type pdf)
-<use mecanum_car.pdf, page 5>
-File: mecanum_car.pdf Graphic file (type pdf)
-<use mecanum_car.pdf, page 6>
-File: mecanum_car.pdf Graphic file (type pdf)
-<use mecanum_car.pdf, page 7>
-File: mecanum_car.pdf Graphic file (type pdf)
-<use mecanum_car.pdf, page 8>
-File: mecanum_car.pdf Graphic file (type pdf)
-<use mecanum_car.pdf, page 9>
-)
-Overfull \hbox (27.82623pt too wide) in paragraph at lines 1014--1015
- [][] 
- []
-
-[15
-
-]
-Underfull \hbox (badness 1292) in paragraph at lines 1030--1031
-[]\TU/TimesNewRoman(0)/m/n/14.4 Вектор поступательной скорости $[]$ имеет коорд
-инаты $\OT1/cmr/m/n/14.4 [[]\OML/cmm/m/it/14.4 ; []; \OT1/cmr/m/n/14.4 0]$\TU/T
-imesNewRoman(0)/m/n/14.4 .
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1043--1044
-[]\TU/TimesNewRoman(0)/m/n/14.4 Для того, чтобы заставить тележку вращаться вок
-руг оси
- []
-
-
-Underfull \hbox (badness 2027) in paragraph at lines 1043--1044
-\TU/TimesNewRoman(0)/m/n/14.4 вращения $\OML/cmm/m/it/14.4 C[]$\TU/TimesNewRoma
-n(0)/m/n/14.4 , необходимо задать вектор скоростей каждого колеса
- []
-
-(./mecanum_car_rot.pdf_tex
-File: mecanum_car_rot.pdf Graphic file (type pdf)
-<use mecanum_car_rot.pdf, page 1>
-File: mecanum_car_rot.pdf Graphic file (type pdf)
-<use mecanum_car_rot.pdf, page 2>
-File: mecanum_car_rot.pdf Graphic file (type pdf)
-<use mecanum_car_rot.pdf, page 3>
-)
-Underfull \hbox (badness 2245) in paragraph at lines 1053--1054
-[]\TU/TimesNewRoman(0)/m/n/14.4 Рассмотрим вектор вращательной скорости $\OML/c
-mm/m/it/14.4 i$ \TU/TimesNewRoman(0)/m/n/14.4 - го колеса $[]$.
- []
-
-[16] (./mecanum_wheel_projection1.pdf_tex
-File: mecanum_wheel_projection1.pdf Graphic file (type pdf)
-<use mecanum_wheel_projection1.pdf, page 1>
-File: mecanum_wheel_projection1.pdf Graphic file (type pdf)
-<use mecanum_wheel_projection1.pdf, page 2>
-File: mecanum_wheel_projection1.pdf Graphic file (type pdf)
-<use mecanum_wheel_projection1.pdf, page 3>
-File: mecanum_wheel_projection1.pdf Graphic file (type pdf)
-<use mecanum_wheel_projection1.pdf, page 4>
-File: mecanum_wheel_projection1.pdf Graphic file (type pdf)
-<use mecanum_wheel_projection1.pdf, page 5>
-File: mecanum_wheel_projection1.pdf Graphic file (type pdf)
-<use mecanum_wheel_projection1.pdf, page 6>
-) (./mecanum_wheel_projection2.pdf_tex
-File: mecanum_wheel_projection2.pdf Graphic file (type pdf)
-<use mecanum_wheel_projection2.pdf, page 1>
-) [17]
 
 Package caption Warning: Unused \captionsetup[subfigure] on input line 52.
 See the caption package documentation for explanation.
 
 
 AED: lastpage setting LastPage
-[18] (./math framework.aux)
+[6] (./main.aux)
 
  *File List*
 extreport.cls    1996/10/08 v1.0 Non Standard LaTeX document class
@@ -1489,90 +1205,19 @@ flexisym.sty    2017/01/27 v0.98e Make math characters macros
 mathstyle.sty    2017/01/27 0.98e Tracking mathstyle implicitly
   mt-cmr.cfg    2013/05/19 v2.2 microtype config. file: Computer Modern Roman (
 RS)
-omni_wheel_coords.pdf_tex
-omni_wheel_coords.pdf    Graphic file (type pdf)
-omni_wheel_coords.pdf    Graphic file (type pdf)
-kinematic_model_pic.pdf_tex
-kinematic_model_pic.pdf    Graphic file (type pdf)
-kinematic_model_pic.pdf    Graphic file (type pdf)
-kinematic_model_pic.pdf    Graphic file (type pdf)
-kinematic_model_pic.pdf    Graphic file (type pdf)
-kinematic_model_pic.pdf    Graphic file (type pdf)
-kinematic_model_pic.pdf    Graphic file (type pdf)
-kinematic_model_pic.pdf    Graphic file (type pdf)
-kinematic_model_pic.pdf    Graphic file (type pdf)
-kinematic_model_pic.pdf    Graphic file (type pdf)
-projection.pdf_tex
-projection.pdf    Graphic file (type pdf)
-projection.pdf    Graphic file (type pdf)
-projection.pdf    Graphic file (type pdf)
-projection.pdf    Graphic file (type pdf)
-mecanum_wheel_projection3.pdf_tex
-mecanum_wheel_projection3.pdf    Graphic file (type pdf)
-mecanum_wheel_projection3.pdf    Graphic file (type pdf)
-mecanum_wheel_projection3.pdf    Graphic file (type pdf)
-mecanum_wheel_projection3.pdf    Graphic file (type pdf)
-mecanum_wheel_projection3.pdf    Graphic file (type pdf)
-mecanum_wheel_projection3.pdf    Graphic file (type pdf)
-dynamic_model_pic.pdf_tex
-dynamic_model_pic.pdf    Graphic file (type pdf)
-dynamic_model_pic.pdf    Graphic file (type pdf)
-dynamic_model_pic.pdf    Graphic file (type pdf)
-dynamic_model_pic.pdf    Graphic file (type pdf)
-dynamic_model_pic.pdf    Graphic file (type pdf)
-dynamic_model_pic.pdf    Graphic file (type pdf)
-dynamic_model_pic.pdf    Graphic file (type pdf)
-dynamic_model_pic.pdf    Graphic file (type pdf)
-dynamic_model_pic.pdf    Graphic file (type pdf)
-mecanum_disk.pdf_tex
-mecanum_disk.pdf    Graphic file (type pdf)
-mecanum_disk.pdf    Graphic file (type pdf)
-mecanum_disk.pdf    Graphic file (type pdf)
-mecanum_disk.pdf    Graphic file (type pdf)
-mecanum_wheel_top.pdf_tex
-mecanum_wheel_top.pdf    Graphic file (type pdf)
-mecanum_wheel_top.pdf    Graphic file (type pdf)
-mecanum_wheel_top.pdf    Graphic file (type pdf)
-mecanum_wheel_projection.pdf_tex
-mecanum_wheel_projection.pdf    Graphic file (type pdf)
-mecanum_wheel_projection.pdf    Graphic file (type pdf)
-mecanum_wheel_projection.pdf    Graphic file (type pdf)
-mecanum_wheel_projection.pdf    Graphic file (type pdf)
-mecanum_wheel_projection.pdf    Graphic file (type pdf)
-mecanum_wheel_projection.pdf    Graphic file (type pdf)
-mecanum_car.pdf_tex
-mecanum_car.pdf    Graphic file (type pdf)
-mecanum_car.pdf    Graphic file (type pdf)
-mecanum_car.pdf    Graphic file (type pdf)
-mecanum_car.pdf    Graphic file (type pdf)
-mecanum_car.pdf    Graphic file (type pdf)
-mecanum_car.pdf    Graphic file (type pdf)
-mecanum_car.pdf    Graphic file (type pdf)
-mecanum_car.pdf    Graphic file (type pdf)
-mecanum_car.pdf    Graphic file (type pdf)
-mecanum_car_rot.pdf_tex
-mecanum_car_rot.pdf    Graphic file (type pdf)
-mecanum_car_rot.pdf    Graphic file (type pdf)
-mecanum_car_rot.pdf    Graphic file (type pdf)
-mecanum_wheel_projection1.pdf_tex
-mecanum_wheel_projection1.pdf    Graphic file (type pdf)
-mecanum_wheel_projection1.pdf    Graphic file (type pdf)
-mecanum_wheel_projection1.pdf    Graphic file (type pdf)
-mecanum_wheel_projection1.pdf    Graphic file (type pdf)
-mecanum_wheel_projection1.pdf    Graphic file (type pdf)
-mecanum_wheel_projection1.pdf    Graphic file (type pdf)
-mecanum_wheel_projection2.pdf_tex
-mecanum_wheel_projection2.pdf    Graphic file (type pdf)
  ***********
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
- 18092 strings out of 494173
- 364881 string characters out of 6167614
- 599567 words of memory out of 5000000
- 21759 multiletter control sequences out of 15000+600000
- 534493 words of font info for 48 fonts, out of 8000000 for 9000
+ 17950 strings out of 494173
+ 360303 string characters out of 6167614
+ 591533 words of memory out of 5000000
+ 21659 multiletter control sequences out of 15000+600000
+ 531732 words of font info for 39 fonts, out of 8000000 for 9000
  704 hyphenation exceptions out of 8191
- 42i,21n,65p,10428b,435s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 42i,6n,65p,10416b,278s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on math framework.pdf (18 pages).
+Output written on main.pdf (6 pages).

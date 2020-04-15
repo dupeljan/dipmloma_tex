@@ -19,12 +19,26 @@
   <defs
      id="defs8553">
     <marker
+       inkscape:isstock="true"
+       id="marker6215"
+       refX="5"
+       refY="3"
+       orient="auto-start-reverse"
+       inkscape:stockid="ExperimentalArrow">
+      <path
+         inkscape:connector-curvature="0"
+         style="fill:context-stroke;stroke:#000000;stroke-opacity:1"
+         d="M 10,3 0,6 V 0 Z"
+         id="path6213" />
+    </marker>
+    <marker
        inkscape:stockid="ExperimentalArrow"
        orient="auto-start-reverse"
        refY="3"
        refX="5"
        id="ExperimentalArrow"
-       inkscape:isstock="true">
+       inkscape:isstock="true"
+       inkscape:collect="always">
       <path
          id="path1108"
          d="M 10,3 0,6 V 0 Z"
@@ -103,7 +117,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.98994949"
-     inkscape:cx="487.25566"
+     inkscape:cx="323.61095"
      inkscape:cy="57.320505"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
@@ -284,5 +298,21 @@
          x="129.35846"
          y="67.682739"
          style="stroke-width:0.26458332">$\delta$</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.565;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none;marker-end:url(#marker6215)"
+       d="m 104.76965,78.640796 38.32464,-0.07801"
+       id="path1671"
+       inkscape:connector-curvature="0" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:8.65715885px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.21642897"
+       x="145.39233"
+       y="75.371376"
+       id="text6279"><tspan
+         sodipodi:role="line"
+         id="tspan6277"
+         x="145.39233"
+         y="75.371376"
+         style="stroke-width:0.21642897">$\tau$</tspan></text>
   </g>
 </svg>
