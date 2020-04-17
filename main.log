@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/Debian) (preloaded format=xelatex 2019.5.20)  17 APR 2020 10:23
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/Debian) (preloaded format=xelatex 2019.5.20)  17 APR 2020 11:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1129,15 +1129,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 292--293
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 296--297
-[]\TU/TimesNewRoman(0)/m/n/14.4 Имея в арсенале три ноги, роботу невозможно доб
-иться
- []
-
-
-Underfull \hbox (badness 1331) in paragraph at lines 296--297
-\TU/TimesNewRoman(0)/m/n/14.4 статичесткого равновесия во время ходьбы. Минимал
-ьное количество
+Underfull \hbox (badness 1742) in paragraph at lines 296--297
+\TU/TimesNewRoman(0)/m/n/14.4 для движения и постоянного поддержания статическо
+го равновесия -
  []
 
 [5]
@@ -1176,21 +1170,21 @@ Underfull \hbox (badness 5431) in paragraph at lines 316--317
  []
 
 [6]
-Underfull \hbox (badness 10000) in paragraph at lines 318--319
-[]\TU/TimesNewRoman(0)/m/n/14.4 Роботы, использующие ноги для движения, способн
-ы
+Underfull \hbox (badness 3209) in paragraph at lines 318--319
+\TU/TimesNewRoman(0)/m/n/14.4 в сложных условиях, когда поверхность не является
+ ровной, имеет
  []
 
 
-Underfull \hbox (badness 2818) in paragraph at lines 318--319
-\TU/TimesNewRoman(0)/m/n/14.4 прередвигаться в сложных условиях, когда поверхно
-сть не является
+Underfull \hbox (badness 3601) in paragraph at lines 318--319
+\TU/TimesNewRoman(0)/m/n/14.4 роботы способны преодолевать препятствия просто п
+ерешагивая их.
  []
 
 
-Underfull \hbox (badness 1831) in paragraph at lines 318--319
-\TU/TimesNewRoman(0)/m/n/14.4 Это позволяет широко использовать таких роботов в
- сложной среде.
+Underfull \hbox (badness 1237) in paragraph at lines 318--319
+\TU/TimesNewRoman(0)/m/n/14.4 К недостаткам роботов с ногами можно отнести высо
+кую сложность
  []
 
 
@@ -1200,21 +1194,15 @@ Underfull \hbox (badness 1609) in paragraph at lines 320--321
  []
 
 
-Underfull \hbox (badness 1546) in paragraph at lines 320--321
-\TU/TimesNewRoman(0)/m/n/14.4 роботов, использующих ноги, много внимания уделят
-ся проблеме их
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 320--321
 \TU/TimesNewRoman(0)/m/n/14.4 положения робота в пространстве необходимо всего 
 два колеса,
  []
 
 
-Underfull \hbox (badness 3690) in paragraph at lines 320--321
-\TU/TimesNewRoman(0)/m/n/14.4 большинство колесных мобильных роботов исплозуют 
-три и более,
+Underfull \hbox (badness 2253) in paragraph at lines 320--321
+\TU/TimesNewRoman(0)/m/n/14.4 большинство колесных мобильных роботов используют
+ три и более,
  []
 
 
@@ -1247,6 +1235,12 @@ Underfull \hbox (badness 1571) in paragraph at lines 337--338
 а в условиях
  []
 
+
+Underfull \hbox (badness 1048) in paragraph at lines 337--338
+\TU/TimesNewRoman(0)/m/n/14.4 механики сплошных сред, необходимо знать его угло
+вую скорость $[]$,
+ []
+
 [8]
 File: img/Cars/myCar.jpg Graphic file (type bmp)
 <img/Cars/myCar.jpg>
@@ -1271,7 +1265,7 @@ Underfull \hbox (badness 2050) in paragraph at lines 364--365
 
 Underfull \hbox (badness 10000) in paragraph at lines 366--367
 []\TU/TimesNewRoman(0)/m/n/14.4 Castor wheel - распространенный тип колес, повс
-еместо
+еместно
  []
 
 
@@ -1318,14 +1312,14 @@ Underfull \hbox (badness 3428) in paragraph at lines 383--384
 File: img/Cars/threeWheels.jpg Graphic file (type bmp)
 <img/Cars/threeWheels.jpg>
 
-Underfull \hbox (badness 8132) in paragraph at lines 386--393
+Underfull \hbox (badness 5274) in paragraph at lines 386--393
 []\TU/TimesNewRoman(0)/m/n/14.4 В робототехнике роликовые колеса широко использ
-уюся для
+уются для
  []
 
 
 Underfull \hbox (badness 8075) in paragraph at lines 386--393
-\TU/TimesNewRoman(0)/m/n/14.4 увеличения маневренности. Распространненая конфиг
+\TU/TimesNewRoman(0)/m/n/14.4 увеличения маневренности. Распространенная конфиг
 урация робота,
  []
 
@@ -1339,6 +1333,12 @@ File: img/Wheels/mecanumWheel.jpg Graphic file (type bmp)
 <img/Wheels/mecanumWheel.jpg>
 File: img/Wheels/omniWheel.jpg Graphic file (type bmp)
 <img/Wheels/omniWheel.jpg>
+
+Underfull \hbox (badness 1178) in paragraph at lines 397--410
+\TU/TimesNewRoman(0)/m/n/14.4 каждый из которых вращается вокруг собственной ос
+и. Для примера
+ []
+
 [11]
 Underfull \hbox (badness 1014) in paragraph at lines 411--412
 \TU/TimesNewRoman(0)/m/n/14.4 вращения колеса и осью ролика, касающегося поверх
@@ -1370,9 +1370,9 @@ Underfull \hbox (badness 1383) in paragraph at lines 415--416
  []
 
 
-Underfull \hbox (badness 5147) in paragraph at lines 415--416
-\TU/TimesNewRoman(0)/m/n/14.4 устанавливать такие колеса паралельно друг-другу,
- и при этом не
+Underfull \hbox (badness 3333) in paragraph at lines 415--416
+\TU/TimesNewRoman(0)/m/n/14.4 устанавливать такие колеса параллельно друг-другу
+, и при этом не
  []
 
 
@@ -1385,12 +1385,6 @@ Underfull \hbox (badness 3557) in paragraph at lines 415--416
 Underfull \hbox (badness 1478) in paragraph at lines 418--419
 []\TU/TimesNewRoman(0)/m/n/14.4 На рисунке 1.6[] изображена возможная конфигура
 ция робота на
- []
-
-
-Underfull \hbox (badness 1033) in paragraph at lines 418--419
-\TU/TimesNewRoman(0)/m/n/14.4 паралельно друг-другу: для голономности необходим
-о, чтобы прямые,
  []
 
 (./mecanum_car_simple.pdf_tex
@@ -1417,20 +1411,26 @@ Underfull \hbox (badness 4001) in paragraph at lines 441--442
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 441--442
-\TU/TimesNewRoman(0)/m/n/14.4 Однако невозможность одновреммено расположить омн
+\TU/TimesNewRoman(0)/m/n/14.4 Однако невозможность одновременно расположить омн
 и колеса
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 441--442
-\TU/TimesNewRoman(0)/m/n/14.4 паралельно и сохранение голономности делает колес
-о Илона
+\TU/TimesNewRoman(0)/m/n/14.4 параллельно и сохранение голономности делает коле
+со Илона
  []
 
 
-Underfull \hbox (badness 1838) in paragraph at lines 443--444
-[]\TU/TimesNewRoman(0)/m/n/14.4 Кроме того, скорость робота при движении парале
-льно дискам
+Underfull \hbox (badness 4120) in paragraph at lines 443--444
+\TU/TimesNewRoman(0)/m/n/14.4 колес, благодаря параллельному расположению, долж
+на быть выше:
+ []
+
+
+Underfull \hbox (badness 1292) in paragraph at lines 443--444
+\TU/TimesNewRoman(0)/m/n/14.4 может двигаться в некотором направлении так, чтоб
+ы каждое колесо
  []
 
 
@@ -1500,15 +1500,9 @@ Underfull \hbox (badness 4518) in paragraph at lines 449--450
  []
 
 
-Underfull \hbox (badness 1424) in paragraph at lines 449--450
-\TU/TimesNewRoman(0)/m/n/14.4 в случае других типов колес, благодаря чему транс
-портные средства
- []
-
-
-Underfull \hbox (badness 4156) in paragraph at lines 449--450
-\TU/TimesNewRoman(0)/m/n/14.4 не вязнут в рыхлой почве, песке, болотах и так да
-лее. Гусеницы
+Underfull \hbox (badness 1137) in paragraph at lines 449--450
+\TU/TimesNewRoman(0)/m/n/14.4 вязнут в рыхлой почве, песке, болотах и так далее
+. Гусеницы также
  []
 
 
@@ -1571,9 +1565,9 @@ Underfull \hbox (badness 1910) in paragraph at lines 461--462
 
 AED: lastpage setting LastPage
 
-Underfull \hbox (badness 6173) in paragraph at lines 463--466
-[]\TU/TimesNewRoman(0)/m/n/14.4 Гусеничный ход - компромис в пользу проходимост
-и робота
+Underfull \hbox (badness 4084) in paragraph at lines 463--466
+[]\TU/TimesNewRoman(0)/m/n/14.4 Гусеничный ход - компромисс в пользу проходимос
+ти робота
  []
 
 
