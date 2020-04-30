@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/Debian) (preloaded format=xelatex 2019.5.20)  17 APR 2020 11:07
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/Debian) (preloaded format=xelatex 2019.5.20)  30 APR 2020 09:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1023,27 +1023,16 @@ number indent calculated (toc, 1): 18.0pt
  [2
 
 ]
-Underfull \hbox (badness 7595) in paragraph at lines 262--263
-[]\TU/TimesNewRoman(0)/m/n/14.4 Перед автором была поставлена задача $\OMS/cmsy
-/m/n/14.4 ^^@$ \TU/TimesNewRoman(0)/m/n/14.4 исследовать виды
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 262--263
-\TU/TimesNewRoman(0)/m/n/14.4 движущихся роботизированных систем и методы управ
-ления ими.
- []
-
-
-Underfull \hbox (badness 3977) in paragraph at lines 264--265
-[]\TU/TimesNewRoman(0)/m/n/14.4 В процессе выполнения дипломной работы были раз
-работаны
+Underfull \hbox (badness 2922) in paragraph at lines 264--265
+\TU/TimesNewRoman(0)/m/n/14.4 на $\OML/cmm/m/it/14.4 N$ \TU/TimesNewRoman(0)/m/
+n/14.4 роликонесущих колес, $\OML/cmm/m/it/14.4 N > \OT1/cmr/m/n/14.4 2$\TU/Tim
+esNewRoman(0)/m/n/14.4 , изучить и обозреть методы
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 264--265
-\TU/TimesNewRoman(0)/m/n/14.4 и обозрены методы управления роботизированными си
-стемами.
+\TU/TimesNewRoman(0)/m/n/14.4 управления роботизированными системами. Полученны
+е сведения
  []
 
 [3]
@@ -1404,21 +1393,27 @@ File: img/Cars/mecanumWheel.jpg Graphic file (type bmp)
 File: img/Cars/omniWheel.jpg Graphic file (type bmp)
 <img/Cars/omniWheel.jpg>
  [13]
-Underfull \hbox (badness 4001) in paragraph at lines 441--442
+Underfull \hbox (badness 4181) in paragraph at lines 441--442
 \TU/TimesNewRoman(0)/m/n/14.4 перед мобильным роботом задачей, однако механизм 
-колесо Илона
+колеса Илона
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 441--442
-\TU/TimesNewRoman(0)/m/n/14.4 Однако невозможность одновременно расположить омн
-и колеса
+Underfull \hbox (badness 1412) in paragraph at lines 441--442
+\TU/TimesNewRoman(0)/m/n/14.4 сложнее механизма омни колеса; омни колесо проще 
+в производстве
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 441--442
-\TU/TimesNewRoman(0)/m/n/14.4 параллельно и сохранение голономности делает коле
-со Илона
+Underfull \hbox (badness 1642) in paragraph at lines 441--442
+\TU/TimesNewRoman(0)/m/n/14.4 и надежнее. Однако невозможность одновременно рас
+положить омни
+ []
+
+
+Underfull \hbox (badness 1297) in paragraph at lines 441--442
+\TU/TimesNewRoman(0)/m/n/14.4 колеса параллельно и сохранение голономности дела
+ет колесо Илона
  []
 
 
@@ -1563,8 +1558,6 @@ Underfull \hbox (badness 1910) in paragraph at lines 461--462
  []
 
 
-AED: lastpage setting LastPage
-
 Underfull \hbox (badness 4084) in paragraph at lines 463--466
 []\TU/TimesNewRoman(0)/m/n/14.4 Гусеничный ход - компромисс в пользу проходимос
 ти робота
@@ -1576,7 +1569,9 @@ Underfull \hbox (badness 2707) in paragraph at lines 463--466
 РИЦЫНИН
  []
 
-[16] [17] (./main.aux)
+[16] 
+AED: lastpage setting LastPage
+[17] (./main.aux)
 
  *File List*
 extreport.cls    1996/10/08 v1.0 Non Standard LaTeX document class
