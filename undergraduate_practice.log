@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/Debian) (preloaded format=xelatex 2019.5.20)  12 MAY 2020 12:09
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/Debian) (preloaded format=xelatex 2019.5.20)  14 MAY 2020 08:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1043,33 +1043,27 @@ Underfull \hbox (badness 1331) in paragraph at lines 255--256
 ]
 Глава 1.
 
-Underfull \hbox (badness 1852) in paragraph at lines 261--262
+Underfull \hbox (badness 10000) in paragraph at lines 261--262
 []\TU/TimesNewRoman(0)/m/n/14.4 Мобильным роботом называют робота, способного м
-енять свое
+енять
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 261--262
-\TU/TimesNewRoman(0)/m/n/14.4 местоположение в пространстве. Мобильные роботы м
-огут быть
- []
-
-
-Underfull \hbox (badness 6493) in paragraph at lines 261--262
-\TU/TimesNewRoman(0)/m/n/14.4 автономными или управляемыми вручную. Автономные 
-мобильные
- []
-
-
-Underfull \hbox (badness 3068) in paragraph at lines 261--262
-\TU/TimesNewRoman(0)/m/n/14.4 роботы способны без участия человека, основываясь
- на показаниях
+\TU/TimesNewRoman(0)/m/n/14.4 свое местоположение в пространстве. Мобильные роб
+оты могут
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 261--262
-\TU/TimesNewRoman(0)/m/n/14.4 установленных на нем сенсоров и датчиков, определ
-ять свое
+\TU/TimesNewRoman(0)/m/n/14.4 быть автономными или управляемыми вручную [[]]. А
+втономные
+ []
+
+
+Underfull \hbox (badness 3189) in paragraph at lines 261--262
+\TU/TimesNewRoman(0)/m/n/14.4 мобильные роботы способны без участия человека, о
+сновываясь на
  []
 
 
@@ -1079,13 +1073,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 264--266
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 274--277
-\TU/TimesNewRoman(0)/m/n/14.4 Естественно, техники могут комбинироваться. В рам
-ках работы
+Underfull \hbox (badness 1577) in paragraph at lines 275--278
+[]\TU/TimesNewRoman(0)/m/n/14.4 Естественно, техники могут комбинироваться. В р
+амках работы
  []
 
 
-Underfull \hbox (badness 2285) in paragraph at lines 274--277
+Underfull \hbox (badness 2285) in paragraph at lines 275--278
 \TU/TimesNewRoman(0)/m/n/14.4 исследуются механизмы, позволяющие роботу двигать
 ся по твердым
  []
@@ -1093,19 +1087,13 @@ Underfull \hbox (badness 2285) in paragraph at lines 274--277
 [2
 
 ]
-Underfull \hbox (badness 6063) in paragraph at lines 283--284
+Underfull \hbox (badness 6063) in paragraph at lines 284--285
 []\TU/TimesNewRoman(0)/m/n/14.4 Роботы, использующие ноги, используются в услов
 иях, когда
  []
 
 
-Underfull \hbox (badness 3209) in paragraph at lines 283--284
-\TU/TimesNewRoman(0)/m/n/14.4 мягкий. Во время качения по плоской твердой повер
-хности колесо
- []
-
-
-Underfull \hbox (badness 5431) in paragraph at lines 283--284
+Underfull \hbox (badness 5431) in paragraph at lines 284--285
 \TU/TimesNewRoman(0)/m/n/14.4 требуется большое количество ограничений. Роботы,
  использующие
  []
@@ -1115,13 +1103,13 @@ File: img/LegRobots/atlas.png Graphic file (type bmp)
 File: img/LegRobots/sixLegRobot.jpeg Graphic file (type bmp)
 <img/LegRobots/sixLegRobot.jpeg>
 
-Underfull \hbox (badness 1616) in paragraph at lines 301--302
+Underfull \hbox (badness 1616) in paragraph at lines 302--303
 \TU/TimesNewRoman(0)/m/n/14.4 подход к построению мобильных роботов. Основная з
 адача, стоящая
  []
 
 [3]
-Underfull \hbox (badness 3039) in paragraph at lines 313--314
+Underfull \hbox (badness 3039) in paragraph at lines 314--315
 \TU/TimesNewRoman(0)/m/n/14.4 всех остальных типов, древнейшее изобретение чело
 вечества. Такие
  []
@@ -1129,37 +1117,37 @@ Underfull \hbox (badness 3039) in paragraph at lines 313--314
 File: img/Cars/myCar.jpg Graphic file (type bmp)
 <img/Cars/myCar.jpg>
 
-Underfull \hbox (badness 2050) in paragraph at lines 322--323
+Underfull \hbox (badness 2050) in paragraph at lines 323--324
 \TU/TimesNewRoman(0)/m/n/14.4 минимальное трение качения в сравнении другими ти
 пами колес. К
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 324--325
+Underfull \hbox (badness 10000) in paragraph at lines 325--326
 []\TU/TimesNewRoman(0)/m/n/14.4 Castor wheel - распространенный тип колес, повс
 еместно
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 324--325
-\TU/TimesNewRoman(0)/m/n/14.4 используемый в каталках, продуктовых тележках, ме
-бели и так
+Underfull \hbox (badness 3679) in paragraph at lines 325--326
+\TU/TimesNewRoman(0)/m/n/14.4 [[]]. У этого типа колес нет определенного русско
+го наименования;
  []
 
 
-Underfull \hbox (badness 1178) in paragraph at lines 324--325
+Underfull \hbox (badness 1178) in paragraph at lines 325--326
 \TU/TimesNewRoman(0)/m/n/14.4 будем называть такие колеса роликовыми. Примеры р
 оликовых колес
  []
 
 [4]
-Underfull \hbox (badness 3219) in paragraph at lines 326--327
+Underfull \hbox (badness 3219) in paragraph at lines 327--328
 \TU/TimesNewRoman(0)/m/n/14.4 степень свободы. Ось вращения такого колеса может
  вращается на
  []
 
 
-Underfull \hbox (badness 1048) in paragraph at lines 326--327
+Underfull \hbox (badness 1048) in paragraph at lines 327--328
 \OT1/cmr/m/n/14.4 360$ \TU/TimesNewRoman(0)/m/n/14.4 градусов. Также, к таким к
 олесам относят закрепленные шарики,
  []
@@ -1172,12 +1160,6 @@ File: img/Wheels/mecanumWheel.jpg Graphic file (type bmp)
 <img/Wheels/mecanumWheel.jpg>
 File: img/Wheels/omniWheel.jpg Graphic file (type bmp)
 <img/Wheels/omniWheel.jpg>
-
-Underfull \hbox (badness 1178) in paragraph at lines 342--355
-\TU/TimesNewRoman(0)/m/n/14.4 каждый из которых вращается вокруг собственной ос
-и. Для примера
- []
-
 [5] (./mecanum_car_simple.pdf_tex
 File: mecanum_car_simple.pdf Graphic file (type pdf)
 <use mecanum_car_simple.pdf, page 1>
@@ -1190,61 +1172,61 @@ File: mecanum_car_simple.pdf Graphic file (type pdf)
 File: mecanum_car_simple.pdf Graphic file (type pdf)
 <use mecanum_car_simple.pdf, page 5>
 )
-Underfull \hbox (badness 1014) in paragraph at lines 356--363
+Underfull \hbox (badness 1014) in paragraph at lines 357--364
 \TU/TimesNewRoman(0)/m/n/14.4 вращения колеса и осью ролика, касающегося поверх
 ности вращения
  []
 
 
-Underfull \hbox (badness 1314) in paragraph at lines 367--368
+Underfull \hbox (badness 1314) in paragraph at lines 368--369
 \TU/TimesNewRoman(0)/m/n/14.4 сопротивление поверхности качения в сравнении с о
 бычном колесом.
  []
 
 
-Underfull \hbox (badness 5175) in paragraph at lines 367--368
+Underfull \hbox (badness 5175) in paragraph at lines 368--369
 \TU/TimesNewRoman(0)/m/n/14.4 Кроме того, устройство роликонесущих колес значит
 ельно сложнее
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 369--370
+Underfull \hbox (badness 10000) in paragraph at lines 370--371
 \TU/TimesNewRoman(0)/m/n/14.4 повышенную проходимость. Принцип работы гусенично
 го хода $\OMS/cmsy/m/n/14.4 ^^@$
  []
 
 
-Underfull \hbox (badness 3657) in paragraph at lines 369--370
+Underfull \hbox (badness 3657) in paragraph at lines 370--371
 \TU/TimesNewRoman(0)/m/n/14.4 для колёс бесконечного пути, на котором сопротивл
 ение движению
  []
 
 [6]
-Underfull \hbox (badness 4518) in paragraph at lines 371--372
+Underfull \hbox (badness 4518) in paragraph at lines 372--373
 \TU/TimesNewRoman(0)/m/n/14.4 техники и вездеходов. За счет большой площади пят
 на касания с
  []
 
 
-Underfull \hbox (badness 1137) in paragraph at lines 371--372
+Underfull \hbox (badness 1137) in paragraph at lines 372--373
 \TU/TimesNewRoman(0)/m/n/14.4 вязнут в рыхлой почве, песке, болотах и так далее
 . Гусеницы также
  []
 
 
-Underfull \hbox (badness 3746) in paragraph at lines 374--375
+Underfull \hbox (badness 3746) in paragraph at lines 375--376
 []\TU/TimesNewRoman(0)/m/n/14.4 Главный недостаток гусеничных роботов $\OMS/cms
 y/m/n/14.4 ^^@$ \TU/TimesNewRoman(0)/m/n/14.4 большая вариация
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 374--375
+Underfull \hbox (badness 10000) in paragraph at lines 375--376
 \TU/TimesNewRoman(0)/m/n/14.4 отличной от другой, заставляя медленную гусеницу 
 скользить по
  []
 
 
-Underfull \hbox (badness 5331) in paragraph at lines 374--375
+Underfull \hbox (badness 5331) in paragraph at lines 375--376
 \TU/TimesNewRoman(0)/m/n/14.4 поверхности. В зависимости от типа поверхности и 
 её состояния,
  []
@@ -1252,50 +1234,50 @@ Underfull \hbox (badness 5331) in paragraph at lines 374--375
 [7]
 Глава 2.
 
-Underfull \hbox (badness 3029) in paragraph at lines 376--376
+Underfull \hbox (badness 3029) in paragraph at lines 377--377
 |[] \TU/TimesNewRoman(0)/bx/n/14.4 Кинематическая модель робота с N всенаправле
 нными
  []
 
 
-Underfull \hbox (badness 1360) in paragraph at lines 377--378
+Underfull \hbox (badness 1360) in paragraph at lines 378--379
 \TU/TimesNewRoman(0)/m/n/14.4 образом смоделировать его поведение. Простейший м
 одель движения
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 377--378
+Underfull \hbox (badness 10000) in paragraph at lines 378--379
 \TU/TimesNewRoman(0)/m/n/14.4 робота в пространстве - кинематическая. Эта модел
 ь описывает
  []
 
 
-Underfull \hbox (badness 5607) in paragraph at lines 377--378
+Underfull \hbox (badness 5607) in paragraph at lines 378--379
 \TU/TimesNewRoman(0)/m/n/14.4 движения исключительно через зависимость координа
 т от времени.
  []
 
 
-Underfull \hbox (badness 5817) in paragraph at lines 379--381
+Underfull \hbox (badness 5817) in paragraph at lines 380--382
 \TU/TimesNewRoman(0)/m/n/14.4 сил, причем плоскости колес тележки вертикальны и
  неподвижны
  []
 
 
-Underfull \hbox (badness 1371) in paragraph at lines 379--381
+Underfull \hbox (badness 1371) in paragraph at lines 380--382
 \TU/TimesNewRoman(0)/m/n/14.4 силой трения. Пусть задана глобальная система коо
 рдинат, связанная
  []
 
 
-Underfull \hbox (badness 2150) in paragraph at lines 379--381
+Underfull \hbox (badness 2150) in paragraph at lines 380--382
 \TU/TimesNewRoman(0)/m/n/14.4 с поверхностью $\OMS/cmsy/m/n/14.4 f\OML/cmm/m/it
 /14.4 o; []; []; []\OMS/cmsy/m/n/14.4 g$ \TU/TimesNewRoman(0)/m/n/14.4 и локаль
 ная, инерциальная относительно
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 384--385
+Underfull \hbox (badness 10000) in paragraph at lines 385--386
 []\TU/TimesNewRoman(0)/m/n/14.4 Для примера на рисунке 2.2[] схематически изобр
 ажена
  []
@@ -1327,14 +1309,14 @@ File: kinematic_model_pic.pdf Graphic file (type pdf)
 File: kinematic_model_pic.pdf Graphic file (type pdf)
 <use kinematic_model_pic.pdf, page 9>
 )
-Underfull \hbox (badness 10000) in paragraph at lines 404--405
+Underfull \hbox (badness 10000) in paragraph at lines 405--406
 []\TU/TimesNewRoman(0)/m/n/14.4 Зная координаты траектории пути $\OT1/cmr/m/n/1
 4.4 (\OML/cmm/m/it/14.4 x; y; '\OT1/cmr/m/n/14.4 )$ \TU/TimesNewRoman(0)/m/n/14
 .4 можем получить
  []
 
 
-Underfull \hbox (badness 5403) in paragraph at lines 404--405
+Underfull \hbox (badness 5403) in paragraph at lines 405--406
 \TU/TimesNewRoman(0)/m/n/14.4 величину угловой скорость каждого колеса. Для это
 го необходимо
  []
@@ -1342,85 +1324,85 @@ Underfull \hbox (badness 5403) in paragraph at lines 404--405
 [9] [10]
 Глава 3.
 
-Underfull \hbox (badness 10000) in paragraph at lines 499--499
+Underfull \hbox (badness 10000) in paragraph at lines 441--441
 |[] \TU/TimesNewRoman(0)/bx/n/14.4 Программное моделирование трехколесного робо
 та,
  []
 
 
-Underfull \hbox (badness 4846) in paragraph at lines 500--501
+Underfull \hbox (badness 4846) in paragraph at lines 442--443
 []\TU/TimesNewRoman(0)/m/n/14.4 Для реализации компьютерной модели робота, испо
 льзующего
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 502--504
+Underfull \hbox (badness 10000) in paragraph at lines 444--446
 []\TU/TimesNewRoman(0)/m/n/14.4 ROS (Robot Operating System) — Операционная сис
 тема
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 502--504
+Underfull \hbox (badness 10000) in paragraph at lines 444--446
 \TU/TimesNewRoman(0)/m/n/14.4 для роботов — это фреймворк для программирования 
 роботов,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 502--504
+Underfull \hbox (badness 10000) in paragraph at lines 444--446
 \TU/TimesNewRoman(0)/m/n/14.4 предоставляющий функциональность для распределённ
-ой работы.
+ой работы
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 502--504
-\TU/TimesNewRoman(0)/m/n/14.4 ROS был первоначально разработан в 2007 году под 
-названием
+Underfull \hbox (badness 1997) in paragraph at lines 444--446
+\TU/TimesNewRoman(0)/m/n/14.4 [[]]. ROS был первоначально разработан в 2007 год
+у под названием
  []
 
 
-Underfull \hbox (badness 2165) in paragraph at lines 502--504
+Underfull \hbox (badness 2165) in paragraph at lines 444--446
 \TU/TimesNewRoman(0)/m/n/14.4 switchyard в Лаборатории Искусственного Интеллект
 а Стэнфордского
  []
 
 
-Underfull \hbox (badness 2393) in paragraph at lines 502--504
+Underfull \hbox (badness 2393) in paragraph at lines 444--446
 \TU/TimesNewRoman(0)/m/n/14.4 Университета. В 2008 году развитие продолжается в
  Willow Garage,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 502--504
+Underfull \hbox (badness 10000) in paragraph at lines 444--446
 \TU/TimesNewRoman(0)/m/n/14.4 чем двадцатью сотрудничающими институтами. ROS об
 еспечивает
  []
 
 
-Underfull \hbox (badness 3250) in paragraph at lines 502--504
+Underfull \hbox (badness 3250) in paragraph at lines 444--446
 \TU/TimesNewRoman(0)/m/n/14.4 стандартные службы операционной системы, такие ка
 к: аппаратную
  []
 
 
-Underfull \hbox (badness 4752) in paragraph at lines 502--504
+Underfull \hbox (badness 4752) in paragraph at lines 444--446
 \TU/TimesNewRoman(0)/m/n/14.4 абстракцию, низкоуровневый контроль устройств, ре
 ализацию часто
  []
 
 
-Underfull \hbox (badness 5667) in paragraph at lines 502--504
+Underfull \hbox (badness 5667) in paragraph at lines 444--446
 \TU/TimesNewRoman(0)/m/n/14.4 используемых функций, передачу сообщений между пр
 оцессами, и
  []
 
 
-Underfull \hbox (badness 4441) in paragraph at lines 502--504
+Underfull \hbox (badness 4441) in paragraph at lines 444--446
 \TU/TimesNewRoman(0)/m/n/14.4 данных происходит в узлах, которые могут получать
  и передавать
  []
 
 
-Underfull \hbox (badness 3503) in paragraph at lines 502--504
+Underfull \hbox (badness 3503) in paragraph at lines 444--446
 \TU/TimesNewRoman(0)/m/n/14.4 системы (Ubuntu Linux включен в список «поддержив
 аемых», в то
  []
@@ -1430,61 +1412,61 @@ File: img/Screenshots/cart.png Graphic file (type bmp)
 [11
 
 ]
-Underfull \hbox (badness 7595) in paragraph at lines 513--514
+Underfull \hbox (badness 7595) in paragraph at lines 455--456
 []\TU/TimesNewRoman(0)/m/n/14.4 ROS имеет две основные «стороны»: стороны опера
 ционной
  []
 
 
-Underfull \hbox (badness 4819) in paragraph at lines 513--514
+Underfull \hbox (badness 4819) in paragraph at lines 455--456
 \TU/TimesNewRoman(0)/m/n/14.4 системы ros, как описано выше и ros-pkg, набор по
 ддерживаемых
  []
 
 
-Underfull \hbox (badness 1867) in paragraph at lines 513--514
+Underfull \hbox (badness 1867) in paragraph at lines 455--456
 \TU/TimesNewRoman(0)/m/n/14.4 стек), которые реализуют различные функции робото
 техники: SLAM,
  []
 
 
-Underfull \hbox (badness 1558) in paragraph at lines 515--517
+Underfull \hbox (badness 1558) in paragraph at lines 457--459
 []\TU/TimesNewRoman(0)/m/n/14.4 ROS выпускается в соответствии с условиями BSD-
 лицензии и
  []
 
 
-Underfull \hbox (badness 1127) in paragraph at lines 515--517
+Underfull \hbox (badness 1127) in paragraph at lines 457--459
 \TU/TimesNewRoman(0)/m/n/14.4 c открытым исходным кодом. ROS бесплатен для испо
 льзования, как
  []
 
 
-Underfull \hbox (badness 1371) in paragraph at lines 515--517
+Underfull \hbox (badness 1371) in paragraph at lines 457--459
 \TU/TimesNewRoman(0)/m/n/14.4 кодом. Gazebo был компонентом в Player Player с 2
 004 по 2011 год.
  []
 
 
-Underfull \hbox (badness 1048) in paragraph at lines 515--517
+Underfull \hbox (badness 1048) in paragraph at lines 457--459
 \TU/TimesNewRoman(0)/m/n/14.4 Gazebo интегрировал в себя физический движок ODE,
  используя для
  []
 
 [12]
-Underfull \hbox (badness 6078) in paragraph at lines 519--521
+Underfull \hbox (badness 6078) in paragraph at lines 461--463
 []\TU/TimesNewRoman(0)/m/n/14.4 Для того, чтобы описать робота в системе Ros, н
 еобходимо
  []
 
 
-Underfull \hbox (badness 1635) in paragraph at lines 522--523
+Underfull \hbox (badness 1635) in paragraph at lines 464--465
 \TU/TimesNewRoman(0)/m/n/14.4 как простейшими формами (цилиндр, параллелепипед)
 , так и сеткой,
  []
 
 
-Underfull \hbox (badness 3503) in paragraph at lines 522--523
+Underfull \hbox (badness 3503) in paragraph at lines 464--465
 \TU/TimesNewRoman(0)/m/n/14.4 и отличаться. Например, для ускорения расчётов сл
 ожный профиль
  []
@@ -1494,13 +1476,13 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 [13]
-Underfull \hbox (badness 10000) in paragraph at lines 539--540
+Underfull \hbox (badness 10000) in paragraph at lines 481--482
 \TU/TimesNewRoman(0)/m/n/14.4 соединены. Для этого служат сочленения, минимальн
 ое описание
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 539--540
+Underfull \hbox (badness 10000) in paragraph at lines 481--482
 \TU/TimesNewRoman(0)/m/n/14.4 которых включает в себя указание родительского зв
 ена, а также
  []
@@ -1508,74 +1490,76 @@ Underfull \hbox (badness 10000) in paragraph at lines 539--540
 File: img/Screenshots/rostopic.png Graphic file (type bmp)
 <img/Screenshots/rostopic.png>
 
-Underfull \hbox (badness 5008) in paragraph at lines 559--560
+Underfull \hbox (badness 5008) in paragraph at lines 501--502
 \TU/TimesNewRoman(0)/m/n/14.4 узлов для управления различными функциями. Хороше
 й практикой
  []
 
 
-Underfull \hbox (badness 2617) in paragraph at lines 559--560
+Underfull \hbox (badness 2617) in paragraph at lines 501--502
 \TU/TimesNewRoman(0)/m/n/14.4 считается большое количество узлов, которые предо
 ставляют малую
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 559--560
+Underfull \hbox (badness 10000) in paragraph at lines 501--502
 \TU/TimesNewRoman(0)/m/n/14.4 функциональность, а не один большой узел, имеющий
  широкий
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 559--560
+Underfull \hbox (badness 10000) in paragraph at lines 501--502
 \TU/TimesNewRoman(0)/m/n/14.4 функционал. узлы связываются друг с другом через 
 сообщения.
  []
 
 
-Underfull \hbox (badness 7256) in paragraph at lines 559--560
+Underfull \hbox (badness 7256) in paragraph at lines 501--502
 \TU/TimesNewRoman(0)/m/n/14.4 Сообщение содержит данные, которые предоставляют 
 информацию
  []
 
-[14] [15] 
-AED: lastpage setting LastPage
-
-Underfull \hbox (badness 10000) in paragraph at lines 567--568
+[14] [15]
+Underfull \hbox (badness 10000) in paragraph at lines 509--510
 []\TU/TimesNewRoman(0)/m/n/14.4 При выполнения преддипломной работы были рассмо
 трены
  []
 
 
-Underfull \hbox (badness 1931) in paragraph at lines 567--568
+Underfull \hbox (badness 1931) in paragraph at lines 509--510
 \TU/TimesNewRoman(0)/m/n/14.4 основные подходы для решения данной проблемы.Были
  разработаны
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 567--568
+Underfull \hbox (badness 10000) in paragraph at lines 509--510
 \TU/TimesNewRoman(0)/m/n/14.4 и обозрены методы управления роботизированными си
 стемами.
  []
 
 
-Underfull \hbox (badness 1158) in paragraph at lines 567--568
+Underfull \hbox (badness 1158) in paragraph at lines 509--510
 \TU/TimesNewRoman(0)/m/n/14.4 Полученные сведения протестированы на виртуальной
  модели робота
  []
 
 
-Underfull \hbox (badness 2080) in paragraph at lines 567--568
+Underfull \hbox (badness 2080) in paragraph at lines 509--510
 \TU/TimesNewRoman(0)/m/n/14.4 с учетом всех физических сил, воздействующих на с
 истему. Изучен
  []
 
 
-Underfull \hbox (badness 4001) in paragraph at lines 567--568
+Underfull \hbox (badness 4001) in paragraph at lines 509--510
 \TU/TimesNewRoman(0)/m/n/14.4 программный интерфейс систем Ros и Gazebo, разраб
 отана модель
  []
 
-[16] (./undergraduate_practice.aux)
+[16] 
+AED: lastpage setting LastPage
+[17
+
+] (./undergraduate_practice.aux)
 
  *File List*
 extreport.cls    1996/10/08 v1.0 Non Standard LaTeX document class
@@ -1673,17 +1657,14 @@ img/Screenshots/cart.png
 img/Screenshots/rostopic.png
  ***********
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
  ) 
 Here is how much of TeX's memory you used:
- 19222 strings out of 494173
- 379424 string characters out of 6167614
- 617585 words of memory out of 5000000
- 22878 multiletter control sequences out of 15000+600000
+ 19228 strings out of 494173
+ 379510 string characters out of 6167614
+ 617609 words of memory out of 5000000
+ 22884 multiletter control sequences out of 15000+600000
  534509 words of font info for 50 fonts, out of 8000000 for 9000
  704 hyphenation exceptions out of 8191
  42i,21n,65p,10434b,480s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on undergraduate_practice.pdf (16 pages).
+Output written on undergraduate_practice.pdf (17 pages).
