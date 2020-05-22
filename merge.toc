@@ -11,15 +11,16 @@
 \contentsline {chapter}{\numberline {3}Динамическая модель робота с N всенаправленными колесами}{24}
 \contentsline {chapter}{\numberline {4}Кинематическая модель роликонесущего колеса}{29}
 \contentsline {chapter}{\numberline {5}Кинематическая модель тележки на четырех роликонесущих колесах}{33}
-\contentsline {chapter}{\numberline {6}Программная реализация}{37}
-\contentsline {section}{\numberline {6.1}Фреймворк для программирования роботов ROS }{37}
-\contentsline {section}{\numberline {6.2}Среда моделирование физических систем Gazebo}{37}
-\contentsline {section}{\numberline {6.3}Корректировка движения робота. PID регуляторы}{37}
-\contentsline {section}{\numberline {6.4}Моделирование управляемой голономной тележки}{37}
-\contentsline {subsection}{\numberline {6.4.1}Описание характеристик тележки на языке URDF}{37}
-\contentsline {subsection}{\numberline {6.4.2}Определение движения тележки посредством плагинов Gazebo}{37}
-\contentsline {section}{\numberline {6.5}Реализация управления моделируемой тележки}{37}
-\contentsline {subsection}{\numberline {6.5.1}Управление тележкой посредством джостика}{37}
-\contentsline {subsection}{\numberline {6.5.2}Реализация движения тележки по аналитически заданному пути}{37}
-\contentsline {chapter}{Заключение}{38}
-\contentsline {chapter}{Список использованных источников}{39}
+\contentsline {chapter}{\numberline {6}Технолигии моделирования робототехнических систем}{37}
+\contentsline {section}{\numberline {6.1}Фреймворк для программирования робототехнических систем ROS }{37}
+\contentsline {subsection}{\numberline {6.1.1}Уровень файловой системы}{38}
+\contentsline {subsection}{\numberline {6.1.2}Уровень графа вычислений системы}{40}
+\contentsline {subsection}{\numberline {6.1.3}Формат описания робототехнических систем URDF}{42}
+\contentsline {section}{\numberline {6.2}Среда моделирование робототехнических систем Gazebo}{44}
+\contentsline {section}{\numberline {6.3}Корректировка движения робота. PID регуляторы}{46}
+\contentsline {chapter}{\numberline {7}Программная реализация}{47}
+\contentsline {section}{\numberline {7.1} SDF модель }{47}
+\contentsline {section}{\numberline {7.2} Плагин модели Gazebo}{47}
+\contentsline {section}{\numberline {7.3} Клиент управления }{47}
+\contentsline {chapter}{Заключение}{48}
+\contentsline {chapter}{Список использованных источников}{49}

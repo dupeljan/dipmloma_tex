@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/Debian) (preloaded format=xelatex 2019.5.20)  21 MAY 2020 11:20
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/Debian) (preloaded format=xelatex 2019.5.20)  22 MAY 2020 15:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -990,32 +990,32 @@ number indent by \l@... (toc, 1):  21.59999pt
 text indent by \l@... (toc, 1):  33.12003pt
 number indent by parent (toc, 1):  18.0pt
 text indent calculated (toc, 1): 28.79999pt
-number indent calculated (toc, 1): 18.0pt
+number indent calculated (toc, 1): 21.59999pt
 number indent by \l@... (toc, 1):  21.59999pt
 text indent by \l@... (toc, 1):  33.12003pt
 number indent by parent (toc, 1):  18.0pt
 text indent calculated (toc, 1): 28.79999pt
-number indent calculated (toc, 1): 18.0pt
+number indent calculated (toc, 1): 21.59999pt
 number indent by \l@... (toc, 2):  54.72002pt
 text indent by \l@... (toc, 2):  46.07993pt
-number indent by parent (toc, 2):  46.79999pt
+number indent by parent (toc, 2):  50.39998pt
 text indent calculated (toc, 2): 39.59999pt
-number indent calculated (toc, 2): 46.79999pt
+number indent calculated (toc, 2): 54.72002pt
 number indent by \l@... (toc, 2):  54.72002pt
 text indent by \l@... (toc, 2):  46.07993pt
-number indent by parent (toc, 2):  46.79999pt
+number indent by parent (toc, 2):  50.39998pt
 text indent calculated (toc, 2): 39.59999pt
-number indent calculated (toc, 2): 46.79999pt
+number indent calculated (toc, 2): 54.72002pt
 number indent by \l@... (toc, 2):  54.72002pt
 text indent by \l@... (toc, 2):  46.07993pt
-number indent by parent (toc, 2):  46.79999pt
+number indent by parent (toc, 2):  50.39998pt
 text indent calculated (toc, 2): 39.59999pt
-number indent calculated (toc, 2): 46.79999pt
+number indent calculated (toc, 2): 54.72002pt
 number indent by \l@... (toc, 1):  21.59999pt
 text indent by \l@... (toc, 1):  33.12003pt
 number indent by parent (toc, 1):  18.0pt
 text indent calculated (toc, 1): 28.79999pt
-number indent calculated (toc, 1): 18.0pt
+number indent calculated (toc, 1): 21.59999pt
 number indent by \l@... (toc, 0):  0.0pt
 text indent by \l@... (toc, 0):  21.59999pt
 number indent by parent (toc, 0):  0.0pt
@@ -1051,59 +1051,58 @@ number indent by \l@... (toc, 1):  21.59999pt
 text indent by \l@... (toc, 1):  33.12003pt
 number indent by parent (toc, 1):  18.0pt
 text indent calculated (toc, 1): 28.79999pt
-number indent calculated (toc, 1): 18.0pt
-number indent by \l@... (toc, 1):  21.59999pt
-text indent by \l@... (toc, 1):  33.12003pt
-number indent by parent (toc, 1):  18.0pt
-text indent calculated (toc, 1): 28.79999pt
-number indent calculated (toc, 1): 18.0pt
-number indent by \l@... (toc, 1):  21.59999pt
-text indent by \l@... (toc, 1):  33.12003pt
-number indent by parent (toc, 1):  18.0pt
-text indent calculated (toc, 1): 28.79999pt
-number indent calculated (toc, 1): 18.0pt
-number indent by \l@... (toc, 1):  21.59999pt
-text indent by \l@... (toc, 1):  33.12003pt
-number indent by parent (toc, 1):  18.0pt
-text indent calculated (toc, 1): 28.79999pt
-number indent calculated (toc, 1): 18.0pt
-number indent by \l@... (toc, 2):  54.72002pt
-text indent by \l@... (toc, 2):  46.07993pt
-number indent by parent (toc, 2):  46.79999pt
-text indent calculated (toc, 2): 39.59999pt
-number indent calculated (toc, 2): 46.79999pt
-number indent by \l@... (toc, 2):  54.72002pt
-text indent by \l@... (toc, 2):  46.07993pt
-number indent by parent (toc, 2):  46.79999pt
-text indent calculated (toc, 2): 39.59999pt
-number indent calculated (toc, 2): 46.79999pt
+number indent calculated (toc, 1): 21.59999pt
 
-Underfull \hbox (badness 10000) in paragraph at lines 20--20
- [][] []\TU/TimesNewRoman(0)/m/n/14.4 Определение движения тележки посредством 
-
+Underfull \hbox (badness 10000) in paragraph at lines 15--15
+ [][] []\TU/TimesNewRoman(0)/m/n/14.4 Фреймворк для программирования робототехн
+ических 
  []
 
+number indent by \l@... (toc, 2):  54.72002pt
+text indent by \l@... (toc, 2):  46.07993pt
+number indent by parent (toc, 2):  50.39998pt
+text indent calculated (toc, 2): 39.59999pt
+number indent calculated (toc, 2): 54.72002pt
+number indent by \l@... (toc, 2):  54.72002pt
+text indent by \l@... (toc, 2):  46.07993pt
+number indent by parent (toc, 2):  50.39998pt
+text indent calculated (toc, 2): 39.59999pt
+number indent calculated (toc, 2): 54.72002pt
+number indent by \l@... (toc, 2):  54.72002pt
+text indent by \l@... (toc, 2):  46.07993pt
+number indent by parent (toc, 2):  50.39998pt
+text indent calculated (toc, 2): 39.59999pt
+number indent calculated (toc, 2): 54.72002pt
 number indent by \l@... (toc, 1):  21.59999pt
 text indent by \l@... (toc, 1):  33.12003pt
 number indent by parent (toc, 1):  18.0pt
 text indent calculated (toc, 1): 28.79999pt
-number indent calculated (toc, 1): 18.0pt
-number indent by \l@... (toc, 2):  54.72002pt
-text indent by \l@... (toc, 2):  46.07993pt
-number indent by parent (toc, 2):  46.79999pt
-text indent calculated (toc, 2): 39.59999pt
-number indent calculated (toc, 2): 46.79999pt
-number indent by \l@... (toc, 2):  54.72002pt
-text indent by \l@... (toc, 2):  46.07993pt
-number indent by parent (toc, 2):  46.79999pt
-text indent calculated (toc, 2): 39.59999pt
-number indent calculated (toc, 2): 46.79999pt
-
-Underfull \hbox (badness 10000) in paragraph at lines 23--23
- [][] []\TU/TimesNewRoman(0)/m/n/14.4 Реализация движения тележки по аналитичес
-ки 
- []
-
+number indent calculated (toc, 1): 21.59999pt
+number indent by \l@... (toc, 1):  21.59999pt
+text indent by \l@... (toc, 1):  33.12003pt
+number indent by parent (toc, 1):  18.0pt
+text indent calculated (toc, 1): 28.79999pt
+number indent calculated (toc, 1): 21.59999pt
+number indent by \l@... (toc, 0):  0.0pt
+text indent by \l@... (toc, 0):  21.59999pt
+number indent by parent (toc, 0):  0.0pt
+text indent calculated (toc, 0): 18.0pt
+number indent calculated (toc, 0): 0.0pt
+number indent by \l@... (toc, 1):  21.59999pt
+text indent by \l@... (toc, 1):  33.12003pt
+number indent by parent (toc, 1):  18.0pt
+text indent calculated (toc, 1): 28.79999pt
+number indent calculated (toc, 1): 21.59999pt
+number indent by \l@... (toc, 1):  21.59999pt
+text indent by \l@... (toc, 1):  33.12003pt
+number indent by parent (toc, 1):  18.0pt
+text indent calculated (toc, 1): 28.79999pt
+number indent calculated (toc, 1): 21.59999pt
+number indent by \l@... (toc, 1):  21.59999pt
+text indent by \l@... (toc, 1):  33.12003pt
+number indent by parent (toc, 1):  18.0pt
+text indent calculated (toc, 1): 28.79999pt
+number indent calculated (toc, 1): 21.59999pt
 number indent by \l@... (toc, 0):  0.0pt
 text indent by \l@... (toc, 0):  21.59999pt
 number indent by parent (toc, 0):  0.0pt
@@ -2186,39 +2185,457 @@ Underfull \hbox (badness 5681) in paragraph at lines 1418--1419
 [36]
 Глава 6.
 
-Underfull \hbox (badness 4531) in paragraph at lines 1422--1423
-\TU/TimesNewRoman(0)/m/n/14.4 для роботизированных систем[[]]. ROS включает в с
-ебя коллекцию
+Underfull \hbox (badness 10000) in paragraph at lines 1421--1421
+|[]\TU/TimesNewRoman(0)/bx/n/14.4 Фреймворк для программирования робототехничес
+ких
  []
 
 
-Underfull \hbox (badness 5260) in paragraph at lines 1422--1423
-\TU/TimesNewRoman(0)/m/n/14.4 инструментов, библиотек и соглашений, нацеленных 
-на упрощение
+Underfull \hbox (badness 10000) in paragraph at lines 1422--1423
+\TU/TimesNewRoman(0)/m/n/14.4 программного обеспечения для роботизированных сис
+тем[[]]. ROS
  []
 
 
-Underfull \hbox (badness 1082) in paragraph at lines 1427--1427
-|[]\TU/TimesNewRoman(0)/bx/n/14.4 Определение движения тележки посредством плаг
-инов
+Underfull \hbox (badness 2608) in paragraph at lines 1422--1423
+\TU/TimesNewRoman(0)/m/n/14.4 включает в себя коллекцию инструментов, библиотек
+ и соглашений,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1430--1430
-|[]\TU/TimesNewRoman(0)/bx/n/14.4 Реализация движения тележки по аналитически
+Underfull \hbox (badness 10000) in paragraph at lines 1422--1423
+\TU/TimesNewRoman(0)/m/n/14.4 нацеленных на упрощение разработки сложных роботи
+зированных
+ []
+
+
+Underfull \hbox (badness 2111) in paragraph at lines 1424--1425
+[]\TU/TimesNewRoman(0)/m/n/14.4 Другими словами ROS - уровень абстракции над ап
+паратными
+ []
+
+
+Underfull \hbox (badness 1052) in paragraph at lines 1424--1425
+\TU/TimesNewRoman(0)/m/n/14.4 средствами робототехнических систем. Однако несмо
+тря на то, что в
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1424--1425
+\TU/TimesNewRoman(0)/m/n/14.4 системой не является. Для функционирования ROS не
+обходима
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1424--1425
+\TU/TimesNewRoman(0)/m/n/14.4 операционная система в привычном смысле; ROS подд
+ерживает
+ []
+
+
+Underfull \hbox (badness 6526) in paragraph at lines 1424--1425
+\TU/TimesNewRoman(0)/m/n/14.4 источниках такую модель абстракции называют мета-
+операционной
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1428--1429
+[]\TU/TimesNewRoman(0)/m/n/14.4 Распределенный процесс: робототехническая систе
+ма
+ []
+
+
+Underfull \hbox (badness 2521) in paragraph at lines 1428--1429
+\TU/TimesNewRoman(0)/m/n/14.4 представляется как множество связанных друг с дру
+гом узлов,
  []
 
 [37
 
-] [38]
-Underfull \hbox (badness 3019) in paragraph at lines 1478--1483
+]
+Underfull \hbox (badness 10000) in paragraph at lines 1430--1431
+\TU/TimesNewRoman(0)/m/n/14.4 управлять внутренними процессами системы посредст
+вом
+ []
+
+
+Underfull \hbox (badness 3514) in paragraph at lines 1430--1431
+\TU/TimesNewRoman(0)/m/n/14.4 распространенных языков программирования: python,
+ C++, lisp
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1433--1434
+[]\TU/TimesNewRoman(0)/m/n/14.4 В открытом доступе доступно множество пакетов, 
+которые
+ []
+
+
+Underfull \hbox (badness 7981) in paragraph at lines 1433--1434
+\TU/TimesNewRoman(0)/m/n/14.4 реализуют управление кинематикой, методы компьюте
+рного зрения
+ []
+
+
+Underfull \hbox (badness 5231) in paragraph at lines 1435--1436
+[]\TU/TimesNewRoman(0)/m/n/14.4 Система ROS нацелена на ускорение развития робо
+тотехники
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1435--1436
+\TU/TimesNewRoman(0)/m/n/14.4 в целом, понижая порог входа в область построения
+ роботов.
+ []
+
+
+Underfull \hbox (badness 4242) in paragraph at lines 1435--1436
+\TU/TimesNewRoman(0)/m/n/14.4 Используя доступные пакеты и существующие системы
+, разработка
+ []
+
+[38]
+Underfull \hbox (badness 1910) in paragraph at lines 1457--1458
+\TU/TimesNewRoman(0)/m/n/14.4 Пакет может содержать узлы, связанные библиотеки,
+ файлы данных,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1457--1458
+\TU/TimesNewRoman(0)/m/n/14.4 конфигурацию и любую другую информацию, необходим
+ую для
+ []
+
+
+Underfull \hbox (badness 3439) in paragraph at lines 1459--1460
+[]\TU/TimesNewRoman(0)/m/n/14.4 Мета-пакет $\OMS/cmsy/m/n/14.4 ^^@$ \TU/TimesNe
+wRoman(0)/m/n/14.4 специализированный пакет, включающий в себя
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1459--1460
+\TU/TimesNewRoman(0)/m/n/14.4 исключительно информацию для правильной компиляци
+и пакета
+ []
+
+
+Underfull \hbox (badness 3590) in paragraph at lines 1459--1460
+\TU/TimesNewRoman(0)/m/n/14.4 инструментом catkin. Catkin - официальная система
+ сборки пакетов
+ []
+
+
+Underfull \hbox (badness 4699) in paragraph at lines 1459--1460
+\TU/TimesNewRoman(0)/m/n/14.4 ROS, являющаяся по сути множеством макросов распр
+остраненной
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1461--1462
+[]\TU/TimesNewRoman(0)/m/n/14.4 Пакетный манифест $\OMS/cmsy/m/n/14.4 ^^@$ \TU/
+TimesNewRoman(0)/m/n/14.4 файл формата XML, имеющий
+ []
+
+
+Underfull \hbox (badness 1796) in paragraph at lines 1461--1462
+\TU/TimesNewRoman(0)/m/n/14.4 как его наименование, список разработчиков, сторо
+нние зависимости
+ []
+
+
+Underfull \hbox (badness 3954) in paragraph at lines 1461--1462
+\TU/TimesNewRoman(0)/m/n/14.4 и другую мета-информацию. Структура файла строго 
+определена в
+ []
+
+
+Underfull \hbox (badness 1112) in paragraph at lines 1465--1466
+[]\TU/TimesNewRoman(0)/m/n/14.4 Определение типов сообщений $\OMS/cmsy/m/n/14.4
+ ^^@$ \TU/TimesNewRoman(0)/m/n/14.4 файлы, хранящиеся обычно в
+ []
+
+
+Underfull \hbox (badness 2285) in paragraph at lines 1465--1466
+\TU/TimesNewRoman(0)/m/n/14.4 подпапке /msg и имеющие расширение .msg . Эти фай
+лы хранят в
+ []
+
+
+Underfull \hbox (badness 1902) in paragraph at lines 1465--1466
+\TU/TimesNewRoman(0)/m/n/14.4 себе описание определенных разработчиком типов со
+общений. Такое
+ []
+
+
+Underfull \hbox (badness 1565) in paragraph at lines 1465--1466
+\TU/TimesNewRoman(0)/m/n/14.4 сообщение состоит из одного или нескольких объект
+ов стандартного
+ []
+
+
+Underfull \hbox (badness 1521) in paragraph at lines 1467--1468
+[]\TU/TimesNewRoman(0)/m/n/14.4 Определение сервисных типов $\OMS/cmsy/m/n/14.4
+ ^^@$ \TU/TimesNewRoman(0)/m/n/14.4 файлы, хранящиеся обычно в
+ []
+
+[39]
+Underfull \hbox (badness 1917) in paragraph at lines 1470--1472
+[]\TU/TimesNewRoman(0)/m/n/14.4 Графом вычислений в контексте системы ROS назыв
+ается сеть
+ []
+
+
+Underfull \hbox (badness 1259) in paragraph at lines 1470--1472
+\TU/TimesNewRoman(0)/m/n/14.4 видеть пример такого графа, изображенного с помощ
+ью инструмента
+ []
+
+File: img/Gazebo/compGraph.png Graphic file (type bmp)
+<img/Gazebo/compGraph.png>
+[40]
+Underfull \hbox (badness 10000) in paragraph at lines 1496--1497
+[]\TU/TimesNewRoman(0)/m/n/14.4 Мастер, или главный сервис управления $\OMS/cms
+y/m/n/14.4 ^^@$ \TU/TimesNewRoman(0)/m/n/14.4 программа,
+ []
+
+
+Underfull \hbox (badness 1571) in paragraph at lines 1496--1497
+\TU/TimesNewRoman(0)/m/n/14.4 регистрирующая узлы и сервисы в графе вычислений 
+и отвечающая
+ []
+
+
+Underfull \hbox (badness 4899) in paragraph at lines 1498--1499
+[]\TU/TimesNewRoman(0)/m/n/14.4 Сообщение $\OMS/cmsy/m/n/14.4 ^^@$ \TU/TimesNew
+Roman(0)/m/n/14.4 структура данных, передаваемая между узлами.
+ []
+
+
+Underfull \hbox (badness 1655) in paragraph at lines 1500--1501
+\TU/TimesNewRoman(0)/m/n/14.4 узлами вычислительного графа подчиняется шаблону 
+проектирования
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1500--1501
+\TU/TimesNewRoman(0)/m/n/14.4 издатель-подписчик. В контексте ROS, каждый узел 
+является как
+ []
+
+
+Underfull \hbox (badness 5756) in paragraph at lines 1500--1501
+\TU/TimesNewRoman(0)/m/n/14.4 издателем, так и подписчиком. Для того, чтобы свя
+зать два узла,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1500--1501
+\TU/TimesNewRoman(0)/m/n/14.4 необходимо определить тему, через который будет п
+роисходить
+ []
+
+
+Underfull \hbox (badness 3635) in paragraph at lines 1500--1501
+\TU/TimesNewRoman(0)/m/n/14.4 коммуникация. Узел-издатель публикует сообщение п
+о адресу темы,
+ []
+
+
+Underfull \hbox (badness 2368) in paragraph at lines 1500--1501
+\TU/TimesNewRoman(0)/m/n/14.4 подход к построению топологии позволяет увеличить
+ независимость
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1502--1503
+[]\TU/TimesNewRoman(0)/m/n/14.4 Сервис $\OMS/cmsy/m/n/14.4 ^^@$ \TU/TimesNewRom
+an(0)/m/n/14.4 процесс, производящий некоторые вычисления,
+ []
+
+[41]
+Underfull \hbox (badness 10000) in paragraph at lines 1507--1508
+[]\TU/TimesNewRoman(0)/m/n/14.4 Архитектура ROS описывает способы ведения вычис
+лений
+ []
+
+
+Underfull \hbox (badness 1270) in paragraph at lines 1507--1508
+\TU/TimesNewRoman(0)/m/n/14.4 таковую. Для описания роботов в системе ROS испол
+ьзуется формат
+ []
+
+
+Underfull \hbox (badness 1688) in paragraph at lines 1509--1510
+\TU/TimesNewRoman(0)/m/n/14.4 набором тегов. Робот представляется как совокупно
+сть звеньев (link)
+ []
+
+
+Underfull \hbox (badness 1117) in paragraph at lines 1509--1510
+\TU/TimesNewRoman(0)/m/n/14.4 и сочленений (joint). Кроме того, в URDF файле во
+зможно описание
+ []
+
+
+Underfull \hbox (badness 2980) in paragraph at lines 1513--1514
+[]\TU/TimesNewRoman(0)/m/n/14.4 Звено (link) описывает твердое тело с инерцией,
+ визуальными
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1521--1522
+[]\TU/TimesNewRoman(0)/m/n/14.4 Описание момента инерции, кроме непосредственно
+ тензора
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1523--1524
+[]\TU/TimesNewRoman(0)/m/n/14.4 Внешний вид определяется цветом, текстурой и фо
+рмой
+ []
+
+[42]
+Underfull \hbox (badness 10000) in paragraph at lines 1531--1532
+[]\TU/TimesNewRoman(0)/m/n/14.4 непрерывное сочленение (continious) является ша
+рнирным
+ []
+
+
+Underfull \hbox (badness 4353) in paragraph at lines 1532--1533
+[]\TU/TimesNewRoman(0)/m/n/14.4 призматическое сочленение (prismatic) позволяет
+ одному звену
+ []
+
+
+Underfull \hbox (badness 4819) in paragraph at lines 1537--1538
+[]\TU/TimesNewRoman(0)/m/n/14.4 Каждый тег сочленения содержит в себе ссылку на
+ опорное
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1540--1542
+[]\TU/TimesNewRoman(0)/m/n/14.4 Gazebo $\OMS/cmsy/m/n/14.4 ^^@$ \TU/TimesNewRom
+an(0)/m/n/14.4 среда моделирования робототехнических систем в
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1540--1542
+\TU/TimesNewRoman(0)/m/n/14.4 нескольких пакетов моделирования физических проце
+ссов, таких
+ []
+
+
+Underfull \hbox (badness 2837) in paragraph at lines 1540--1542
+\TU/TimesNewRoman(0)/m/n/14.4 как ODE, Bullet, DART и другими. Gazebo позволяет
+ симулировать
+ []
+
+
+Underfull \hbox (badness 1762) in paragraph at lines 1540--1542
+\TU/TimesNewRoman(0)/m/n/14.4 реальное окружение и сценарии среды, для которой 
+разрабатывается
+ []
+
+
+Underfull \hbox (badness 1184) in paragraph at lines 1540--1542
+\TU/TimesNewRoman(0)/m/n/14.4 робототехническая система. Кроме того, среда моде
+лирования Gazebo
+ []
+
+[43]
+File: img/Gazebo/cart.png Graphic file (type bmp)
+<img/Gazebo/cart.png>
+
+Underfull \hbox (badness 10000) in paragraph at lines 1553--1554
+[]\TU/TimesNewRoman(0)/m/n/14.4 Для моделирование робототехнических систем Gaze
+bo
+ []
+
+
+Underfull \hbox (badness 2961) in paragraph at lines 1553--1554
+\TU/TimesNewRoman(0)/m/n/14.4 предоставляет формат SDF, альтернативный формату 
+URDF. Формат
+ []
+
+
+Underfull \hbox (badness 1769) in paragraph at lines 1553--1554
+\TU/TimesNewRoman(0)/m/n/14.4 XML и описывают модель робота с помощью совокупно
+сти звеньев
+ []
+
+
+Underfull \hbox (badness 1983) in paragraph at lines 1553--1554
+\TU/TimesNewRoman(0)/m/n/14.4 и сочленений. Однако, кроме этого формат SDF позв
+оляет изменять
+ []
+
+
+Underfull \hbox (badness 8094) in paragraph at lines 1553--1554
+\TU/TimesNewRoman(0)/m/n/14.4 параметры симуляции и содержит описание сенсоров 
+и плагинов
+ []
+
+[44]
+Underfull \hbox (badness 10000) in paragraph at lines 1557--1558
+[]\TU/TimesNewRoman(0)/m/n/14.4 Управление симуляцией возможно с помощью плагин
+ов
+ []
+
+
+Underfull \hbox (badness 2126) in paragraph at lines 1557--1558
+\TU/TimesNewRoman(0)/m/n/14.4 Gazebo. Плагин представляет из себя скомпилирован
+ную библиотеку,
+ []
+
+
+Underfull \hbox (badness 2865) in paragraph at lines 1557--1558
+\TU/TimesNewRoman(0)/m/n/14.4 присоединяющуюся к объекту симуляции через SDF фа
+йл. Имеется
+ []
+
+
+Underfull \hbox (badness 7273) in paragraph at lines 1557--1558
+\TU/TimesNewRoman(0)/m/n/14.4 множество встроенных плагинов управления кинемати
+кой, камерой
+ []
+
+
+Underfull \hbox (badness 1371) in paragraph at lines 1557--1558
+\TU/TimesNewRoman(0)/m/n/14.4 и другими сенсорами. Кроме того, с помощью Gazebo
+ API - набора
+ []
+
+
+Underfull \hbox (badness 3701) in paragraph at lines 1557--1558
+\TU/TimesNewRoman(0)/m/n/14.4 библиотек взаимодействия с программой Gazebo, воз
+можно описать
+ []
+
+[45]
+Underfull \hbox (badness 6364) in paragraph at lines 1569--1570
+\TU/TimesNewRoman(0)/m/n/14.4 Например, плагин модели присоединяется к конкретн
+ой модели и
+ []
+
+
+Underfull \hbox (badness 3895) in paragraph at lines 1571--1572
+\TU/TimesNewRoman(0)/m/n/14.4 модели используется для управления сочленениями м
+одели. Плагин
+ []
+
+[46]
+Глава 7.
+[47
+
+] [48]
+Underfull \hbox (badness 3019) in paragraph at lines 1635--1640
 []\TU/TimesNewRoman(0)/m/n/14.4 YoonSeok Pyo, HanCheol Cho, RyuWoon Jung, TaeHo
 on Lim. ROS
  []
 
 
 AED: lastpage setting LastPage
-[39
+[49
 
 ] (./merge.aux)
 
@@ -2374,16 +2791,18 @@ mecanum_wheel_projection1.pdf    Graphic file (type pdf)
 mecanum_wheel_projection1.pdf    Graphic file (type pdf)
 mecanum_wheel_projection2.pdf_tex
 mecanum_wheel_projection2.pdf    Graphic file (type pdf)
+img/Gazebo/compGraph.png
+img/Gazebo/cart.png
  ***********
 
  ) 
 Here is how much of TeX's memory you used:
- 18311 strings out of 494173
- 370341 string characters out of 6167614
+ 18325 strings out of 494173
+ 370609 string characters out of 6167614
  599529 words of memory out of 5000000
- 21956 multiletter control sequences out of 15000+600000
+ 21967 multiletter control sequences out of 15000+600000
  534501 words of font info for 49 fonts, out of 8000000 for 9000
  704 hyphenation exceptions out of 8191
  42i,21n,65p,10417b,474s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on merge.pdf (39 pages).
+Output written on merge.pdf (49 pages).
