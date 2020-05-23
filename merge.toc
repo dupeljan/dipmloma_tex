@@ -17,10 +17,10 @@
 \contentsline {subsection}{\numberline {6.1.2}Уровень графа вычислений системы}{40}
 \contentsline {subsection}{\numberline {6.1.3}Формат описания робототехнических систем URDF}{42}
 \contentsline {section}{\numberline {6.2}Среда моделирование робототехнических систем Gazebo}{44}
-\contentsline {section}{\numberline {6.3}Корректировка движения робота. PID регуляторы}{46}
-\contentsline {chapter}{\numberline {7}Программная реализация}{47}
-\contentsline {section}{\numberline {7.1} SDF модель }{47}
-\contentsline {section}{\numberline {7.2} Плагин модели Gazebo}{47}
-\contentsline {section}{\numberline {7.3} Клиент управления }{47}
-\contentsline {chapter}{Заключение}{48}
-\contentsline {chapter}{Список использованных источников}{49}
+\contentsline {section}{\numberline {6.3}Системы автоматического управления. ПИД регуляторы}{46}
+\contentsline {chapter}{\numberline {7}Программная реализация}{49}
+\contentsline {section}{\numberline {7.1} SDF модель }{49}
+\contentsline {section}{\numberline {7.2} Плагин модели Gazebo}{50}
+\contentsline {section}{\numberline {7.3} Клиент управления }{51}
+\contentsline {chapter}{Заключение}{52}
+\contentsline {chapter}{Список использованных источников}{53}
