@@ -21,6 +21,7 @@
 \contentsline {chapter}{\numberline {7}Программная реализация}{49}
 \contentsline {section}{\numberline {7.1} SDF модель }{49}
 \contentsline {section}{\numberline {7.2} Плагин модели Gazebo}{50}
-\contentsline {section}{\numberline {7.3} Клиент управления }{51}
-\contentsline {chapter}{Заключение}{52}
-\contentsline {chapter}{Список использованных источников}{53}
+\contentsline {section}{\numberline {7.3}Алгоритм движения тележки по аналитически заданному пути}{52}
+\contentsline {section}{\numberline {7.4} Клиент управления }{55}
+\contentsline {chapter}{Заключение}{58}
+\contentsline {chapter}{Список использованных источников}{59}

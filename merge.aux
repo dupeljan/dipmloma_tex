@@ -8,7 +8,7 @@
 \tocstyle@set@width {num}{toc}{1}{28.79999pt}
 \tocstyle@set@width {skip}{toc}{1}{18.0pt}
 \tocstyle@set@width {num}{toc}{2}{39.59999pt}
-\tocstyle@set@width {skip}{toc}{2}{50.39998pt}
+\tocstyle@set@width {skip}{toc}{2}{46.79999pt}
 \@writefile{toc}{\contentsline {chapter}{Введение}{4}}
 \@writefile{toc}{\contentsline {chapter}{\numberline {1}Классификация мобильных роботов}{5}}
 \@writefile{lof}{\addvspace {10\p@ }}
@@ -40,6 +40,7 @@
 \@writefile{toc}{\contentsline {chapter}{\numberline {2}Кинематическая модель робота с N всенаправленными колесами}{19}}
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
+\newlabel{chap:KinematicOmniWheelModel}{{2}{19}}
 \@writefile{lof}{\contentsline {figure}{\numberline {2.1}{\ignorespaces  координатные оси $i$ - го колеса.\relax }}{20}}
 \newlabel{fig:omni_wheel_coords}{{2.1}{20}}
 \@writefile{lof}{\contentsline {figure}{\numberline {2.2}{\ignorespaces  кинематическая модель тележки с тремя всенаправленными колесами.\relax }}{20}}
@@ -52,7 +53,7 @@
 \newlabel{eq:local_v_global}{{2.6}{23}}
 \newlabel{eq:local_v_local}{{2.7}{23}}
 \newlabel{eq:local_v_local_res}{{2.8}{23}}
-\newlabel{kinematic_omniwheel_res}{{2.10}{23}}
+\newlabel{eq:kinematic_omniwheel_res}{{2.10}{23}}
 \@writefile{toc}{\contentsline {chapter}{\numberline {3}Динамическая модель робота с N всенаправленными колесами}{24}}
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
@@ -111,17 +112,27 @@
 \@writefile{toc}{\contentsline {section}{\numberline {6.3}Системы автоматического управления. ПИД регуляторы}{46}}
 \@writefile{lof}{\contentsline {figure}{\numberline {6.3}{\ignorespaces  Схема устройства ПИД регулятора \relax }}{47}}
 \newlabel{fig:PID}{{6.3}{47}}
+\newlabel{Equation:discretError}{{6.3}{48}}
 \@writefile{toc}{\contentsline {chapter}{\numberline {7}Программная реализация}{49}}
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
 \@writefile{toc}{\contentsline {section}{\numberline {7.1} SDF модель }{49}}
+\newlabel{chap:SDFCartModel}{{7.1}{49}}
 \@writefile{lof}{\contentsline {figure}{\numberline {7.1}{\ignorespaces  Схема моделируемой трехколесной тележки \relax }}{49}}
 \newlabel{fig:cartScheme}{{7.1}{49}}
 \@writefile{lof}{\contentsline {figure}{\numberline {7.2}{\ignorespaces  SDF модели в симуляции Gazebo\relax }}{50}}
 \newlabel{Figure:gazeboModels}{{7.2}{50}}
 \@writefile{toc}{\contentsline {section}{\numberline {7.2} Плагин модели Gazebo}{50}}
-\@writefile{toc}{\contentsline {section}{\numberline {7.3} Клиент управления }{51}}
-\@writefile{toc}{\contentsline {chapter}{Заключение}{52}}
+\@writefile{toc}{\contentsline {section}{\numberline {7.3}Алгоритм движения тележки по аналитически заданному пути}{52}}
+\newlabel{chap:cartMovingAlg}{{7.3}{52}}
+\newlabel{eq:realOmniWheelCart}{{7.1}{52}}
+\newlabel{eq:reverseRealOmniWheelCart}{{7.5}{53}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7.3}{\ignorespaces  Проекция реального вектора скорости на желаемое направление и перпендикулярное ему\relax }}{54}}
+\newlabel{fig:stearingProjection}{{7.3}{54}}
+\@writefile{toc}{\contentsline {section}{\numberline {7.4} Клиент управления }{55}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7.4}{\ignorespaces  Графический интерфейс клиента управления тележкой \relax }}{55}}
+\newlabel{Figure:client}{{7.4}{55}}
+\@writefile{toc}{\contentsline {chapter}{Заключение}{58}}
 \bibcite{Siegwart}{1}
 \bibcite{MecanumWheel}{2}
 \bibcite{Ozhigov}{3}
@@ -131,8 +142,8 @@
 \bibcite{gazebosim.org}{7}
 \bibcite{pidBook}{8}
 \bibcite{RosBookTurtle}{9}
-\@writefile{toc}{\contentsline {chapter}{Список использованных источников}{53}}
-\newlabel{LastPage}{{}{53}}
-\xdef\lastpage@lastpage{53}
+\@writefile{toc}{\contentsline {chapter}{Список использованных источников}{59}}
+\newlabel{LastPage}{{}{59}}
+\xdef\lastpage@lastpage{59}
 \gdef\lastpage@lastpageHy{}
-\gdef\totfig{25}\gdef\tottab{0}
+\gdef\totfig{27}\gdef\tottab{0}
