@@ -7,21 +7,21 @@
 \contentsline {subsection}{\numberline {1.2.2}Колесо castor wheel}{11}
 \contentsline {subsection}{\numberline {1.2.3}Роликонесущее колесо}{12}
 \contentsline {section}{\numberline {1.3}Роботы, использующие гусеницы для движения}{16}
-\contentsline {chapter}{\numberline {2}Кинематическая модель робота с N всенаправленными колесами}{19}
-\contentsline {chapter}{\numberline {3}Динамическая модель робота с N всенаправленными колесами}{24}
-\contentsline {chapter}{\numberline {4}Кинематическая модель роликонесущего колеса}{29}
-\contentsline {chapter}{\numberline {5}Кинематическая модель тележки на четырех роликонесущих колесах}{33}
-\contentsline {chapter}{\numberline {6}Технолигии моделирования робототехнических систем}{37}
-\contentsline {section}{\numberline {6.1}Фреймворк для программирования робототехнических систем ROS }{37}
-\contentsline {subsection}{\numberline {6.1.1}Уровень файловой системы}{38}
-\contentsline {subsection}{\numberline {6.1.2}Уровень графа вычислений системы}{40}
-\contentsline {subsection}{\numberline {6.1.3}Формат описания робототехнических систем URDF}{42}
-\contentsline {section}{\numberline {6.2}Среда моделирование робототехнических систем Gazebo}{44}
-\contentsline {section}{\numberline {6.3}Системы автоматического управления. ПИД регуляторы}{46}
-\contentsline {chapter}{\numberline {7}Программная реализация}{49}
-\contentsline {section}{\numberline {7.1} SDF модель }{49}
-\contentsline {section}{\numberline {7.2} Плагин модели Gazebo}{50}
-\contentsline {section}{\numberline {7.3}Алгоритм движения тележки по аналитически заданному пути}{52}
-\contentsline {section}{\numberline {7.4} Клиент управления }{55}
-\contentsline {chapter}{Заключение}{58}
-\contentsline {chapter}{Список использованных источников}{59}
+\contentsline {chapter}{\numberline {2}Кинематическая модель робота с N всенаправленными колесами}{18}
+\contentsline {chapter}{\numberline {3}Динамическая модель робота с N всенаправленными колесами}{23}
+\contentsline {chapter}{\numberline {4}Кинематическая модель роликонесущего колеса}{28}
+\contentsline {chapter}{\numberline {5}Кинематическая модель тележки на четырех роликонесущих колесах}{32}
+\contentsline {chapter}{\numberline {6}Технолигии моделирования робототехнических систем}{36}
+\contentsline {section}{\numberline {6.1}Фреймворк для программирования робототехнических систем ROS }{36}
+\contentsline {subsection}{\numberline {6.1.1}Уровень файловой системы}{37}
+\contentsline {subsection}{\numberline {6.1.2}Уровень графа вычислений системы}{39}
+\contentsline {subsection}{\numberline {6.1.3}Формат описания робототехнических систем URDF}{41}
+\contentsline {section}{\numberline {6.2}Среда моделирование робототехнических систем Gazebo}{43}
+\contentsline {section}{\numberline {6.3}Системы автоматического управления. ПИД регуляторы}{45}
+\contentsline {chapter}{\numberline {7}Программная реализация}{48}
+\contentsline {section}{\numberline {7.1} SDF модель }{48}
+\contentsline {section}{\numberline {7.2} Плагин модели Gazebo}{49}
+\contentsline {section}{\numberline {7.3}Алгоритм движения тележки по аналитически заданному пути}{51}
+\contentsline {section}{\numberline {7.4} Клиент управления }{54}
+\contentsline {chapter}{Заключение}{57}
+\contentsline {chapter}{Список использованных источников}{58}
