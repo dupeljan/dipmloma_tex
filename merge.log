@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/Debian) (preloaded format=xelatex 2019.5.20)  25 MAY 2020 20:16
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/Debian) (preloaded format=xelatex 2019.5.20)  25 MAY 2020 21:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1594,19 +1594,19 @@ Underfull \hbox (badness 3291) in paragraph at lines 456--457
 File: img/Cars/NasaGrover.jpg Graphic file (type bmp)
 <img/Cars/NasaGrover.jpg>
 [16]
-Underfull \hbox (badness 3746) in paragraph at lines 466--467
+Underfull \hbox (badness 3746) in paragraph at lines 466--470
 []\TU/TimesNewRoman(0)/m/n/14.4 Главный недостаток гусеничных роботов $\OMS/cms
 y/m/n/14.4 ^^@$ \TU/TimesNewRoman(0)/m/n/14.4 большая вариация
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 466--467
+Underfull \hbox (badness 10000) in paragraph at lines 466--470
 \TU/TimesNewRoman(0)/m/n/14.4 отличной от другой, заставляя медленную гусеницу 
 скользить по
  []
 
 
-Underfull \hbox (badness 5331) in paragraph at lines 466--467
+Underfull \hbox (badness 5331) in paragraph at lines 466--470
 \TU/TimesNewRoman(0)/m/n/14.4 поверхности. В зависимости от типа поверхности и 
 её состояния,
  []
@@ -2111,7 +2111,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1425--1425
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1426--1427
+Underfull \hbox (badness 7888) in paragraph at lines 1426--1427
 \TU/TimesNewRoman(0)/m/n/14.4 программного обеспечения для роботизированных сис
 тем[[]]. ROS
  []
@@ -2958,15 +2958,57 @@ Underfull \hbox (badness 1152) in paragraph at lines 1924--1925
  []
 
 [57]
-Underfull \hbox (badness 3942) in paragraph at lines 1975--1978
-\TU/TimesNewRoman(0)/m/n/14.4 Александр Фёдорович ГРИЦЫНИН Сергей Николаевич МУ
-РКИН
+Underfull \hbox (badness 2894) in paragraph at lines 1933--1937
+[]\TU/TimesNewRoman(0)/m/n/14.4 Roland Siegwart Introduction to Autonomous Mobi
+le Robots /Roland
  []
 
 
-Underfull \hbox (badness 1783) in paragraph at lines 1989--1994
-[]\TU/TimesNewRoman(0)/m/n/14.4 YoonSeok Pyo, HanCheol Cho, RyuWoon Jung, TaeHo
-on Lim. ROS
+Underfull \hbox (badness 1565) in paragraph at lines 1939--1943
+[]\TU/TimesNewRoman(0)/m/n/14.4 Klaus Zimmermann: Dynamics of Mechanical System
+s with Mecanum
+ []
+
+
+Underfull \hbox (badness 1990) in paragraph at lines 1939--1943
+\TU/TimesNewRoman(0)/m/n/14.4 Wheels / Klaus Zimmermann, Igor Zeidis, Mohamed A
+bdelrahman $\OMS/cmsy/m/n/14.4 ^^@$
+ []
+
+
+Underfull \hbox (badness 2608) in paragraph at lines 1953--1960
+\TU/TimesNewRoman(0)/m/n/14.4 / Ksenia Shabalina, Artur Sagitov, Evgeni Magid. 
+$\OMS/cmsy/m/n/14.4 ^^@$ \TU/TimesNewRoman(0)/m/n/14.4 Kazan, Russian
+ []
+
+
+Underfull \hbox (badness 1789) in paragraph at lines 1953--1960
+\TU/TimesNewRoman(0)/m/n/14.4 Federation, Higher School of Information Technolo
+gy and Information
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1978--1979
+[]\TU/TimesNewRoman(0)/m/n/14.4 Оффициальный сайт ROS. $\OMS/cmsy/m/n/14.4 ^^@$
+ \TU/TimesNewRoman(0)/m/n/14.4 Текст: электронный. URL:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1981--1982
+[]\TU/TimesNewRoman(0)/m/n/14.4 Оффициальный сайт Gazebo. $\OMS/cmsy/m/n/14.4 ^
+^@$ \TU/TimesNewRoman(0)/m/n/14.4 Текст: электронный. URL:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1985--1986
+[]\TU/TimesNewRoman(0)/m/n/14.4 Никулин Е.А. Основы теории автоматического упра
+вления.
+ []
+
+
+Underfull \hbox (badness 1383) in paragraph at lines 1985--1986
+\TU/TimesNewRoman(0)/m/n/14.4 Частотные методы анализа и синтеза систем / учебн
+ое пособие $\OMS/cmsy/m/n/14.4 ^^@$
  []
 
 [58
@@ -3151,10 +3193,10 @@ img/Client/clinet.png
 
  ) 
 Here is how much of TeX's memory you used:
- 18399 strings out of 494173
- 372260 string characters out of 6167614
+ 18396 strings out of 494173
+ 372216 string characters out of 6167614
  599529 words of memory out of 5000000
- 22030 multiletter control sequences out of 15000+600000
+ 22027 multiletter control sequences out of 15000+600000
  534501 words of font info for 49 fonts, out of 8000000 for 9000
  704 hyphenation exceptions out of 8191
  42i,21n,65p,10417b,474s stack positions out of 5000i,500n,10000p,200000b,80000s
