@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/Debian) (preloaded format=xelatex 2019.5.20)  31 MAY 2020 13:58
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/Debian) (preloaded format=xelatex 2019.5.20)  2 JUN 2020 18:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1111,6 +1111,17 @@ number indent calculated (toc, 1): 18.0pt
 [2
 
 ]
+number indent by \l@... (toc, 1):  21.59999pt
+text indent by \l@... (toc, 1):  33.12003pt
+number indent by parent (toc, 1):  18.0pt
+text indent calculated (toc, 1): 28.79999pt
+number indent calculated (toc, 1): 18.0pt
+
+Underfull \hbox (badness 10000) in paragraph at lines 26--26
+ [][] []\TU/TimesNewRoman(0)/m/n/14.4 Тестирование алгоритма движения по аналит
+ически 
+ []
+
 number indent by \l@... (toc, 0):  0.0pt
 text indent by \l@... (toc, 0):  21.59999pt
 number indent by parent (toc, 0):  0.0pt
@@ -2773,32 +2784,51 @@ File: stearingProjection.pdf Graphic file (type pdf)
 <use stearingProjection.pdf, page 1>
 File: stearingProjection.pdf Graphic file (type pdf)
 <use stearingProjection.pdf, page 2>
-)
-Underfull \hbox (badness 3536) in paragraph at lines 1888--1889
-[]\TU/TimesNewRoman(0)/m/n/14.4 Полученное на выходе ПИД регулятора значение, с
- помощью
+) [53]
+Underfull \hbox (badness 2726) in paragraph at lines 1918--1919
+\TU/TimesNewRoman(0)/m/n/14.4 перпендикулярном отрезку $\OT1/cmr/m/n/14.4 [[]\O
+ML/cmm/m/it/14.4 ; []\OT1/cmr/m/n/14.4 ]$\TU/TimesNewRoman(0)/m/n/14.4 . Вектор
+, перпендикулярный этому
  []
 
-[53]
-Underfull \hbox (badness 1024) in paragraph at lines 1894--1895
+
+Underfull \hbox (badness 6625) in paragraph at lines 1918--1919
+\TU/TimesNewRoman(0)/m/n/14.4 отрезку,с помощью уравнения 7.1[] преобразуется в
+ скорости колес
+ []
+
+
+Underfull \hbox (badness 4416) in paragraph at lines 1922--1923
+[]\TU/TimesNewRoman(0)/m/n/14.4 Для коррекции заноса тележки в поворотах можно 
+сократить
+ []
+
+[54]
+Underfull \hbox (badness 2181) in paragraph at lines 1951--1952
+[]\TU/TimesNewRoman(0)/m/n/14.4 считая $[]$ - следующей за $[]$ точкой пути. В 
+качестве нормы
+ []
+
+
+Underfull \hbox (badness 1024) in paragraph at lines 1954--1955
 []\TU/TimesNewRoman(0)/m/n/14.4 Клиент управления реализует два способа управле
 ния тележкой:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1894--1895
+Underfull \hbox (badness 10000) in paragraph at lines 1954--1955
 \TU/TimesNewRoman(0)/m/n/14.4 непрерывная передача величин скорости тележки и п
 ередача
  []
 
 
-Underfull \hbox (badness 1132) in paragraph at lines 1894--1895
+Underfull \hbox (badness 1132) in paragraph at lines 1954--1955
 \TU/TimesNewRoman(0)/m/n/14.4 аналитического пути. Графический интерфейс реализ
 уется средствами
  []
 
 
-Underfull \hbox (badness 1253) in paragraph at lines 1894--1895
+Underfull \hbox (badness 1253) in paragraph at lines 1954--1955
 \TU/TimesNewRoman(0)/m/n/14.4 библиотек QT. Для взаимодействия с плагином модел
 и используются
  []
@@ -2806,178 +2836,230 @@ Underfull \hbox (badness 1253) in paragraph at lines 1894--1895
 File: img/Client/clinet.png Graphic file (type bmp)
 <img/Client/clinet.png>
 
-Underfull \hbox (badness 6364) in paragraph at lines 1904--1905
+Underfull \hbox (badness 6364) in paragraph at lines 1964--1965
 \TU/TimesNewRoman(0)/m/n/14.4 положения робота и последнего пройденного аналити
 ческого пути,
  []
 
-[54]
-Underfull \hbox (badness 10000) in paragraph at lines 1906--1913
+
+Underfull \hbox (badness 10000) in paragraph at lines 1966--1970
 []\TU/TimesNewRoman(0)/m/n/14.4 Виджет задания аналитического пути описывается 
 в файле
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1906--1913
+Underfull \hbox (badness 10000) in paragraph at lines 1966--1970
 \TU/TimesNewRoman(0)/m/n/14.4 cartpathsetter.h. Задание аналитического пути про
 изводится путем
  []
 
 
-Underfull \hbox (badness 6412) in paragraph at lines 1906--1913
+Underfull \hbox (badness 6412) in paragraph at lines 1966--1970
 \TU/TimesNewRoman(0)/m/n/14.4 рисования ломаной линии на холсте. Границы коорди
 нат, которые
  []
 
 
-Underfull \hbox (badness 1158) in paragraph at lines 1906--1913
+Underfull \hbox (badness 1158) in paragraph at lines 1966--1970
 \TU/TimesNewRoman(0)/m/n/14.4 поэтому путь задается только в этих пределах стим
 улируемой сцены.
  []
 
 
-Underfull \hbox (badness 2726) in paragraph at lines 1914--1915
+Underfull \hbox (badness 5417) in paragraph at lines 1966--1970
+\TU/TimesNewRoman(0)/m/n/14.4 По нажатию кнопки, расположенной под виджетом, ан
+алитический
+ []
+
+
+Underfull \hbox (badness 1496) in paragraph at lines 1966--1970
+\TU/TimesNewRoman(0)/m/n/14.4 путь преобразуется в вектор точек и передается пл
+агину управления
+ []
+
+[55]
+Underfull \hbox (badness 2726) in paragraph at lines 1971--1972
 \TU/TimesNewRoman(0)/m/n/14.4 посредством класса RosSubscriber, описанного в фа
 йле rospublisher.h.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1914--1915
+Underfull \hbox (badness 10000) in paragraph at lines 1971--1972
 \TU/TimesNewRoman(0)/m/n/14.4 эти данные передаются виджету отображения положен
 ия робота.
  []
 
 
-Underfull \hbox (badness 3019) in paragraph at lines 1914--1915
+Underfull \hbox (badness 3019) in paragraph at lines 1971--1972
 \TU/TimesNewRoman(0)/m/n/14.4 После публикации нового аналитического пути видже
 т удаляет уже
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1916--1919
+Underfull \hbox (badness 10000) in paragraph at lines 1973--1976
 []\TU/TimesNewRoman(0)/m/n/14.4 Виджет джойстика описывается в файле cartcontro
 llerwidget.h
  []
 
 
-Underfull \hbox (badness 2698) in paragraph at lines 1916--1919
+Underfull \hbox (badness 2698) in paragraph at lines 1973--1976
 \TU/TimesNewRoman(0)/m/n/14.4 Виджет получает координаты клика, вычисляет напра
 вление вектора
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1916--1919
+Underfull \hbox (badness 10000) in paragraph at lines 1973--1976
 \TU/TimesNewRoman(0)/m/n/14.4 скорости как разность между текущей координатой и
  серединой
  []
 
 
-Underfull \hbox (badness 1205) in paragraph at lines 1916--1919
+Underfull \hbox (badness 1205) in paragraph at lines 1973--1976
 \TU/TimesNewRoman(0)/m/n/14.4 окружности джойстика и вычисляет соответствующие 
 скорости колес.
  []
 
 
-Underfull \hbox (badness 1205) in paragraph at lines 1916--1919
+Underfull \hbox (badness 1205) in paragraph at lines 1973--1976
 \TU/TimesNewRoman(0)/m/n/14.4 Функции преобразования вектора скорости тележки в
  скорости колес
  []
 
-[55]
-Underfull \hbox (badness 5622) in paragraph at lines 1920--1921
+
+Underfull \hbox (badness 5622) in paragraph at lines 1977--1978
 []\TU/TimesNewRoman(0)/m/n/14.4 Класс RosPublisher с частотой 1000 герц публику
 ет значение
  []
 
 
-Underfull \hbox (badness 5667) in paragraph at lines 1920--1921
+Underfull \hbox (badness 5667) in paragraph at lines 1977--1978
 \TU/TimesNewRoman(0)/m/n/14.4 скорости, хранимое в поле velocity типа сообщения
  VelocityWheel,
  []
 
 
-Underfull \hbox (badness 1997) in paragraph at lines 1920--1921
+Underfull \hbox (badness 1997) in paragraph at lines 1977--1978
 \TU/TimesNewRoman(0)/m/n/14.4 скорости в классе RosPublisher реальзовон метод s
 etVelocity. Виджет
  []
 
 
-Underfull \hbox (badness 4205) in paragraph at lines 1920--1921
+Underfull \hbox (badness 4205) in paragraph at lines 1977--1978
 \TU/TimesNewRoman(0)/m/n/14.4 джойстика вызывает метод setVeocity на последнем 
 этапе передачи
  []
 
 [56]
-Underfull \hbox (badness 10000) in paragraph at lines 1938--1939
+Underfull \hbox (badness 10000) in paragraph at lines 1979--1979
+|[]\TU/TimesNewRoman(0)/bx/n/14.4 Тестирование алгоритма движения по аналитичес
+ки
+ []
+
+File: img/Client/path0.png Graphic file (type bmp)
+<img/Client/path0.png>
+File: img/Client/path1.png Graphic file (type bmp)
+<img/Client/path1.png>
+File: img/Client/path2.png Graphic file (type bmp)
+<img/Client/path2.png>
+
+Underfull \hbox (badness 10000) in paragraph at lines 2037--2037
+[]|\TU/TimesNewRoman(0)/m/n/14.4 Среднее отклонение
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2037--2037
+[]|\TU/TimesNewRoman(0)/m/n/14.4 Максимальное
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2037--2037
+\TU/TimesNewRoman(0)/m/n/14.4 отклонение от пути,
+ []
+
+[57]
+Underfull \hbox (badness 4108) in paragraph at lines 2040--2041
+[]\TU/TimesNewRoman(0)/m/n/14.4 При условии, что модель робота имеет радиус $\O
+T1/cmr/m/n/14.4 0\OML/cmm/m/it/14.4 :\OT1/cmr/m/n/14.4 04$ \TU/TimesNewRoman(0)
+/m/n/14.4 единицы
+ []
+
+
+Underfull \hbox (badness 3713) in paragraph at lines 2040--2041
+\TU/TimesNewRoman(0)/m/n/14.4 и использует алгоритм сглаживания, описанный в ко
+нце главы 7.3[],
+ []
+
+[58]
+Underfull \hbox (badness 10000) in paragraph at lines 2056--2057
 []\TU/TimesNewRoman(0)/m/n/14.4 В результате работы были исследованы возможные 
 типы
  []
 
 
-Underfull \hbox (badness 1152) in paragraph at lines 1938--1939
+Underfull \hbox (badness 1152) in paragraph at lines 2056--2057
 \TU/TimesNewRoman(0)/m/n/14.4 виды колес. Изучена кинематика и динамика тележек
 , использующих
  []
 
-[57]
-Underfull \hbox (badness 2894) in paragraph at lines 1947--1951
+[59]
+Underfull \hbox (badness 2894) in paragraph at lines 2065--2069
 []\TU/TimesNewRoman(0)/m/n/14.4 Roland Siegwart Introduction to Autonomous Mobi
 le Robots /Roland
  []
 
 
-Underfull \hbox (badness 1565) in paragraph at lines 1953--1957
+Underfull \hbox (badness 1565) in paragraph at lines 2071--2075
 []\TU/TimesNewRoman(0)/m/n/14.4 Klaus Zimmermann: Dynamics of Mechanical System
 s with Mecanum
  []
 
 
-Underfull \hbox (badness 1990) in paragraph at lines 1953--1957
+Underfull \hbox (badness 1990) in paragraph at lines 2071--2075
 \TU/TimesNewRoman(0)/m/n/14.4 Wheels / Klaus Zimmermann, Igor Zeidis, Mohamed A
 bdelrahman $\OMS/cmsy/m/n/14.4 ^^@$
  []
 
 
-Underfull \hbox (badness 2608) in paragraph at lines 1967--1974
+Underfull \hbox (badness 2608) in paragraph at lines 2085--2092
 \TU/TimesNewRoman(0)/m/n/14.4 / Ksenia Shabalina, Artur Sagitov, Evgeni Magid. 
 $\OMS/cmsy/m/n/14.4 ^^@$ \TU/TimesNewRoman(0)/m/n/14.4 Kazan, Russian
  []
 
 
-Underfull \hbox (badness 1789) in paragraph at lines 1967--1974
+Underfull \hbox (badness 1789) in paragraph at lines 2085--2092
 \TU/TimesNewRoman(0)/m/n/14.4 Federation, Higher School of Information Technolo
 gy and Information
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2006--2007
+Underfull \hbox (badness 10000) in paragraph at lines 2124--2125
 []\TU/TimesNewRoman(0)/m/n/14.4 Оффициальный сайт ROS. $\OMS/cmsy/m/n/14.4 ^^@$
  \TU/TimesNewRoman(0)/m/n/14.4 Текст: электронный. URL:
  []
 
-[58
+[60
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 2009--2010
+Underfull \hbox (badness 10000) in paragraph at lines 2127--2128
 []\TU/TimesNewRoman(0)/m/n/14.4 Оффициальный сайт Gazebo. $\OMS/cmsy/m/n/14.4 ^
 ^@$ \TU/TimesNewRoman(0)/m/n/14.4 Текст: электронный. URL:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2013--2014
+Underfull \hbox (badness 10000) in paragraph at lines 2131--2132
 []\TU/TimesNewRoman(0)/m/n/14.4 Никулин Е.А. Основы теории автоматического упра
 вления.
  []
 
 
-Underfull \hbox (badness 1383) in paragraph at lines 2013--2014
+Underfull \hbox (badness 1383) in paragraph at lines 2131--2132
 \TU/TimesNewRoman(0)/m/n/14.4 Частотные методы анализа и синтеза систем / учебн
 ое пособие $\OMS/cmsy/m/n/14.4 ^^@$
  []
 
 
 AED: lastpage setting LastPage
-[59] (./merge.aux)
+[61] (./merge.aux)
 
  *File List*
 extreport.cls    1996/10/08 v1.0 Non Standard LaTeX document class
@@ -3151,16 +3233,19 @@ stearingProjection.pdf_tex
 stearingProjection.pdf    Graphic file (type pdf)
 stearingProjection.pdf    Graphic file (type pdf)
 img/Client/clinet.png
+img/Client/path0.png
+img/Client/path1.png
+img/Client/path2.png
  ***********
 
  ) 
 Here is how much of TeX's memory you used:
- 18399 strings out of 494173
- 372280 string characters out of 6167614
+ 18420 strings out of 494173
+ 372647 string characters out of 6167614
  599529 words of memory out of 5000000
- 22030 multiletter control sequences out of 15000+600000
+ 22048 multiletter control sequences out of 15000+600000
  534501 words of font info for 49 fonts, out of 8000000 for 9000
  704 hyphenation exceptions out of 8191
  42i,21n,65p,10417b,474s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on merge.pdf (59 pages).
+Output written on merge.pdf (61 pages).
