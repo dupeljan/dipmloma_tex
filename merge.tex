@@ -174,20 +174,32 @@
 % Конец настройка заглавий
 
 % Форматирование списка источников
+% Bibl label
 \makeatletter
-\renewcommand*{\@biblabel}[1]{\hfill#1}
+\renewcommand*{\@biblabel}[1]{\indent#1}
 \makeatother
 
 % Убрать отсупы в списке источников
 \usepackage{lipsum}
 
 % ADD THE FOLLOWING COUPLE LINES INTO YOUR PREAMBLE
-\let\OLDthebibliography\thebibliography
-\renewcommand\thebibliography[1]{
-  \OLDthebibliography{#1}
-  \setlength{\parskip}{0pt}
-  \setlength{\itemsep}{0pt plus 0.3ex}
-}
+%\let\OLDthebibliography\thebibliography
+%\renewcommand\thebibliography[1]{
+% \OLDthebibliography{#1}
+%  \setlength{\parskip}{0pt}
+%  \setlength{\itemsep}{0pt plus 0.3ex}
+%}
+
+% Change indent
+\usepackage{etoolbox}
+\patchcmd{\thebibliography}
+  {\advance\leftmargin\labelsep}
+  {\leftmargin=0pt\itemindent=\labelwidth\advance\itemindent\labelsep}
+  {}{}
+  
+% Define separations
+\patchcmd{\thebibliography}{\sloppy}{\itemsep 0cm \parsep 0pt \sloppy}{}{}
+  
 
 
 
@@ -237,6 +249,8 @@
 \newcommand{\cmmnt}[1]{\ignorespaces}
 \newcommand{\bs}{\boldsymbol}
 \usepackage{breqn}
+
+% drop indent in bibitem
 
 
 \begin{document}
