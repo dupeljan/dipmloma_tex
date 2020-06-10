@@ -2,7 +2,7 @@
 
 Diploma text in tex 
 
-Usefull preamble, KUBSU normcontrol cheked
+Usefull preamble, KUBSU normcontrol cheсked
 
 Main [file](main.tex) 
 
