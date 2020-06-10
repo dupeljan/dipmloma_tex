@@ -6,7 +6,7 @@
 \contentsline {subsection}{\numberline {1.2.1}Обыкновенное колесо}{9}
 \contentsline {subsection}{\numberline {1.2.2}Колесо castor wheel}{11}
 \contentsline {subsection}{\numberline {1.2.3}Роликонесущее колесо}{12}
-\contentsline {section}{\numberline {1.3}Роботы, использующие гусеницы для движения}{15}
+\contentsline {section}{\numberline {1.3}Роботы, использующие гусеницы для движения}{16}
 \contentsline {chapter}{\numberline {2}Кинематическая модель робота с N всенаправленными колесами}{18}
 \contentsline {chapter}{\numberline {3}Динамическая модель робота с N всенаправленными колесами}{23}
 \contentsline {chapter}{\numberline {4}Кинематическая модель роликонесущего колеса}{28}
@@ -15,8 +15,8 @@
 \contentsline {section}{\numberline {6.1}Фреймворк для программирования робототехнических систем ROS }{36}
 \contentsline {subsection}{\numberline {6.1.1}Уровень файловой системы}{37}
 \contentsline {subsection}{\numberline {6.1.2}Уровень графа вычислений системы}{39}
-\contentsline {subsection}{\numberline {6.1.3}Формат описания робототехнических систем URDF}{40}
-\contentsline {section}{\numberline {6.2}Среда моделирование робототехнических систем Gazebo}{42}
+\contentsline {subsection}{\numberline {6.1.3}Формат описания робототехнических систем URDF}{41}
+\contentsline {section}{\numberline {6.2}Среда моделирование робототехнических систем Gazebo}{43}
 \contentsline {section}{\numberline {6.3}Системы автоматического управления. ПИД регуляторы}{45}
 \contentsline {chapter}{\numberline {7}Программная реализация}{48}
 \contentsline {section}{\numberline {7.1} SDF модель }{48}

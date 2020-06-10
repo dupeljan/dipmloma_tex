@@ -152,24 +152,24 @@ justification= raggedright
 \titleformat{\chapter}
 			[block]
             {\bfseries }
-            {\thechapter}
+            {\hspace{\indentSpace}\thechapter}
             {1em}
             {\vspace{0mm} }
             [\vspace{14pt}]% Отступ после
 % Начальный сдвиг заголовка 50 pt = 1.763888888cm.
 % Второй параметр- сдвиг до = 2cm - 50pt
-\titlespacing{\chapter}{\indentSpace}
+\titlespacing{\chapter}{0pt}
 {-0.2361cm}{0pt}
 
 \titleformat{\section}[block]
-{\bfseries}{\thesection}{1em}{}
+{\bfseries}{\hspace{\indentSpace}\thesection}{1em}{}
 
-\titlespacing{\section}{\indentSpace}{0pt}{0pt}
+%\titlespacing{\section}{0pt}{0pt}{0pt}
 
 \titleformat{\subsection}[block]
-{\bfseries}{\thesubsection}{1em}{}
+{\bfseries}{\hspace{\indentSpace}\thesubsection}{1em}{}
 
-\titlespacing{\subsection}{\indentSpace}{0pt}{0pt}
+%\titlespacing{\subsection}{0pt}{0pt}{0pt}
 
 %\titleformat{\section}
 %            {\bfseries}
@@ -262,9 +262,13 @@ justification= raggedright
 % Change intemize intend
 \usepackage{calc}
 
+
 \newlength{\mylength}
 \settowidth{\mylength}{$-$\textvisiblespace}
-\setlist{leftmargin=\mylength + \parindent}
+
+\setlist{itemindent= \mylength + \indentSpace ,leftmargin=0pt}
+
+
 
 
 \begin{document}
@@ -302,8 +306,6 @@ justification= raggedright
 \showthe\parindent
 \begin{itemize}
 \item ходьба;
-\setlist{leftmargin=\mylength}
-\setlength{\itemindent}{-\indentSpace }
 \item прыжки;
 \item скольжение;
 \item качение;
@@ -316,7 +318,6 @@ justification= raggedright
  В рамках работы исследуются механизмы, позволяющие роботу двигаться по твердым горизонтальным поверхностям в земной среде. В рамках работы рассматриваются возможные техники движения ходьбой и качением Существующие роботы, способные двигаться по горизонтальной плоскости, делятся на следующие категории:
 \begin{itemize}
 \item роботы, использующие ноги для движения;
-\setlength{\itemindent}{-\indentSpace }
 \item роботы, использующие колеса для движения;
 \item роботы, использующие гусеницы для движения.
 \end{itemize} 
@@ -362,7 +363,6 @@ justification= raggedright
 На текущий момент существует множество типов конфигураций колес:
 \begin{itemize}
 \item обычное колесо;
-\setlength{\itemindent}{-\indentSpace }
 \item роликовое колесо;
 \item роликонесущее колесо.
 \end{itemize}
@@ -1473,8 +1473,6 @@ ROS (Robot Operating System  -  операционная система для �
 После установки, ROS предоставляет следующие функциональные возможности \cite{RosBookTurtle}: 
 \begin{itemize}
 \item распределенный процесс: робототехническая система представляется как множество связанных друг с другом узлов, каждый из которых работает независимо от остальных;
-\end{itemize}
-\begin{itemize}[leftmargin=\mylength]
 %\setlength{\itemindent}{-\indentSpace }
 
 \item использование пакетов: несколько программных компонентов или узлов, непосредственно связанных друг с другом можно объединить в пакет, который легко интегрируется в другую робототехническую систему;
@@ -1488,7 +1486,6 @@ ROS (Robot Operating System  -  операционная система для �
 Архитектура системы ROS делится на следующие уровни:
 \begin{itemize}
 \item уровень файловой системы;
-\setlength{\itemindent}{-\indentSpace }
 \item уровень графа вычислений системы;
 \item уровень глобального распространения пакетов.
 \end{itemize}
@@ -1497,7 +1494,6 @@ ROS (Robot Operating System  -  операционная система для �
 На этом уровне архитектуры системы ROS описывается элементы, хранящиеся в памяти операционной системы
 \begin{itemize}
 \item пакет;
-\setlength{\itemindent}{-\indentSpace }
 \item мета-пакет;
 \item пакетный манифест;
 \item репозиторий;
@@ -1537,7 +1533,6 @@ ROS (Robot Operating System  -  операционная система для �
 
 \begin{itemize}
 \item узел (node);
-\setlength{\itemindent}{-\indentSpace }
 \item главный сервис управления - мастер (master);
 \item сообщение (message);
 \item тема (topic);
@@ -1569,7 +1564,6 @@ URDF (Universal Robotic Description Format) $-$ формат описания р
 
 \begin{itemize}
 \item момент инерции <inertial>
-\setlength{\itemindent}{-\indentSpace }
 \item внешний вид твердого тела <visual>
 \item границы коллизии <collision>
 \end{itemize}
@@ -1583,8 +1577,6 @@ URDF (Universal Robotic Description Format) $-$ формат описания р
 Описывая робототехническую систему, состоящую из нескольких звеньев, необходимо задать информации о их сочленении. В описании URDF используются следующие типы сочленений:
 \begin{itemize}
 \item фиксированное сочленение (fixed);
-\end{itemize}
-\begin{itemize}[leftmargin=\mylength]
 \item шарнирное сочленение (revolute) задает ось и границы вращения звеньев относительно друг друга;
 \item непрерывное сочленение  (continious) является шарнирным соединением без ограничений на угол поворота
 \item призматическое сочленение (prismatic) позволяет одному звену двигаться относительно другого вдоль некоторой прямой;
@@ -1618,7 +1610,6 @@ Gazebo $-$ среда моделирования робототехническ�
 Плагины Gazebo делятся на следующие категории:
 \begin{itemize}
 \item плагин окружения (word);
-\setlength{\itemindent}{-\indentSpace }
 \item плагин модели (model);
 \item плагин системы (system);
 \item плагин визуальных параметров (visual);
@@ -2108,44 +2099,44 @@ c = ||\bs{p_0},\bs{p_1}||
 \begin{thebibliography}{0}
 
 \bibitem{Siegwart}           	
-Roland Siegwart.
-Introduction to Autonomous Mobile Robots / Roland Siegwart, Illah R. Nourbakhsh.
+Siegwart, R.
+Introduction to Autonomous Mobile Robots / Siegwart R.,  Nourbakhsh I.
 $-$ London, England.
 : The MIT Press, 2004. $-$ 321c. $-$ ISBN 0-262-19502-X.
 
 \bibitem{MecanumWheel}
-Klaus Zimmermann.
+Zimmermann, K.
 Dynamics of Mechanical Systems
-with Mecanum Wheels / Klaus Zimmermann, Igor Zeidis, Mohamed Abdelrahman.
+with Mecanum Wheels / Zimmermann K., Zeidis I., Abdelrahman M.
 $-$ Switzerland. : Springer International Publishing , 2014. $-$ 11с.
 
 \bibitem{Ozhigov}
-Ожегов С. И. Толковый словарь русского языка: 80 000 слов и фразеологических выражений./ Ожегов С. И. , Шведова Н. Ю. — 4-е изд., М., 1997. — 944 с.
+Ожегов, С. И. Толковый словарь русского языка: 80 000 слов и фразеологических выражений./ Ожегов С. И., Шведова Н. Ю. — 4-е изд., М., 1997. — 944 с.
 
 
 \bibitem{BigSovietEncycl}
 Большая советская энциклопедия : [в 30 т.] / гл. ред. А. М. Прохоров. — 3-е изд. — М. : Советская энциклопедия, 1969—1978.
 
 \bibitem{WheelCmp}
-Ksenia Shabalina.
+Shabalina, K.
 Comparative Analysis of Mobile Robot Wheels
 Design
 /
-Ksenia Shabalina, Artur Sagitov, Evgeni Magid.
+Shabalina K., Sagitov A., Magid E.
 $-$  Kazan, Russian Federation. : Higher School of Information Technology and Information Systems,
  2018. $-$ 5c.
 
 \bibitem{SixLegsRobots}
-Pavan Ramdya.
+ Ramdya, P.
 Climbing favours the tripod gait over alternative
 faster insect gaits
 /
-Pavan Ramdya, Robin Thandiackal, Raphael Cherney, Thibault Asselborn1,Richard Benton ,
-Auke Jan Ijspeert, Dario Floreano.
+ Ramdya P., Thandiackal R.,Cherney R., Asselborn T.,Benton R.,
+ Ijspeert J., Floreano D.
 $-$ Nat. Commun, 2017. $-$  11 с.
 
 \bibitem{Saveliev}
-И.В.Савельев.
+Савельев,И.В.
 Курс общей физики, том I.
 Механика, колебания и волны, молекулярная физика.
 $-$ Наука, 1970. $-$ 517c.
@@ -2161,10 +2152,10 @@ $-$ Наука, 1970. $-$ 517c.
 Патент \textnumero 3876255 Соединенные Штаты Америки (1972.04). Wheels for a course stable selfpropelling vehicle movable in any desired direction on the ground or some other base : \textnumero 3876255 : заявл. 13.11.1972 : опубл. 08.04.1972 / B. Ilon. – 8 с. : ил. – Текст : непосредственный.
 
 \bibitem{MecanumWheelCartDynamic}
-А.А. Зобова.
+Зобова, А.А.
 Динамика экипажа с роликонесущими колесами
 / 
-А.А. Зобова, Я.В. Татаринов. 
+ Зобова А.А., ТатариновЯ.В.  
 $-$ Прикладная математика и механика Том	73. Выпуск 1, 2009. $-$ 10 с.
 
 \bibitem{ros.org}
@@ -2175,13 +2166,13 @@ Gazebo : оффициальный сайт.  $-$ Ашберн, США. $-$ URL: 
 
 
 \bibitem{pidBook}
-Никулин Е.А. Основы теории автоматического управления. Частотные методы анализа и синтеза систем  $-$ Санкт-Петербург. : БХВ-Петербург, 2011. $-$ 632c.
+Никулин, Е.А. Основы теории автоматического управления. Частотные методы анализа и синтеза систем  $-$ Санкт-Петербург. : БХВ-Петербург, 2011. $-$ 632c.
 
 \bibitem{RosBookTurtle}
-YoonSeok Pyo.
+ Pyo, Y.
 ROS Robot Programming - First Edition
 /
-YoonSeok Pyo, HanCheol Cho, RyuWoon Jung, TaeHoon Lim
+ Pyo Y., Cho H., Jung R., Lim T.
 $-$  GeumCheon-gu, Seoul, Republic of Korea
 . : ROBOTIS Co.,Ltd, 2017.
  $-$ 460с.
