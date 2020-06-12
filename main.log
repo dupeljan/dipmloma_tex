@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/Debian) (preloaded format=xelatex 2019.5.20)  12 JUN 2020 13:59
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/Debian) (preloaded format=xelatex 2019.5.20)  12 JUN 2020 15:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -985,6 +985,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 287--288
 ская и
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 287--288
+\TU/TimesNewRoman(0)/m/n/14.4 модель поведения голономного робота. Работа прове
+дена под
+ []
+
 [1
 
 ] (./main.toc
@@ -1012,17 +1018,17 @@ number indent by \l@... (toc, 2):  54.72002pt
 text indent by \l@... (toc, 2):  46.07993pt
 number indent by parent (toc, 2):  39.59999pt
 text indent calculated (toc, 2): 35.99998pt
-number indent calculated (toc, 2): 43.2pt
+number indent calculated (toc, 2): 39.59999pt
 number indent by \l@... (toc, 2):  54.72002pt
 text indent by \l@... (toc, 2):  46.07993pt
 number indent by parent (toc, 2):  39.59999pt
 text indent calculated (toc, 2): 35.99998pt
-number indent calculated (toc, 2): 43.2pt
+number indent calculated (toc, 2): 39.59999pt
 number indent by \l@... (toc, 2):  54.72002pt
 text indent by \l@... (toc, 2):  46.07993pt
 number indent by parent (toc, 2):  39.59999pt
 text indent calculated (toc, 2): 35.99998pt
-number indent calculated (toc, 2): 43.2pt
+number indent calculated (toc, 2): 39.59999pt
 number indent by \l@... (toc, 1):  21.59999pt
 text indent by \l@... (toc, 1):  33.12003pt
 number indent by parent (toc, 1):  14.4pt
@@ -1062,17 +1068,17 @@ number indent by \l@... (toc, 2):  54.72002pt
 text indent by \l@... (toc, 2):  46.07993pt
 number indent by parent (toc, 2):  39.59999pt
 text indent calculated (toc, 2): 35.99998pt
-number indent calculated (toc, 2): 43.2pt
+number indent calculated (toc, 2): 39.59999pt
 number indent by \l@... (toc, 2):  54.72002pt
 text indent by \l@... (toc, 2):  46.07993pt
 number indent by parent (toc, 2):  39.59999pt
 text indent calculated (toc, 2): 35.99998pt
-number indent calculated (toc, 2): 43.2pt
+number indent calculated (toc, 2): 39.59999pt
 number indent by \l@... (toc, 2):  54.72002pt
 text indent by \l@... (toc, 2):  46.07993pt
 number indent by parent (toc, 2):  39.59999pt
 text indent calculated (toc, 2): 35.99998pt
-number indent calculated (toc, 2): 43.2pt
+number indent calculated (toc, 2): 39.59999pt
 number indent by \l@... (toc, 1):  21.59999pt
 text indent by \l@... (toc, 1):  33.12003pt
 number indent by parent (toc, 1):  14.4pt
@@ -3266,6 +3272,6 @@ Here is how much of TeX's memory you used:
  22051 multiletter control sequences out of 15000+600000
  534501 words of font info for 49 fonts, out of 8000000 for 9000
  704 hyphenation exceptions out of 8191
- 42i,21n,65p,10416b,474s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 42i,21n,65p,10416b,458s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on main.pdf (61 pages).
