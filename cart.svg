@@ -125,7 +125,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.4"
-     inkscape:cx="346.5288"
+     inkscape:cx="234.38594"
      inkscape:cy="242.97204"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
@@ -402,7 +402,7 @@
          id="tspan4751"
          x="69.809822"
          y="23.883339"
-         style="stroke-width:0.26458332"></tspan></text>
+         style="stroke-width:0.26458332" /></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:7.76111126px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
@@ -418,12 +418,12 @@
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:7.76111126px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
        x="122.48088"
-       y="122.16093"
+       y="123.48384"
        id="text4761"><tspan
          sodipodi:role="line"
          id="tspan4759"
          x="122.48088"
-         y="122.16093"
+         y="123.48384"
          style="stroke-width:0.26458332">$\bs{v_2}$</tspan></text>
   </g>
 </svg>

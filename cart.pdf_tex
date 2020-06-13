@@ -68,6 +68,6 @@
     \put(0,0){\includegraphics[width=\unitlength,page=5]{cart.pdf}}%
     \put(0.76295803,0.86663536){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\bs{v_3}$\end{tabular}}}}%
     \put(0.06513057,0.47718115){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\bs{v_1}$\end{tabular}}}}%
-    \put(0.71470867,0.07662232){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\bs{v_2}$\end{tabular}}}}%
+    \put(0.70939206,0.10586467){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\bs{v_2}$\end{tabular}}}}%
   \end{picture}%
 \endgroup%
